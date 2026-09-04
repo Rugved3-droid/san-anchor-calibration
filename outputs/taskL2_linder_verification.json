@@ -1,0 +1,54 @@
+{
+  "model": "Linder2025_FabbriExtended_REPAIRED.cellml",
+  "n_states": 35,
+  "prepace_s": 500.0,
+  "test1_iso_zero": {
+    "biomarkers": {
+      "CL_ms": {
+        "reference": 814.0,
+        "extended": 813.4181818181817,
+        "pct_diff": -0.07147643511281754
+      },
+      "MDP_mV": {
+        "reference": -58.9,
+        "extended": -58.88529594062988,
+        "pct_diff": 0.024964447147907912
+      },
+      "OS_mV": {
+        "reference": 26.4,
+        "extended": 26.40865198476553,
+        "pct_diff": 0.03277266956640815
+      },
+      "APA_mV": {
+        "reference": 85.3,
+        "extended": 85.29394792539541,
+        "pct_diff": -0.007095046429756692
+      },
+      "DDR100_mV_s": {
+        "reference": 48.1,
+        "extended": 48.015268538525746,
+        "pct_diff": -0.17615688456186238
+      }
+    },
+    "bpm": 73.76279672761412,
+    "base_fabbri_bpm": 73.71007371007371
+  },
+  "test1_worst_abs_pct_diff": 0.17615688456186238,
+  "test2_iso_state": {
+    "published_bpm": 93.94,
+    "arms": {
+      "binary_Iso_1_uM": {
+        "bpm": 105.73385906557701,
+        "diff_vs_published": 11.79385906557701
+      },
+      "graded_100nM": {
+        "bpm": 73.76279672761412,
+        "diff_vs_published": -20.17720327238588
+      },
+      "graded_1000nM": {
+        "bpm": 73.76279672761412,
+        "diff_vs_published": -20.17720327238588
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "tag": "bench10",
+  "generated_utc": "2026-08-16T18:33:28.652280+00:00",
+  "host": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "cpu_count": 8
+  },
+  "n_models": 10,
+  "start_index": 0,
+  "workers": 1,
+  "wall_clock_s": 129.0254464149475,
+  "per_model_s": {
+    "mean": 11.880979418754578,
+    "median": 6.148019909858704,
+    "min": 0.20328950881958008,
+    "max": 31.103172302246094
+  },
+  "throughput_models_per_s": 0.07750409146301164,
+  "counts": {
+    "ok": 5,
+    "no_pacing": 5,
+    "solver_failure": 0,
+    "retained": 1
+  },
+  "retention_fraction": 0.1,
+  "projected_5000_seconds": 64512.72320747376,
+  "criteria": {
+    "bcl_min_ms": 600.0,
+    "bcl_max_ms": 1000.0,
+    "overshoot_must_be_positive": true,
+    "reference_retained": 1046,
+    "reference_total": 5000,
+    "note": "The retention count is the validation. It must be reported as it comes out. Sampling and criteria must NOT be tuned to reach 1046; a mismatch is a finding about the implementation, not a parameter to adjust."
+  },
+  "results": [
+    {
+      "index": 0,
+      "status": "ok",
+      "CL_ms": 872.7454545454547,
+      "OS_mV": 28.63906829065293,
+      "MDP_mV": -65.6077074803916,
+      "APA_mV": 94.24677577104453,
+      "n_beats": 11,
+      "seconds": 19.099823713302612
+    },
+    {
+      "index": 1,
+      "status": "ok",
+      "CL_ms": 458.9095238095238,
+      "OS_mV": 32.21614905322651,
+      "MDP_mV": -52.270544024160984,
+      "APA_mV": 84.48669307738749,
+      "n_beats": 21,
+      "seconds": 31.103172302246094
+    },
+    {
+      "index": 2,
+      "status": "ok",
+      "CL_ms": 535.9352941176471,
+      "OS_mV": 34.816992676002265,
+      "MDP_mV": -57.64379207780031,
+      "APA_mV": 92.46078475380259,
+      "n_beats": 17,
+      "seconds": 28.789966821670532
+    },
+    {
+      "index": 3,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.21194076538085938
+    },
+    {
+      "index": 4,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.20328950881958008
+    },
+    {
+      "index": 5,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.2552320957183838
+    },
+    {
+      "index": 6,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.22783422470092773
+    },
+    {
+      "index": 7,
+      "status": "ok",
+      "CL_ms": 1066.6333333333334,
+      "OS_mV": 15.262365269231761,
+      "MDP_mV": -49.38299442462811,
+      "APA_mV": 64.64535969385987,
+      "n_beats": 9,
+      "seconds": 12.040807723999023
+    },
+    {
+      "index": 8,
+      "status": "ok",
+      "CL_ms": 480.43,
+      "OS_mV": 29.432119866026955,
+      "MDP_mV": -45.99042371241902,
+      "APA_mV": 75.42254357844598,
+      "n_beats": 20,
+      "seconds": 26.655203819274902
+    },
+    {
+      "index": 9,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.22252321243286133
+    }
+  ]
+}

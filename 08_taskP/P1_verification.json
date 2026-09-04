@@ -1,0 +1,113 @@
+{
+  "n_records": 5000,
+  "unique_indices": 5000,
+  "contiguous_0_4999": true,
+  "status_counts": {
+    "ok": 2720,
+    "no_pacing": 2280
+  },
+  "n_seeded": 940,
+  "n_fresh": 4060,
+  "seeded_is_0_939": true,
+  "fresh_is_940_4999": true,
+  "seeded_exactly_match_history": true,
+  "seeded_mismatches": [],
+  "field_coverage": {
+    "index": 5000,
+    "status": 5000,
+    "CL_ms": 5000,
+    "OS_mV": 5000,
+    "MDP_mV": 5000,
+    "APA_mV": 5000,
+    "n_beats": 940,
+    "seconds": 5000,
+    "seeded_from": 940
+  },
+  "criteria": {
+    "bcl_ms": [
+      600.0,
+      1000.0
+    ],
+    "overshoot_positive": true
+  },
+  "n_retained_recomputed": 1028,
+  "n_retained_manifest": 1028,
+  "retention_matches_manifest": true,
+  "npz_sha256": "f52879d3db435b198cc68f2dcff51fb498209bde949a248d5ae98d738ebf59be",
+  "npz_sha256_matches_manifest": true,
+  "npz_n": 1028,
+  "npz_index_equals_recomputed": true,
+  "npz_arrays": {
+    "model_index": [
+      1028
+    ],
+    "scales": [
+      1028,
+      12
+    ],
+    "values": [
+      1028,
+      12
+    ],
+    "names": [
+      12
+    ],
+    "variables": [
+      12
+    ],
+    "baseline": [
+      12
+    ],
+    "CL_ms": [
+      1028
+    ],
+    "OS_mV": [
+      1028
+    ],
+    "MDP_mV": [
+      1028
+    ],
+    "APA_mV": [
+      1028
+    ]
+  },
+  "npz_biomarkers_match_jsonl": {
+    "CL_ms": true,
+    "OS_mV": true,
+    "MDP_mV": true,
+    "APA_mV": true
+  },
+  "npz_scales_match_lhs": true,
+  "npz_values_match_lhs": true,
+  "n_retained_in_prefix": 188,
+  "n_historical_retained": 188,
+  "historical_188_equals_prefix_retained": true,
+  "prefix_only": [],
+  "historical_only": [],
+  "n_retained_in_new_940_4999": 840,
+  "timing_seeded_0_939": {
+    "n": 940,
+    "sum_s": 365686.11037015915,
+    "mean_s": 389.027776989531,
+    "median_s": 28.448932766914368,
+    "pacing_mean_s": 677.8658953659609,
+    "no_pacing_mean_s": 0.7890093962747855
+  },
+  "timing_fresh_940_4999": {
+    "n": 4060,
+    "sum_s": 75273.38735127449,
+    "mean_s": 18.540243189969086,
+    "median_s": 17.975776195526123,
+    "pacing_mean_s": 34.12040164076041,
+    "no_pacing_mean_s": 0.4559826358573877
+  },
+  "pacing_cpu_speedup_hist_over_new": 19.866879132987073,
+  "hist_criteria": {
+    "bcl_min_ms": 600.0,
+    "bcl_max_ms": 1000.0,
+    "overshoot_must_be_positive": true,
+    "reference_retained": 1046,
+    "reference_total": 5000,
+    "note": "The retention count is the validation. It must be reported as it comes out. Sampling and criteria must NOT be tuned to reach 1046; a mismatch is a finding about the implementation, not a parameter to adjust."
+  }
+}

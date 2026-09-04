@@ -1,0 +1,293 @@
+{
+  "iso_baseline_bpm": 93.93976671624598,
+  "control_baseline_bpm": 68.74742197167606,
+  "iso_ladder": [
+    {
+      "block": 0.0,
+      "status": "ok",
+      "bpm": 93.93976671624598,
+      "CL_ms": 638.7071428571429
+    },
+    {
+      "block": 0.02,
+      "status": "ok",
+      "bpm": 92.6593225573973,
+      "CL_ms": 647.5333333333333
+    },
+    {
+      "block": 0.04,
+      "status": "ok",
+      "bpm": 91.36870317353963,
+      "CL_ms": 656.68
+    },
+    {
+      "block": 0.06,
+      "status": "ok",
+      "bpm": 90.0669068450849,
+      "CL_ms": 666.1714285714287
+    },
+    {
+      "block": 0.08,
+      "status": "ok",
+      "bpm": 88.75234681686294,
+      "CL_ms": 676.0384615384615
+    },
+    {
+      "block": 0.1,
+      "status": "ok",
+      "bpm": 87.42336445455668,
+      "CL_ms": 686.3153846153845
+    },
+    {
+      "block": 0.12,
+      "status": "ok",
+      "bpm": 86.07615690453744,
+      "CL_ms": 697.0571428571428
+    },
+    {
+      "block": 0.14,
+      "status": "ok",
+      "bpm": 84.7089487402259,
+      "CL_ms": 708.3076923076922
+    },
+    {
+      "block": 0.16,
+      "status": "ok",
+      "bpm": 83.3190907537173,
+      "CL_ms": 720.123076923077
+    },
+    {
+      "block": 0.18,
+      "status": "ok",
+      "bpm": 81.9047402368412,
+      "CL_ms": 732.5583333333334
+    },
+    {
+      "block": 0.2,
+      "status": "ok",
+      "bpm": 80.46131151937777,
+      "CL_ms": 745.6999999999999
+    },
+    {
+      "block": 0.22,
+      "status": "ok",
+      "bpm": 78.9854754486814,
+      "CL_ms": 759.6333333333332
+    },
+    {
+      "block": 0.24,
+      "status": "ok",
+      "bpm": 77.47433662599262,
+      "CL_ms": 774.4500000000002
+    },
+    {
+      "block": 0.26,
+      "status": "ok",
+      "bpm": 75.92315656275164,
+      "CL_ms": 790.2727272727273
+    },
+    {
+      "block": 0.28,
+      "status": "ok",
+      "bpm": 74.32564957520825,
+      "CL_ms": 807.2583333333336
+    },
+    {
+      "block": 0.3,
+      "status": "ok",
+      "bpm": 72.67681939810379,
+      "CL_ms": 825.5727272727273
+    },
+    {
+      "block": 0.32,
+      "status": "ok",
+      "bpm": 70.96926815630444,
+      "CL_ms": 845.4363636363637
+    },
+    {
+      "block": 0.34,
+      "status": "ok",
+      "bpm": 69.19377717297291,
+      "CL_ms": 867.1299999999999
+    },
+    {
+      "block": 0.36,
+      "status": "ok",
+      "bpm": 67.33704435266654,
+      "CL_ms": 891.0400000000002
+    },
+    {
+      "block": 0.38,
+      "status": "ok",
+      "bpm": 65.38654344935811,
+      "CL_ms": 917.6200000000001
+    },
+    {
+      "block": 0.4,
+      "status": "ok",
+      "bpm": 63.32156802964386,
+      "CL_ms": 947.5444444444446
+    },
+    {
+      "block": 0.42,
+      "status": "ok",
+      "bpm": 61.115977753784094,
+      "CL_ms": 981.74
+    },
+    {
+      "block": 0.44,
+      "status": "ok",
+      "bpm": 58.73395692843159,
+      "CL_ms": 1021.5555555555555
+    },
+    {
+      "block": 0.46,
+      "status": "ok",
+      "bpm": 56.12459660446189,
+      "CL_ms": 1069.0500000000002
+    },
+    {
+      "block": 0.48,
+      "status": "ok",
+      "bpm": 53.21507760532151,
+      "CL_ms": 1127.5
+    },
+    {
+      "block": 0.5,
+      "status": "ok",
+      "bpm": 49.891900881423574,
+      "CL_ms": 1202.6000000000001
+    },
+    {
+      "block": 0.52,
+      "status": "ok",
+      "bpm": 45.96292324191818,
+      "CL_ms": 1305.4
+    },
+    {
+      "block": 0.54,
+      "status": "ok",
+      "bpm": 41.06307744952663,
+      "CL_ms": 1461.1666666666667
+    },
+    {
+      "block": 0.56,
+      "status": "ok",
+      "bpm": 34.26906930919268,
+      "CL_ms": 1750.85
+    },
+    {
+      "block": 0.58,
+      "status": "ok",
+      "bpm": 16.41294981740593,
+      "CL_ms": 3655.6500000000005
+    },
+    {
+      "block": 0.6,
+      "status": "no_pacing"
+    }
+  ],
+  "population_n": 188,
+  "anchors": {
+    "elevated": "Boden 2001 PMID 11195610: SR diltiazem 200-300 mg od significantly lowers HR for baseline >=85 bpm (n=771, 6 double-blind studies). Per-category bpm magnitude paywalled; swept as a range.",
+    "resting": "Boden 2001: NO significant HR reduction at baseline <=74 bpm. Fabbri control = 73.76 bpm, so the predicted resting effect should be ~0."
+  },
+  "results": [
+    {
+      "target_drop_bpm": 3.0,
+      "block": 0.046589916531763545,
+      "control_prediction": {
+        "n": 188,
+        "n_pacing": 188,
+        "n_quiescent": 0,
+        "quiescent_fraction": 0.0,
+        "median_drop_bpm": -3.1028863519228693,
+        "iqr_drop_bpm": [
+          -4.280892978650275,
+          -1.944045029857481
+        ],
+        "worst_drop_bpm": -14.914416604244785
+      }
+    },
+    {
+      "target_drop_bpm": 5.0,
+      "block": 0.07714855319864633,
+      "control_prediction": {
+        "n": 188,
+        "n_pacing": 186,
+        "n_quiescent": 2,
+        "quiescent_fraction": 0.010638297872340425,
+        "median_drop_bpm": -5.194140374255809,
+        "iqr_drop_bpm": [
+          -7.262346854002963,
+          -3.3396777140813434
+        ],
+        "worst_drop_bpm": -19.16952028322911
+      }
+    },
+    {
+      "target_drop_bpm": 8.0,
+      "block": 0.12199516345574395,
+      "control_prediction": {
+        "n": 188,
+        "n_pacing": 178,
+        "n_quiescent": 10,
+        "quiescent_fraction": 0.05319148936170213,
+        "median_drop_bpm": -8.42908007595235,
+        "iqr_drop_bpm": [
+          -11.46322872069707,
+          -5.5131597038286895
+        ],
+        "worst_drop_bpm": -25.7485156220594
+      }
+    },
+    {
+      "target_drop_bpm": 10.0,
+      "block": 0.15106849809759557,
+      "control_prediction": {
+        "n": 188,
+        "n_pacing": 169,
+        "n_quiescent": 19,
+        "quiescent_fraction": 0.10106382978723404,
+        "median_drop_bpm": -10.27590592208135,
+        "iqr_drop_bpm": [
+          -14.157282158821786,
+          -6.8297872125285295
+        ],
+        "worst_drop_bpm": -28.205844991534903
+      }
+    },
+    {
+      "target_drop_bpm": 12.0,
+      "block": 0.17950469874353153,
+      "control_prediction": {
+        "n": 188,
+        "n_pacing": 169,
+        "n_quiescent": 19,
+        "quiescent_fraction": 0.10106382978723404,
+        "median_drop_bpm": -13.115490318007986,
+        "iqr_drop_bpm": [
+          -17.6498461041693,
+          -8.521604010531703
+        ],
+        "worst_drop_bpm": -42.56504977845136
+      }
+    },
+    {
+      "target_drop_bpm": 15.0,
+      "block": 0.2206049574234892,
+      "control_prediction": {
+        "n": 188,
+        "n_pacing": 152,
+        "n_quiescent": 36,
+        "quiescent_fraction": 0.19148936170212766,
+        "median_drop_bpm": -16.172609392799867,
+        "iqr_drop_bpm": [
+          -20.654666308028265,
+          -10.523269083198524
+        ],
+        "worst_drop_bpm": -35.18050021305483
+      }
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+# Reproduction of the Zhou et al. human sinoatrial node population of models
+#
+# Target study:
+#   Zhou X, Bueno-Orovio A, Schilling RJ, Kirkby C, Denning C, Rajamohan D,
+#   Burrage K, Tinker A, Rodriguez B, Harmer SC (2019).
+#   "Investigating the Complex Arrhythmic Phenotype Caused by the
+#    Gain-of-Function Mutation KCNQ1-G229D."
+#   Front Physiol 10:259.  doi:10.3389/fphys.2019.00259  PMID 30967788
+#
+# Baseline model:
+#   Fabbri A, Fantini M, Wilders R, Severi S (2017). J Physiol 595:2365-2396.
+#   CellML from the Physiome Model Repository, exposure e/568,
+#   HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml
+#   sha256 9062dd65533092914e04e425e09a81209aae9b44b37adae223f5f8e68b2aa1ec
+#   Imported directly by Myokit; no equation was hand-translated.
+
+baseline_model:
+  file: data/models/HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml
+  sha256: "9062dd65533092914e04e425e09a81209aae9b44b37adae223f5f8e68b2aa1ec"
+  n_states: 33
+  # Control conditions verified present in the file before any run:
+  control_conditions:
+    Membrane.clamp_mode: 0          # voltage clamp OFF, free-running
+    Rate_modulation_experiments.ACh: 0        # mM, no vagal tone
+    Rate_modulation_experiments.Iso_1_uM: 0   # no isoprenaline
+
+# ---------------------------------------------------------------------------
+# The 12 mechanisms varied, quoted verbatim from Zhou et al. 2019 Methods:
+#
+#   "...by using Latin hypercube sampling to introduce up to +-100% variations
+#    to 12 current conductances and ion flux magnitudes: funny current
+#    conductance (G_f), G_CaL, T-type calcium current conductance (G_CaT),
+#    G_Kr, G_Ks, G_to, G_Na, G_NaK, G_NaCa, G_Kur, P_Jrel, and P_Jup."
+#
+# Each is mapped to the ROOT constant in the Fabbri CellML that the current or
+# flux ultimately depends on. Mappings were verified by tracing the dependency
+# graph, not assumed from the name. Two cases needed care and are noted.
+# ---------------------------------------------------------------------------
+parameters:
+  - zhou_symbol: G_f
+    variable: i_f.g_f
+    baseline: 0.00427
+    unit: uS
+    note: >-
+      Root of the funny-current chain. g_f -> G_f -> G_f_K/G_f_Na ->
+      g_f_K/g_f_Na -> i_fK/i_fNa. g_f_K and g_f_Na are computed variables, not
+      independent constants, so scaling g_f scales the whole current.
+  - zhou_symbol: G_CaL
+    variable: i_CaL.P_CaL
+    baseline: 0.4578
+    unit: "nA/mM"
+    note: L-type permeability; enters i_siCa, i_siK and i_siNa linearly.
+  - zhou_symbol: G_CaT
+    variable: i_CaT.P_CaT
+    baseline: 0.04132
+    unit: "nA/mM"
+  - zhou_symbol: G_Kr
+    variable: i_Kr.g_Kr
+    baseline: 0.00424
+    unit: uS
+  - zhou_symbol: G_Ks
+    variable: i_Ks.g_Ks_
+    baseline: 0.00065
+    unit: uS
+    note: >-
+      g_Ks_ is the base constant; g_Ks = 1.2 * g_Ks_ only when Iso > 0. With
+      Iso = 0 they are equal, but g_Ks_ is the correct scaling target.
+  - zhou_symbol: G_to
+    variable: i_to.g_to
+    baseline: 0.0035
+    unit: uS
+  - zhou_symbol: G_Na
+    variable: i_Na.g_Na
+    baseline: 0.0223
+    unit: uS
+    note: >-
+      Scales i_Na_ only. The late component i_Na_L has g_Na_L = 0 in the
+      published baseline and is therefore identically zero.
+  - zhou_symbol: G_NaK
+    variable: i_NaK.i_NaK_max
+    baseline: 0.08105
+    unit: nA
+  - zhou_symbol: G_NaCa
+    variable: i_NaCa.K_NaCa
+    baseline: 3.343
+    unit: nA
+  - zhou_symbol: G_Kur
+    variable: i_Kur.g_Kur
+    baseline: 0.0001539
+    unit: uS
+  - zhou_symbol: P_Jrel
+    variable: Ca_SR_release.ks
+    baseline: 148041085.1
+    unit: "1/s"
+    note: SR Ca release rate constant; scales j_SRCarel linearly.
+  - zhou_symbol: P_Jup
+    variable: Ca_intracellular_fluxes.P_up_basal
+    baseline: 5.0
+    unit: "mM/s"
+    note: >-
+      P_up = P_up_basal * (1 - b_up), and b_up = 0 at baseline, so
+      P_up_basal is the correct scaling target.
+
+# ---------------------------------------------------------------------------
+# Sampling
+# ---------------------------------------------------------------------------
+sampling:
+  method: "Latin hypercube (scipy.stats.qmc.LatinHypercube)"
+  n_models: 5000
+  n_parameters: 12
+  # "up to +-100% variations" => multiplicative scale factor on [0, 2],
+  # sampled independently per parameter. This is the convention used in the
+  # Rodriguez-group population-of-models literature that this study follows
+  # (e.g. Britton et al. 2013 PNAS), where +-100% spans zero to double the
+  # baseline value. Recorded explicitly because "+-100%" is ambiguous in
+  # isolation and the retention count depends on it.
+  scale_min: 0.0
+  scale_max: 2.0
+  applied_as: "parameter_value = baseline_value * scale_factor"
+  seed: 20260816
+
+# ---------------------------------------------------------------------------
+# Simulation and retention (Zhou et al. 2019)
+#   "After simulating each model for 1,000 s, 1046 models with a basic cycle
+#    length between 600 and 1,000 ms (heart rate between 60 and 100 bpm) and a
+#    positive overshoot membrane potential were accepted for further analysis."
+# ---------------------------------------------------------------------------
+simulation:
+  duration_s: 1000.0
+  # The 1000 s is run as a pre-pace to reach the limit cycle; biomarkers are
+  # then measured on a short logged window at the end. This is numerically
+  # identical to logging the whole 1000 s but avoids ~80 MB of trace per model.
+  measure_window_s: 10.0
+  log_dt_s: 0.0001
+  solver: "CVODE via Myokit"
+  tol_abs: 1.0e-8
+  tol_rel: 1.0e-8
+
+retention:
+  bcl_min_ms: 600.0
+  bcl_max_ms: 1000.0
+  overshoot_must_be_positive: true
+  reference_retained: 1046
+  reference_total: 5000
+  note: >-
+    The retention count is the validation. It must be reported as it comes out.
+    Sampling and criteria must NOT be tuned to reach 1046; a mismatch is a
+    finding about the implementation, not a parameter to adjust.
+
+# ===========================================================================
+# STUDY INTEGRITY RULE — added at Task G, binding on all subsequent work.
+#
+#   NO PAIR RESULT MAY EVER INFORM A PARAMETER.
+#
+# Singles are calibrated to open-loop monotherapy anchors ONLY. Pairs are
+# PREDICTED. If a combination outcome feeds back into any conductance or any
+# block value, the endpoint has been fitted and the study is VOID.
+# ===========================================================================
+study_integrity:
+  no_pair_feedback:
+    rule: >-
+      No quantity derived from a drug COMBINATION may be used, directly or
+      indirectly, to set or adjust any model parameter. This covers the 12
+      sampled conductances/fluxes, every drug block fraction, every IC50 or
+      Hill coefficient, every free-concentration assumption, and the retention
+      criteria. Combination outcomes are outputs of this study, never inputs.
+    rationale: >-
+      The scientific claim of this project is that drug-pair loss of
+      automaticity can be PREDICTED from singly-calibrated mechanisms. That
+      claim is only testable if the pair prediction is made before, and
+      independently of, any pair observation. A parameter tuned on a pair
+      result converts the prediction into a fit, and the excess-absolute-risk
+      endpoint then measures the tuning rather than the pharmacology. There is
+      no partial version of this: one fitted parameter voids the endpoint.
+
+    # What a parameter MAY be calibrated against.
+    permitted_calibration_anchors:
+      - "single-drug (monotherapy) exposure or effect data ONLY"
+      - "open-loop preparations ONLY: autonomic blockade, or denervated
+         (cardiac transplant) hearts. Fabbri is an open-loop plant; an intact
+         patient's resting heart rate is a closed-loop output containing the
+         baroreflex, which Fabbri does not model."
+      - "in vitro channel pharmacology (IC50, Hill) on the isolated target"
+      - "published pharmacokinetics: total concentration and protein binding"
+    forbidden_calibration_anchors:
+      - "any A+B, A+B+C or polypharmacy outcome"
+      - "any observed interaction classification (synergy/antagonism)"
+      - "any excess-risk, Bliss, Loewe or HSA quantity"
+      - "intact-patient resting heart rate (closed loop; measures the
+         baroreflex, not the pharmacology — e.g. Boden's resting diltiazem
+         null)"
+
+    # Mechanical consequences for code.
+    enforcement:
+      - "Pair-prediction scripts take single-drug block fractions as FIXED
+         INPUTS. They contain no optimiser, no target value, and no inversion
+         of any pair quantity."
+      - "Single-drug calibration scripts must not read any pair output file."
+      - "Every block fraction in use must be traceable to a named monotherapy
+         anchor recorded in `calibration_provenance` below."
+
+    voids_study_if_violated: true
+
+# Provenance of every block fraction currently in use. One row per drug.
+# `anchor_type` must be `monotherapy`; anything else is a rule violation.
+calibration_provenance:
+  ivabradine:
+    # ---- ANCHOR SWITCHED AT TASK L1 -----------------------------------
+    block_fraction: 0.584
+    target: I_f
+    state: "Fabbri Iso 1 uM (93.94 bpm)"
+    anchor_type: monotherapy
+    anchor: >-
+      Doesch AO, Celik S, Ehlermann P, Frankenstein L, Zehelein J, Koch A,
+      Katus HA, Dengler TJ. Heart rate reduction after heart transplantation
+      with beta-blocker versus the selective If channel antagonist ivabradine.
+      Transplantation 2007;84(8):988-96. PMID 17989604.
+      25 heart-transplant recipients, per-protocol n = 20; drug-free baseline
+      96.5 +- 7.0 bpm -> 76.2 +- 8.9 bpm on ivabradine (P = 0.0001), a 21.0%
+      fractional reduction requiring 58.4% I_f block.
+    selection_rule: >-
+      DESIGN QUALITY ONLY. The anchor is chosen on four design criteria and
+      explicitly NOT on the size of the resulting in-vitro discrepancy:
+        (1) within-patient crossover, each subject their own control;
+        (2) a DRUG-FREE baseline measured in the same patients, not a
+            between-cohort contrast;
+        (3) prospective rather than retrospective/observational;
+        (4) earliest post-transplant (8-week treatment periods), therefore the
+            least sympathetically reinnervated and the purest open-loop
+            measurement. This is the same criterion the project already used
+            when preferring the 36-month cohort over the 10-year one; applied
+            consistently it selects Doesch over both.
+    gap_magnitude_is_not_a_criterion: >-
+      The switch INCREASES the unexplained discrepancy against the in vitro
+      IC50 from 61x to 250x. Had gap magnitude been used as a selection
+      criterion the previous 36-month anchor would have been retained. It was
+      not used, and must not be used in future anchor selection: choosing the
+      anchor that flatters the model is the same error as fitting to a pair.
+    superseded_anchor:
+      block_fraction: 0.312
+      anchor: "36-month transplant cohort, 91.0 -> 81.2 bpm (10.8%)"
+      why_superseded: >-
+        Observational between-cohort comparison at a later post-transplant
+        timepoint, therefore more sympathetically reinnervated and less purely
+        open-loop than Doesch. Note for disclosure: it was also the most
+        model-favourable of the three available anchors on gap magnitude, while
+        being the most CONSERVATIVE on excess absolute risk.
+    sensitivity_band:
+      - {anchor: "Doesch 2007 8-week crossover (PRIMARY)", drop_pct: 21.0, block: 0.584, implied_ic50_nM: 8.0,  fold_gap: 250}
+      - {anchor: "10-year cohort",                          drop_pct: 18.1, block: 0.509, implied_ic50_nM: 11.7, fold_gap: 172}
+      - {anchor: "36-month cohort (superseded)",            drop_pct: 10.8, block: 0.312, implied_ic50_nM: 32.8, fold_gap: 61}
+    reporting_requirement: >-
+      All three anchors must be reported as a sensitivity band on every
+      downstream result. Reporting the primary alone is a rule violation.
+    limitation: >-
+      The 250x discrepancy against the in vitro IC50 (2000 nM) remains
+      UNEXPLAINED and is larger under this anchor than under the previous one.
+      It is not a baroreflex artifact (it survives the open-loop comparison)
+      and is not closed by rate alone. Trapped / use-dependent block is the
+      plausible mechanism and is NOT implemented. Stated limitation, not a
+      blocker. The three-fold spread in implied block across three defensible
+      open-loop transplant anchors also bounds how precisely ivabradine can be
+      calibrated at all, and is the likely source of the I2 = 93% heterogeneity
+      in the transplant meta-analysis (PMID 41480007).
+  verapamil:
+    block_fraction: null          # carried as a RANGE, not a point value
+    range: [0.0, 0.40]
+    target: I_CaL
+    anchor_type: monotherapy
+    anchor: >-
+      Schulman DS, Herman BA, Edwards T, Ziady G, Uretsky BF. Effect of
+      verapamil on ventricular function: studies in denervated human heart.
+      J Cardiovasc Pharmacol 1993;21(4):567-72. PMID 7681901.
+      IV verapamil, median dose 4 mg, in 13 recent heart-transplant recipients
+      with denervated ventricles. Human, open loop, n=13.
+    limitation: >-
+      The paper reports that heart rate fell but the per-patient bpm magnitudes
+      are paywalled and were not recoverable. Verapamil is therefore NOT
+      collapsed to a single fitted block; it is carried across its full
+      plausible exposure range and every downstream result is reported as a
+      function of that range. No value in the range is selected by any pair
+      outcome.
+
+# ===========================================================================
+# COMPARISON-POINT RULE — pre-specified at Task J1, BEFORE any further pair
+# is evaluated. Binding on all subsequent work.
+#
+#   The a priori comparator for chronic steady-state dosing is the
+#   TIME-AVERAGE FREE CONCENTRATION. Cmax and trough are reported as
+#   sensitivities, never as the primary comparison point.
+#
+# Written down now because Task I matched the observed -5 bpm at the
+# time-average exposure while the SAME clinical band spanned -4.16 to
+# -11.71 bpm. Without a pre-specified rule, every subsequent match is
+# unfalsifiable: an analyst free to choose the comparison point inside a
+# 3-fold band can always find agreement. The rule must therefore be fixed
+# before the pairs are run, not after.
+# ===========================================================================
+comparison_point:
+  rule: >-
+    For any chronic, steady-state oral regimen, the model is evaluated at the
+    TIME-AVERAGE free concentration over the dosing interval:
+        C_avg,free = [ AUC(0-tau) / tau ] * f_unbound
+    This single value is the primary comparator. Cmax-derived and
+    trough-derived values are computed and reported alongside it as an
+    interval, labelled SENSITIVITY, and are never promoted to primary.
+  applies_to: >-
+    Chronic steady-state dosing only. Single-dose, loading-dose and
+    intravenous-bolus protocols are evaluated at the concentration actually
+    prevailing during the measurement window, because there is no meaningful
+    dosing-interval average for them. Task G's Schulman 4 mg IV comparison is
+    of this second kind and is unaffected by this rule.
+  rationale:
+    - "The endpoint being compared is resting heart rate at steady state. It is
+       a slow observable measured at an arbitrary point in, or as a mean over,
+       the dosing interval - not a peak-synchronised measurement. The exposure
+       statistic that matches it is the interval average, not the interval
+       maximum."
+    - "Cmax is transient. For verapamil the label's own 240 mg/day figures give
+       Cmax 79 ng/mL (fed) to 164 ng/mL (fasting) against a time-average of
+       35-62 ng/mL: the peak is a 2-3x excursion occupied for a small fraction
+       of the interval, and treating it as the operating point systematically
+       over-states exposure."
+    - "Both drug classes in scope bind slowly relative to the cycle length.
+       Verapamil recovery from block is tau ~5.05-6.7 s (Nawrath & Wegener,
+       PMID 9007846) against a 0.6-0.8 s cycle, so block integrates over many
+       beats and tracks average rather than instantaneous concentration.
+       Ivabradine block is use-dependent and accumulates across beats
+       (Bucchi 2002, PMID 12084770). Neither can equilibrate to a transient
+       peak."
+    - "Effect lags concentration. Reiter 1982 (PMID 7124631) reports that
+       maximum P-R prolongation LAGS peak plasma verapamil concentration and is
+       then sustained for the duration of the infusion - direct evidence that
+       the pharmacodynamic observable follows sustained rather than peak
+       exposure."
+  reporting_requirement: >-
+    Every pair result must state the time-average comparison explicitly, and
+    must also report the Cmax and trough values so a reader can see the width
+    of the band the primary value sits inside. Reporting only the value that
+    happened to agree is a rule violation.
+  if_time_average_unavailable: >-
+    If AUC(0-tau) is not published for a regimen, say so explicitly, report
+    whatever exposure statistic IS available, label the comparison
+    EXPOSURE-STATISTIC-LIMITED, and do not silently substitute Cmax as though
+    it were the primary comparator.
+  retrospective_application: >-
+    Task I's verapamil x ivabradine comparison already used the time-average
+    (2.9% I_CaL block, from the label AUC(0-24) of 841 ng.hr/mL) as its primary
+    point and reported the Cmax value (14.0% block, -11.71 bpm) alongside it.
+    It therefore complies with this rule as written, but it was decided
+    concurrently rather than in advance. That is exactly the ambiguity this
+    entry removes for every pair after it, and Task I should be described as
+    rule-consistent, NOT as a pre-specified test.
+
+# ---------------------------------------------------------------------------
+# P3 Option B dense-grid subset - committed 2026-08-27T21:18:49.501290+00:00
+# BEFORE any dense-grid output existed. Must not be redrawn.
+# ---------------------------------------------------------------------------
+p3_subset:
+  size: 500
+  source_population: population_retained_20260823T094616Z.npz
+  source_population_sha256: f52879d3db435b198cc68f2dcff51fb498209bde949a248d5ae98d738ebf59be
+  source_n: 1028
+  seed_constant_string: TASK_P3_SUBSET_500_OF_1028_V1
+  seed_sha256: 85b021e854bff12598b6b383b28c295066a96f934db6436535d824011f9cebaf
+  seed: 95429097
+  subset_sha256: ffd4d347cd39ba3b5709c2a4434009d91b2657c19b4b3f38eb956e51c5cb76ba
+  subset_file: 08_taskP/P3_subset_500.json
+  selection: uniform random without replacement over sorted retained indices
+  selection_independent_of_outcome: true
+  historical_940_prefix_used: false
+  commitment_file: 08_taskP/P3_SUBSET_COMMITMENT.json
+  immutable: true

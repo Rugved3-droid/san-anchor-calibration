@@ -1,0 +1,1497 @@
+{
+  "band_maxima": [
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "1x",
+      "state": "control",
+      "band": "240 mg/day",
+      "max_EMQF": 0.046,
+      "at_rung": 0.108,
+      "EMQF_k": 23,
+      "n": 500,
+      "EMQF_ci95": [
+        0.030844883399787512,
+        0.06807827022627275
+      ],
+      "eligible_frac": 0.966,
+      "obs_over_max": 0.047619047619047616,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "1x",
+      "state": "control",
+      "band": "480 mg/day",
+      "max_EMQF": 0.104,
+      "at_rung": 0.275,
+      "EMQF_k": 52,
+      "n": 500,
+      "EMQF_ci95": [
+        0.08019382152134363,
+        0.13384487635513181
+      ],
+      "eligible_frac": 0.81,
+      "obs_over_max": 0.12839506172839504,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": true,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "1x",
+      "state": "iso",
+      "band": "240 mg/day",
+      "max_EMQF": 0.023655913978494623,
+      "at_rung": 0.14,
+      "EMQF_k": 11,
+      "n": 465,
+      "EMQF_ci95": [
+        0.013259308714265887,
+        0.041858667165007614
+      ],
+      "eligible_frac": 0.9655913978494624,
+      "obs_over_max": 0.024498886414253896,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "1x",
+      "state": "iso",
+      "band": "480 mg/day",
+      "max_EMQF": 0.08387096774193549,
+      "at_rung": 0.3,
+      "EMQF_k": 39,
+      "n": 465,
+      "EMQF_ci95": [
+        0.06195850957390854,
+        0.11260279215358322
+      ],
+      "eligible_frac": 0.9440860215053763,
+      "obs_over_max": 0.08883826879271071,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "2x",
+      "state": "control",
+      "band": "240 mg/day",
+      "max_EMQF": 0.042,
+      "at_rung": 0.108,
+      "EMQF_k": 21,
+      "n": 500,
+      "EMQF_ci95": [
+        0.027632099334746148,
+        0.06335205123956134
+      ],
+      "eligible_frac": 0.948,
+      "obs_over_max": 0.04430379746835444,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "2x",
+      "state": "control",
+      "band": "480 mg/day",
+      "max_EMQF": 0.12,
+      "at_rung": 0.275,
+      "EMQF_k": 60,
+      "n": 500,
+      "EMQF_ci95": [
+        0.09437448030757052,
+        0.15142022977591602
+      ],
+      "eligible_frac": 0.798,
+      "obs_over_max": 0.15037593984962405,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": true,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "2x",
+      "state": "iso",
+      "band": "240 mg/day",
+      "max_EMQF": 0.03655913978494624,
+      "at_rung": 0.14,
+      "EMQF_k": 17,
+      "n": 465,
+      "EMQF_ci95": [
+        0.022948817519442485,
+        0.05776415675587779
+      ],
+      "eligible_frac": 0.9483870967741935,
+      "obs_over_max": 0.03854875283446712,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "2x",
+      "state": "iso",
+      "band": "480 mg/day",
+      "max_EMQF": 0.11612903225806452,
+      "at_rung": 0.3,
+      "EMQF_k": 54,
+      "n": 465,
+      "EMQF_ci95": [
+        0.09010366954977206,
+        0.14844512816783662
+      ],
+      "eligible_frac": 0.9290322580645162,
+      "obs_over_max": 0.125,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": true,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "3x",
+      "state": "control",
+      "band": "240 mg/day",
+      "max_EMQF": 0.05,
+      "at_rung": 0.14,
+      "EMQF_k": 25,
+      "n": 500,
+      "EMQF_ci95": [
+        0.03409350665098192,
+        0.07276865002683111
+      ],
+      "eligible_frac": 0.916,
+      "obs_over_max": 0.05458515283842795,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "3x",
+      "state": "control",
+      "band": "480 mg/day",
+      "max_EMQF": 0.144,
+      "at_rung": 0.275,
+      "EMQF_k": 72,
+      "n": 500,
+      "EMQF_ci95": [
+        0.11593760751948218,
+        0.177491120874521
+      ],
+      "eligible_frac": 0.798,
+      "obs_over_max": 0.18045112781954886,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": true,
+      "ci_lower_gt_10pct": true
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "3x",
+      "state": "iso",
+      "band": "240 mg/day",
+      "max_EMQF": 0.05806451612903226,
+      "at_rung": 0.14,
+      "EMQF_k": 27,
+      "n": 465,
+      "EMQF_ci95": [
+        0.04020875728499926,
+        0.08316254765039896
+      ],
+      "eligible_frac": 0.9376344086021505,
+      "obs_over_max": 0.06192660550458716,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "3x",
+      "state": "iso",
+      "band": "480 mg/day",
+      "max_EMQF": 0.13333333333333333,
+      "at_rung": 0.3,
+      "EMQF_k": 62,
+      "n": 465,
+      "EMQF_ci95": [
+        0.10542063356247187,
+        0.1672548286831991
+      ],
+      "eligible_frac": 0.9182795698924732,
+      "obs_over_max": 0.1451990632318501,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": true,
+      "ci_lower_gt_10pct": true
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "1x",
+      "state": "control",
+      "band": "240 mg/day",
+      "max_EMQF": 0.03,
+      "at_rung": 0.108,
+      "EMQF_k": 15,
+      "n": 500,
+      "EMQF_ci95": [
+        0.018263049234083534,
+        0.04890409218496562
+      ],
+      "eligible_frac": 0.968,
+      "obs_over_max": 0.030991735537190084,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "1x",
+      "state": "control",
+      "band": "480 mg/day",
+      "max_EMQF": 0.09,
+      "at_rung": 0.275,
+      "EMQF_k": 45,
+      "n": 500,
+      "EMQF_ci95": [
+        0.0679421955899675,
+        0.11830999160537325
+      ],
+      "eligible_frac": 0.81,
+      "obs_over_max": 0.1111111111111111,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "1x",
+      "state": "iso",
+      "band": "240 mg/day",
+      "max_EMQF": 0.021505376344086023,
+      "at_rung": 0.14,
+      "EMQF_k": 10,
+      "n": 465,
+      "EMQF_ci95": [
+        0.011722298946194339,
+        0.03912984386707138
+      ],
+      "eligible_frac": 0.978494623655914,
+      "obs_over_max": 0.02197802197802198,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "1x",
+      "state": "iso",
+      "band": "480 mg/day",
+      "max_EMQF": 0.08387096774193549,
+      "at_rung": 0.3,
+      "EMQF_k": 39,
+      "n": 465,
+      "EMQF_ci95": [
+        0.06195850957390854,
+        0.11260279215358322
+      ],
+      "eligible_frac": 0.956989247311828,
+      "obs_over_max": 0.08764044943820225,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "2x",
+      "state": "control",
+      "band": "240 mg/day",
+      "max_EMQF": 0.046,
+      "at_rung": 0.108,
+      "EMQF_k": 23,
+      "n": 500,
+      "EMQF_ci95": [
+        0.030844883399787512,
+        0.06807827022627275
+      ],
+      "eligible_frac": 0.96,
+      "obs_over_max": 0.04791666666666667,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "2x",
+      "state": "control",
+      "band": "480 mg/day",
+      "max_EMQF": 0.108,
+      "at_rung": 0.275,
+      "EMQF_k": 54,
+      "n": 500,
+      "EMQF_ci95": [
+        0.08372241545896647,
+        0.13825528546926177
+      ],
+      "eligible_frac": 0.806,
+      "obs_over_max": 0.13399503722084366,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": true,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "2x",
+      "state": "iso",
+      "band": "240 mg/day",
+      "max_EMQF": 0.030107526881720432,
+      "at_rung": 0.14,
+      "EMQF_k": 14,
+      "n": 465,
+      "EMQF_ci95": [
+        0.01801746926018453,
+        0.04989800581711236
+      ],
+      "eligible_frac": 0.956989247311828,
+      "obs_over_max": 0.03146067415730337,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "2x",
+      "state": "iso",
+      "band": "480 mg/day",
+      "max_EMQF": 0.1032258064516129,
+      "at_rung": 0.3,
+      "EMQF_k": 48,
+      "n": 465,
+      "EMQF_ci95": [
+        0.07874473856335923,
+        0.13420906075820266
+      ],
+      "eligible_frac": 0.9376344086021505,
+      "obs_over_max": 0.11009174311926606,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": true,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "3x",
+      "state": "control",
+      "band": "240 mg/day",
+      "max_EMQF": 0.042,
+      "at_rung": 0.108,
+      "EMQF_k": 21,
+      "n": 500,
+      "EMQF_ci95": [
+        0.027632099334746148,
+        0.06335205123956134
+      ],
+      "eligible_frac": 0.948,
+      "obs_over_max": 0.04430379746835444,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "3x",
+      "state": "control",
+      "band": "480 mg/day",
+      "max_EMQF": 0.122,
+      "at_rung": 0.275,
+      "EMQF_k": 61,
+      "n": 500,
+      "EMQF_ci95": [
+        0.0961588543796491,
+        0.15360535722971383
+      ],
+      "eligible_frac": 0.798,
+      "obs_over_max": 0.15288220551378445,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": true,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "3x",
+      "state": "iso",
+      "band": "240 mg/day",
+      "max_EMQF": 0.04086021505376344,
+      "at_rung": 0.14,
+      "EMQF_k": 19,
+      "n": 465,
+      "EMQF_ci95": [
+        0.026311822559321865,
+        0.062932817848014
+      ],
+      "eligible_frac": 0.9505376344086022,
+      "obs_over_max": 0.042986425339366516,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "3x",
+      "state": "iso",
+      "band": "480 mg/day",
+      "max_EMQF": 0.11397849462365592,
+      "at_rung": 0.275,
+      "EMQF_k": 53,
+      "n": 465,
+      "EMQF_ci95": [
+        0.08820230031883683,
+        0.14608066433276404
+      ],
+      "eligible_frac": 0.9419354838709677,
+      "obs_over_max": 0.12100456621004567,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": true,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "1x",
+      "state": "control",
+      "band": "240 mg/day",
+      "max_EMQF": 0.03,
+      "at_rung": 0.14,
+      "EMQF_k": 15,
+      "n": 500,
+      "EMQF_ci95": [
+        0.018263049234083534,
+        0.04890409218496562
+      ],
+      "eligible_frac": 0.952,
+      "obs_over_max": 0.031512605042016806,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "1x",
+      "state": "control",
+      "band": "480 mg/day",
+      "max_EMQF": 0.06,
+      "at_rung": 0.275,
+      "EMQF_k": 30,
+      "n": 500,
+      "EMQF_ci95": [
+        0.042348086000950205,
+        0.08436157830624476
+      ],
+      "eligible_frac": 0.81,
+      "obs_over_max": 0.07407407407407407,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "1x",
+      "state": "iso",
+      "band": "240 mg/day",
+      "max_EMQF": 0.008602150537634409,
+      "at_rung": 0.14,
+      "EMQF_k": 4,
+      "n": 465,
+      "EMQF_ci95": [
+        0.003350093905373084,
+        0.02190705051184586
+      ],
+      "eligible_frac": 0.9935483870967742,
+      "obs_over_max": 0.008658008658008658,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "1x",
+      "state": "iso",
+      "band": "480 mg/day",
+      "max_EMQF": 0.04086021505376344,
+      "at_rung": 0.275,
+      "EMQF_k": 19,
+      "n": 465,
+      "EMQF_ci95": [
+        0.026311822559321865,
+        0.062932817848014
+      ],
+      "eligible_frac": 0.978494623655914,
+      "obs_over_max": 0.04175824175824176,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "2x",
+      "state": "control",
+      "band": "240 mg/day",
+      "max_EMQF": 0.032,
+      "at_rung": 0.108,
+      "EMQF_k": 16,
+      "n": 500,
+      "EMQF_ci95": [
+        0.01979134135128301,
+        0.05134530159364255
+      ],
+      "eligible_frac": 0.978,
+      "obs_over_max": 0.032719836400818,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "2x",
+      "state": "control",
+      "band": "480 mg/day",
+      "max_EMQF": 0.074,
+      "at_rung": 0.275,
+      "EMQF_k": 37,
+      "n": 500,
+      "EMQF_ci95": [
+        0.05416087387750307,
+        0.10033530111082659
+      ],
+      "eligible_frac": 0.81,
+      "obs_over_max": 0.09135802469135801,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "2x",
+      "state": "iso",
+      "band": "240 mg/day",
+      "max_EMQF": 0.015053763440860216,
+      "at_rung": 0.14,
+      "EMQF_k": 7,
+      "n": 465,
+      "EMQF_ci95": [
+        0.007310665770927368,
+        0.030743977844314967
+      ],
+      "eligible_frac": 0.9827956989247312,
+      "obs_over_max": 0.015317286652078776,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "2x",
+      "state": "iso",
+      "band": "480 mg/day",
+      "max_EMQF": 0.06666666666666667,
+      "at_rung": 0.3,
+      "EMQF_k": 31,
+      "n": 465,
+      "EMQF_ci95": [
+        0.04736027745715969,
+        0.0930743597422697
+      ],
+      "eligible_frac": 0.9612903225806452,
+      "obs_over_max": 0.06935123042505592,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "3x",
+      "state": "control",
+      "band": "240 mg/day",
+      "max_EMQF": 0.034,
+      "at_rung": 0.14,
+      "EMQF_k": 17,
+      "n": 500,
+      "EMQF_ci95": [
+        0.02133433944461342,
+        0.053771805026188516
+      ],
+      "eligible_frac": 0.94,
+      "obs_over_max": 0.03617021276595745,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "3x",
+      "state": "control",
+      "band": "480 mg/day",
+      "max_EMQF": 0.092,
+      "at_rung": 0.275,
+      "EMQF_k": 46,
+      "n": 500,
+      "EMQF_ci95": [
+        0.0696823665014548,
+        0.12053932221976234
+      ],
+      "eligible_frac": 0.81,
+      "obs_over_max": 0.11358024691358024,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "3x",
+      "state": "iso",
+      "band": "240 mg/day",
+      "max_EMQF": 0.021505376344086023,
+      "at_rung": 0.14,
+      "EMQF_k": 10,
+      "n": 465,
+      "EMQF_ci95": [
+        0.011722298946194339,
+        0.03912984386707138
+      ],
+      "eligible_frac": 0.978494623655914,
+      "obs_over_max": 0.02197802197802198,
+      "point_gt_5pct": false,
+      "ci_lower_gt_5pct": false,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "3x",
+      "state": "iso",
+      "band": "480 mg/day",
+      "max_EMQF": 0.07956989247311828,
+      "at_rung": 0.275,
+      "EMQF_k": 37,
+      "n": 465,
+      "EMQF_ci95": [
+        0.0582767858603109,
+        0.10775284973516527
+      ],
+      "eligible_frac": 0.967741935483871,
+      "obs_over_max": 0.08222222222222222,
+      "point_gt_5pct": true,
+      "ci_lower_gt_5pct": true,
+      "point_gt_10pct": false,
+      "ci_lower_gt_10pct": false
+    }
+  ],
+  "summary_5_10": {
+    "n_band_maxima": 36,
+    "n_band_maxima_ci_gt_10": 2,
+    "n_band_maxima_ci_gt_5": 15,
+    "n_conditions_total": 198,
+    "n_conditions_ci_gt_10": 7
+  },
+  "band_comparison": [
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "1x",
+      "state": "control",
+      "max_240": 0.046,
+      "max_480": 0.104,
+      "diff_pp": 5.8,
+      "ratio": 2.260869565217391
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "1x",
+      "state": "iso",
+      "max_240": 0.023655913978494623,
+      "max_480": 0.08387096774193549,
+      "diff_pp": 6.021505376344087,
+      "ratio": 3.545454545454546
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "2x",
+      "state": "control",
+      "max_240": 0.042,
+      "max_480": 0.12,
+      "diff_pp": 7.799999999999999,
+      "ratio": 2.8571428571428568
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "2x",
+      "state": "iso",
+      "max_240": 0.03655913978494624,
+      "max_480": 0.11612903225806452,
+      "diff_pp": 7.956989247311828,
+      "ratio": 3.1764705882352944
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "3x",
+      "state": "control",
+      "max_240": 0.05,
+      "max_480": 0.144,
+      "diff_pp": 9.399999999999999,
+      "ratio": 2.8799999999999994
+    },
+    {
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "arm": "3x",
+      "state": "iso",
+      "max_240": 0.05806451612903226,
+      "max_480": 0.13333333333333333,
+      "diff_pp": 7.526881720430106,
+      "ratio": 2.2962962962962963
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "1x",
+      "state": "control",
+      "max_240": 0.03,
+      "max_480": 0.09,
+      "diff_pp": 6.0,
+      "ratio": 3.0
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "1x",
+      "state": "iso",
+      "max_240": 0.021505376344086023,
+      "max_480": 0.08387096774193549,
+      "diff_pp": 6.236559139784947,
+      "ratio": 3.9
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "2x",
+      "state": "control",
+      "max_240": 0.046,
+      "max_480": 0.108,
+      "diff_pp": 6.2,
+      "ratio": 2.347826086956522
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "2x",
+      "state": "iso",
+      "max_240": 0.030107526881720432,
+      "max_480": 0.1032258064516129,
+      "diff_pp": 7.311827956989248,
+      "ratio": 3.4285714285714284
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "3x",
+      "state": "control",
+      "max_240": 0.042,
+      "max_480": 0.122,
+      "diff_pp": 7.999999999999999,
+      "ratio": 2.9047619047619047
+    },
+    {
+      "anchor": "10-year cohort",
+      "arm": "3x",
+      "state": "iso",
+      "max_240": 0.04086021505376344,
+      "max_480": 0.11397849462365592,
+      "diff_pp": 7.311827956989248,
+      "ratio": 2.789473684210526
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "1x",
+      "state": "control",
+      "max_240": 0.03,
+      "max_480": 0.06,
+      "diff_pp": 3.0,
+      "ratio": 2.0
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "1x",
+      "state": "iso",
+      "max_240": 0.008602150537634409,
+      "max_480": 0.04086021505376344,
+      "diff_pp": 3.225806451612903,
+      "ratio": 4.75
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "2x",
+      "state": "control",
+      "max_240": 0.032,
+      "max_480": 0.074,
+      "diff_pp": 4.199999999999999,
+      "ratio": 2.3125
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "2x",
+      "state": "iso",
+      "max_240": 0.015053763440860216,
+      "max_480": 0.06666666666666667,
+      "diff_pp": 5.161290322580645,
+      "ratio": 4.428571428571428
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "3x",
+      "state": "control",
+      "max_240": 0.034,
+      "max_480": 0.092,
+      "diff_pp": 5.8,
+      "ratio": 2.705882352941176
+    },
+    {
+      "anchor": "36-month (superseded)",
+      "arm": "3x",
+      "state": "iso",
+      "max_240": 0.021505376344086023,
+      "max_480": 0.07956989247311828,
+      "diff_pp": 5.806451612903226,
+      "ratio": 3.6999999999999997
+    }
+  ],
+  "decomposition": [
+    {
+      "state": "control",
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "block": 0.029,
+      "total_ng_per_mL": 34.66373833733909,
+      "n_cohort": 470,
+      "dHR_ref_ivab_1x": -7.683423025825242,
+      "PK_only": -1.955283910600933,
+      "PD_only": -1.674331783131393,
+      "PK_plus_PD_2x": -3.8014978584484425,
+      "PK_plus_PD_3x": -4.732334974796721,
+      "larger": "PK"
+    },
+    {
+      "state": "control",
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "block": 0.3,
+      "total_ng_per_mL": 399.2092339236578,
+      "n_cohort": 306,
+      "dHR_ref_ivab_1x": -7.134944206189765,
+      "PK_only": -1.708121069963326,
+      "PD_only": -19.76302556538545,
+      "PK_plus_PD_2x": -22.01049661921673,
+      "PK_plus_PD_3x": -23.29991983992561,
+      "larger": "PD"
+    },
+    {
+      "state": "control",
+      "anchor": "10-year cohort",
+      "block": 0.029,
+      "total_ng_per_mL": 34.66373833733909,
+      "n_cohort": 472,
+      "dHR_ref_ivab_1x": -6.614313817035288,
+      "PK_only": -1.987130399066011,
+      "PD_only": -1.9039926378775824,
+      "PK_plus_PD_2x": -3.6984539864680954,
+      "PK_plus_PD_3x": -4.974720851585282,
+      "larger": "PK"
+    },
+    {
+      "state": "control",
+      "anchor": "10-year cohort",
+      "block": 0.3,
+      "total_ng_per_mL": 399.2092339236578,
+      "n_cohort": 313,
+      "dHR_ref_ivab_1x": -6.1418648547610815,
+      "PK_only": -1.8791017344420737,
+      "PD_only": -19.765557009352747,
+      "PK_plus_PD_2x": -22.05573622042384,
+      "PK_plus_PD_3x": -23.42360462979488,
+      "larger": "PD"
+    },
+    {
+      "state": "control",
+      "anchor": "36-month (superseded)",
+      "block": 0.029,
+      "total_ng_per_mL": 34.66373833733909,
+      "n_cohort": 486,
+      "dHR_ref_ivab_1x": -4.03677803573072,
+      "PK_only": -1.8177742307761662,
+      "PD_only": -1.8841187188584243,
+      "PK_plus_PD_2x": -3.7095465943451273,
+      "PK_plus_PD_3x": -4.815045074638846,
+      "larger": "PD"
+    },
+    {
+      "state": "control",
+      "anchor": "36-month (superseded)",
+      "block": 0.3,
+      "total_ng_per_mL": 399.2092339236578,
+      "n_cohort": 333,
+      "dHR_ref_ivab_1x": -3.7318188635661897,
+      "PK_only": -1.6837044160831596,
+      "PD_only": -20.22203395599592,
+      "PK_plus_PD_2x": -22.52704067115588,
+      "PK_plus_PD_3x": -23.652249664249297,
+      "larger": "PD"
+    },
+    {
+      "state": "iso",
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "block": 0.029,
+      "total_ng_per_mL": 34.66373833733909,
+      "n_cohort": 434,
+      "dHR_ref_ivab_1x": -16.03903007518167,
+      "PK_only": -4.1252302354022135,
+      "PD_only": -1.3259409830245517,
+      "PK_plus_PD_2x": -5.374891708925713,
+      "PK_plus_PD_3x": -7.782675822703247,
+      "larger": "PK"
+    },
+    {
+      "state": "iso",
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "block": 0.3,
+      "total_ng_per_mL": 399.2092339236578,
+      "n_cohort": 365,
+      "dHR_ref_ivab_1x": -15.168678783439717,
+      "PK_only": -3.599982412666634,
+      "PD_only": -16.262363546776726,
+      "PK_plus_PD_2x": -20.675033275645312,
+      "PK_plus_PD_3x": -22.511443005858503,
+      "larger": "PD"
+    },
+    {
+      "state": "iso",
+      "anchor": "10-year cohort",
+      "block": 0.029,
+      "total_ng_per_mL": 34.66373833733909,
+      "n_cohort": 439,
+      "dHR_ref_ivab_1x": -13.786921526645472,
+      "PK_only": -4.259044098138986,
+      "PD_only": -1.5584449774906801,
+      "PK_plus_PD_2x": -5.575869502761378,
+      "PK_plus_PD_3x": -7.88092368060191,
+      "larger": "PK"
+    },
+    {
+      "state": "iso",
+      "anchor": "10-year cohort",
+      "block": 0.3,
+      "total_ng_per_mL": 399.2092339236578,
+      "n_cohort": 380,
+      "dHR_ref_ivab_1x": -13.244915878810069,
+      "PK_only": -3.853406219701313,
+      "PD_only": -16.309218410024403,
+      "PK_plus_PD_2x": -20.866007943130242,
+      "PK_plus_PD_3x": -23.28370277351069,
+      "larger": "PD"
+    },
+    {
+      "state": "iso",
+      "anchor": "36-month (superseded)",
+      "block": 0.029,
+      "total_ng_per_mL": 34.66373833733909,
+      "n_cohort": 451,
+      "dHR_ref_ivab_1x": -8.291415819906277,
+      "PK_only": -3.7488909219055557,
+      "PD_only": -1.5923365176587367,
+      "PK_plus_PD_2x": -5.234995014840791,
+      "PK_plus_PD_3x": -7.692936005528885,
+      "larger": "PK"
+    },
+    {
+      "state": "iso",
+      "anchor": "36-month (superseded)",
+      "block": 0.3,
+      "total_ng_per_mL": 399.2092339236578,
+      "n_cohort": 408,
+      "dHR_ref_ivab_1x": -8.019105224203322,
+      "PK_only": -3.6025411907215386,
+      "PD_only": -16.47271769534173,
+      "PK_plus_PD_2x": -20.37788162185837,
+      "PK_plus_PD_3x": -23.149087632215988,
+      "larger": "PD"
+    }
+  ],
+  "external": [
+    {
+      "state": "control",
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "point": "time-average (PRIMARY)",
+      "block": 0.029,
+      "n_cohort": 473,
+      "predicted_bpm": -3.8264303991196087,
+      "observed_bpm": -5.0,
+      "ratio": 0.7652860798239217,
+      "is_primary": true
+    },
+    {
+      "state": "control",
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "point": "Cmax (sensitivity)",
+      "block": 0.14,
+      "n_cohort": 441,
+      "predicted_bpm": -10.948542867716277,
+      "observed_bpm": -5.0,
+      "ratio": 2.1897085735432555,
+      "is_primary": false
+    },
+    {
+      "state": "control",
+      "anchor": "10-year cohort",
+      "point": "time-average (PRIMARY)",
+      "block": 0.029,
+      "n_cohort": 481,
+      "predicted_bpm": -3.873579561300815,
+      "observed_bpm": -5.0,
+      "ratio": 0.774715912260163,
+      "is_primary": true
+    },
+    {
+      "state": "control",
+      "anchor": "10-year cohort",
+      "point": "Cmax (sensitivity)",
+      "block": 0.14,
+      "n_cohort": 445,
+      "predicted_bpm": -11.016076554072505,
+      "observed_bpm": -5.0,
+      "ratio": 2.203215310814501,
+      "is_primary": false
+    },
+    {
+      "state": "control",
+      "anchor": "36-month (superseded)",
+      "point": "time-average (PRIMARY)",
+      "block": 0.029,
+      "n_cohort": 488,
+      "predicted_bpm": -3.71288249742382,
+      "observed_bpm": -5.0,
+      "ratio": 0.742576499484764,
+      "is_primary": true
+    },
+    {
+      "state": "control",
+      "anchor": "36-month (superseded)",
+      "point": "Cmax (sensitivity)",
+      "block": 0.14,
+      "n_cohort": 459,
+      "predicted_bpm": -10.912113218808962,
+      "observed_bpm": -5.0,
+      "ratio": 2.182422643761792,
+      "is_primary": false
+    },
+    {
+      "state": "iso",
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "point": "time-average (PRIMARY)",
+      "block": 0.029,
+      "n_cohort": 439,
+      "predicted_bpm": -5.429662426980485,
+      "observed_bpm": -5.0,
+      "ratio": 1.085932485396097,
+      "is_primary": true
+    },
+    {
+      "state": "iso",
+      "anchor": "Doesch 2007 (PRIMARY)",
+      "point": "Cmax (sensitivity)",
+      "block": 0.14,
+      "n_cohort": 424,
+      "predicted_bpm": -10.930654899402072,
+      "observed_bpm": -5.0,
+      "ratio": 2.1861309798804145,
+      "is_primary": false
+    },
+    {
+      "state": "iso",
+      "anchor": "10-year cohort",
+      "point": "time-average (PRIMARY)",
+      "block": 0.029,
+      "n_cohort": 443,
+      "predicted_bpm": -5.598885879495029,
+      "observed_bpm": -5.0,
+      "ratio": 1.1197771758990058,
+      "is_primary": true
+    },
+    {
+      "state": "iso",
+      "anchor": "10-year cohort",
+      "point": "Cmax (sensitivity)",
+      "block": 0.14,
+      "n_cohort": 431,
+      "predicted_bpm": -11.38531293426935,
+      "observed_bpm": -5.0,
+      "ratio": 2.2770625868538703,
+      "is_primary": false
+    },
+    {
+      "state": "iso",
+      "anchor": "36-month (superseded)",
+      "point": "time-average (PRIMARY)",
+      "block": 0.029,
+      "n_cohort": 458,
+      "predicted_bpm": -5.293055475899479,
+      "observed_bpm": -5.0,
+      "ratio": 1.0586110951798957,
+      "is_primary": true
+    },
+    {
+      "state": "iso",
+      "anchor": "36-month (superseded)",
+      "point": "Cmax (sensitivity)",
+      "block": 0.14,
+      "n_cohort": 450,
+      "predicted_bpm": -11.253300414590733,
+      "observed_bpm": -5.0,
+      "ratio": 2.2506600829181465,
+      "is_primary": false
+    }
+  ],
+  "bliss": [
+    {
+      "state": "control",
+      "block": 0.029,
+      "P_A": 0.006,
+      "P_B": 0.026,
+      "P_AB": 0.032,
+      "P_AB_ci95": [
+        0.01979134135128301,
+        0.05134530159364255
+      ],
+      "bliss_expected": 0.031844,
+      "bliss_class": "additive",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.05,
+      "P_A": 0.006,
+      "P_B": 0.026,
+      "P_AB": 0.042,
+      "P_AB_ci95": [
+        0.027632099334746148,
+        0.06335205123956134
+      ],
+      "bliss_expected": 0.031844,
+      "bliss_class": "additive",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.1,
+      "P_A": 0.018,
+      "P_B": 0.026,
+      "P_AB": 0.066,
+      "P_AB_ci95": [
+        0.04737823802541255,
+        0.09123993085941157
+      ],
+      "bliss_expected": 0.043531999999999994,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.108,
+      "P_A": 0.018,
+      "P_B": 0.026,
+      "P_AB": 0.08,
+      "P_AB_ci95": [
+        0.05929780247392154,
+        0.1071068770920373
+      ],
+      "bliss_expected": 0.043531999999999994,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.14,
+      "P_A": 0.048,
+      "P_B": 0.026,
+      "P_AB": 0.102,
+      "P_AB_ci95": [
+        0.07843397139617729,
+        0.1316352249544218
+      ],
+      "bliss_expected": 0.072752,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.15,
+      "P_A": 0.054,
+      "P_B": 0.026,
+      "P_AB": 0.108,
+      "P_AB_ci95": [
+        0.08372241545896647,
+        0.13825528546926177
+      ],
+      "bliss_expected": 0.078596,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.2,
+      "P_A": 0.092,
+      "P_B": 0.026,
+      "P_AB": 0.168,
+      "P_AB_ci95": [
+        0.13778772464256234,
+        0.20327502206195752
+      ],
+      "bliss_expected": 0.11560799999999999,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.25,
+      "P_A": 0.148,
+      "P_B": 0.026,
+      "P_AB": 0.244,
+      "P_AB_ci95": [
+        0.20839823999994375,
+        0.2835055646878788
+      ],
+      "bliss_expected": 0.170152,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.275,
+      "P_A": 0.19,
+      "P_B": 0.026,
+      "P_AB": 0.294,
+      "P_AB_ci95": [
+        0.2557578175953935,
+        0.3353835252393387
+      ],
+      "bliss_expected": 0.21106,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.3,
+      "P_A": 0.254,
+      "P_B": 0.026,
+      "P_AB": 0.342,
+      "P_AB_ci95": [
+        0.3017647943001571,
+        0.3846445851556084
+      ],
+      "bliss_expected": 0.27339600000000003,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "control",
+      "block": 0.4,
+      "P_A": 0.478,
+      "P_B": 0.026,
+      "P_AB": 0.55,
+      "P_AB_ci95": [
+        0.5061764115934799,
+        0.5930611265534298
+      ],
+      "bliss_expected": 0.491572,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.029,
+      "P_A": 0.0,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.03870967741935484,
+      "P_AB_ci95": [
+        0.02462356400109277,
+        0.0603552433402353
+      ],
+      "bliss_expected": 0.03225806451612903,
+      "bliss_class": "additive",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.05,
+      "P_A": 0.0,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.03870967741935484,
+      "P_AB_ci95": [
+        0.02462356400109277,
+        0.0603552433402353
+      ],
+      "bliss_expected": 0.03225806451612903,
+      "bliss_class": "additive",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.1,
+      "P_A": 0.004301075268817204,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.04516129032258064,
+      "P_AB_ci95": [
+        0.0297251417181982,
+        0.06805116482115325
+      ],
+      "bliss_expected": 0.036420395421436005,
+      "bliss_class": "additive",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.108,
+      "P_A": 0.0064516129032258064,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.047311827956989246,
+      "P_AB_ci95": [
+        0.03144859927451832,
+        0.07059354033084092
+      ],
+      "bliss_expected": 0.03850156087408949,
+      "bliss_class": "additive",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.14,
+      "P_A": 0.0064516129032258064,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.05806451612903226,
+      "P_AB_ci95": [
+        0.04020875728499926,
+        0.08316254765039896
+      ],
+      "bliss_expected": 0.03850156087408949,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.15,
+      "P_A": 0.008602150537634409,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.05806451612903226,
+      "P_AB_ci95": [
+        0.04020875728499926,
+        0.08316254765039896
+      ],
+      "bliss_expected": 0.04058272632674298,
+      "bliss_class": "additive",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.2,
+      "P_A": 0.008602150537634409,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.08172043010752689,
+      "P_AB_ci95": [
+        0.06011519318609704,
+        0.11018027547538692
+      ],
+      "bliss_expected": 0.04058272632674298,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.25,
+      "P_A": 0.015053763440860216,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.11182795698924732,
+      "P_AB_ci95": [
+        0.08630410806640035,
+        0.14371302351919274
+      ],
+      "bliss_expected": 0.046826222684703434,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.275,
+      "P_A": 0.021505376344086023,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.12258064516129032,
+      "P_AB_ci95": [
+        0.09582610478637932,
+        0.15552019212925272
+      ],
+      "bliss_expected": 0.053069719042663895,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.3,
+      "P_A": 0.03225806451612903,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.13978494623655913,
+      "P_AB_ci95": [
+        0.1112090729500037,
+        0.17426388849369062
+      ],
+      "bliss_expected": 0.06347554630593132,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    },
+    {
+      "state": "iso",
+      "block": 0.4,
+      "P_A": 0.09032258064516129,
+      "P_B": 0.03225806451612903,
+      "P_AB": 0.23870967741935484,
+      "P_AB_ci95": [
+        0.20220321393830837,
+        0.2794980685417445
+      ],
+      "bliss_expected": 0.11966701352757543,
+      "bliss_class": "SUPER-ADDITIVE",
+      "informative": true
+    }
+  ]
+}

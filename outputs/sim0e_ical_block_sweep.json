@@ -1,0 +1,155 @@
+{
+  "curve": [
+    {
+      "block": 0.0,
+      "status": "ok",
+      "CL_ms": 813.4181818181817,
+      "bpm": 73.76279672761412,
+      "OS_mV": 26.408652888794652,
+      "MDP_mV": -58.88529750130194,
+      "APA_mV": 85.2939503900966
+    },
+    {
+      "block": 0.05,
+      "status": "ok",
+      "CL_ms": 852.57,
+      "bpm": 70.37545304197896,
+      "OS_mV": 25.523821530771553,
+      "MDP_mV": -58.881075057888985,
+      "APA_mV": 84.40489658866053
+    },
+    {
+      "block": 0.1,
+      "status": "ok",
+      "CL_ms": 899.1,
+      "bpm": 66.7334000667334,
+      "OS_mV": 24.532244135552347,
+      "MDP_mV": -58.86092855913213,
+      "APA_mV": 83.39317269468447
+    },
+    {
+      "block": 0.15,
+      "status": "ok",
+      "CL_ms": 956.1666666666669,
+      "bpm": 62.75056649816976,
+      "OS_mV": 23.41281739370459,
+      "MDP_mV": -58.82007717956877,
+      "APA_mV": 82.23289457327336
+    },
+    {
+      "block": 0.2,
+      "status": "ok",
+      "CL_ms": 1029.5,
+      "bpm": 58.28071879553181,
+      "OS_mV": 22.13565470505969,
+      "MDP_mV": -58.7523468738732,
+      "APA_mV": 80.88800157893289
+    },
+    {
+      "block": 0.25,
+      "status": "ok",
+      "CL_ms": 1130.75,
+      "bpm": 53.062126906920184,
+      "OS_mV": 20.651417153355737,
+      "MDP_mV": -58.64908012707282,
+      "APA_mV": 79.30049728042856
+    },
+    {
+      "block": 0.3,
+      "status": "ok",
+      "CL_ms": 1289.8500000000001,
+      "bpm": 46.51703686475171,
+      "OS_mV": 18.856223514471836,
+      "MDP_mV": -58.495162073286,
+      "APA_mV": 77.35138558775783
+    },
+    {
+      "block": 0.35,
+      "status": "ok",
+      "CL_ms": 1635.14,
+      "bpm": 36.69410570348716,
+      "OS_mV": 16.383362683758172,
+      "MDP_mV": -58.2403658448675,
+      "APA_mV": 74.62372852862566
+    },
+    {
+      "block": 0.4,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.45,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.5,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.53,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.55,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.6,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.65,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.7,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.75,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.8,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.83,
+      "status": "no_pacing"
+    },
+    {
+      "block": 0.9,
+      "status": "no_pacing"
+    }
+  ],
+  "baseline_bpm": 73.76279672761412,
+  "lowest_block_abolishing_firing": 0.4,
+  "crumb_2016": {
+    "source": "Crumb WJ et al. 2016, J Pharmacol Toxicol Methods 81:251-262, doi:10.1016/j.vascn.2016.03.009",
+    "charge_carrier": "4 mM BaCl2 replacing 1.8 mM CaCl2",
+    "temperature_C": 36,
+    "diltiazem": {
+      "ic50_nM": 112,
+      "free_cmax_nM": 128
+    },
+    "verapamil": {
+      "ic50_nM": 202,
+      "free_cmax_nM": 45
+    }
+  },
+  "diltiazem": {
+    "ic50_Ba_nM": 112.0,
+    "free_cmax_nM": 128.0,
+    "block_with_Ba_ic50": 0.5333333333333333,
+    "implied_ic50_Ca_nM": 26.666666666666664,
+    "block_with_Ca_ic50": 0.8275862068965518,
+    "delta_block_pp": 29.42528735632185
+  },
+  "verapamil": {
+    "ic50_Ba_nM": 202.0,
+    "free_cmax_nM": 45.0,
+    "block_with_Ba_ic50": 0.18218623481781376,
+    "implied_ic50_Ca_nM": 48.095238095238095,
+    "block_with_Ca_ic50": 0.4833759590792839,
+    "delta_block_pp": 30.11897242614701
+  }
+}

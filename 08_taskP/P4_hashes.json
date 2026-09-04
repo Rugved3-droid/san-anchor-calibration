@@ -1,0 +1,20 @@
+{
+  "P4_SEED": 788156539,
+  "config_sha256": "37c1dac662daf22d94ff0bdd6973fb56cf7599ad93d15cd2832affe19cc031d4",
+  "cellml_sha256": "9062dd65533092914e04e425e09a81209aae9b44b37adae223f5f8e68b2aa1ec",
+  "seed_commitment_sha256": "bfd8ed625f966c5001ba89c955bcb9b3a18401a4f7b240174dfa24a05739d69b",
+  "N_MODELS": 5000,
+  "scale_range": [
+    0.0,
+    2.0
+  ],
+  "bcl_band_ms": [
+    600.0,
+    1000.0
+  ],
+  "duration_s": 1000.0,
+  "window_s": 10.0,
+  "tol_abs": 1e-08,
+  "tol_rel": 1e-08,
+  "p4_lhs_sha256": "7126bde6aaa4772505454c6c16550d597d8206a763d399210594f67bfe50bb78"
+}

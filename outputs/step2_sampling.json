@@ -1,0 +1,198 @@
+{
+  "step": "2 - LHS sampling",
+  "generated_utc": "2026-08-16T18:28:44.251608+00:00",
+  "reference": "Zhou et al. 2019, Front Physiol 10:259, doi:10.3389/fphys.2019.00259",
+  "n_models": 5000,
+  "n_parameters": 12,
+  "scale_min": 0.0,
+  "scale_max": 2.0,
+  "applied_as": "parameter_value = baseline_value * scale_factor",
+  "seed": 20260816,
+  "parameters": [
+    {
+      "zhou_symbol": "G_f",
+      "variable": "i_f.g_f",
+      "baseline": 0.00427
+    },
+    {
+      "zhou_symbol": "G_CaL",
+      "variable": "i_CaL.P_CaL",
+      "baseline": 0.4578
+    },
+    {
+      "zhou_symbol": "G_CaT",
+      "variable": "i_CaT.P_CaT",
+      "baseline": 0.04132
+    },
+    {
+      "zhou_symbol": "G_Kr",
+      "variable": "i_Kr.g_Kr",
+      "baseline": 0.00424
+    },
+    {
+      "zhou_symbol": "G_Ks",
+      "variable": "i_Ks.g_Ks_",
+      "baseline": 0.00065
+    },
+    {
+      "zhou_symbol": "G_to",
+      "variable": "i_to.g_to",
+      "baseline": 0.0035
+    },
+    {
+      "zhou_symbol": "G_Na",
+      "variable": "i_Na.g_Na",
+      "baseline": 0.0223
+    },
+    {
+      "zhou_symbol": "G_NaK",
+      "variable": "i_NaK.i_NaK_max",
+      "baseline": 0.08105
+    },
+    {
+      "zhou_symbol": "G_NaCa",
+      "variable": "i_NaCa.K_NaCa",
+      "baseline": 3.343
+    },
+    {
+      "zhou_symbol": "G_Kur",
+      "variable": "i_Kur.g_Kur",
+      "baseline": 0.0001539
+    },
+    {
+      "zhou_symbol": "P_Jrel",
+      "variable": "Ca_SR_release.ks",
+      "baseline": 148041085.1
+    },
+    {
+      "zhou_symbol": "P_Jup",
+      "variable": "Ca_intracellular_fluxes.P_up_basal",
+      "baseline": 5.0
+    }
+  ],
+  "mapping_verification": [
+    {
+      "zhou_symbol": "G_f",
+      "variable": "i_f.g_f",
+      "config_baseline": 0.00427,
+      "model_value": 0.00427,
+      "baseline_matches": true,
+      "cl_at_1p5x": 737.3833333333336,
+      "abs_cl_shift_ms": 76.03666666666652,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "G_CaL",
+      "variable": "i_CaL.P_CaL",
+      "config_baseline": 0.4578,
+      "model_value": 0.4578,
+      "baseline_matches": true,
+      "cl_at_1p5x": 551.2875000000001,
+      "abs_cl_shift_ms": 262.13249999999994,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "G_CaT",
+      "variable": "i_CaT.P_CaT",
+      "config_baseline": 0.04132,
+      "model_value": 0.04132,
+      "baseline_matches": true,
+      "cl_at_1p5x": 464.4700000000001,
+      "abs_cl_shift_ms": 348.95,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "G_Kr",
+      "variable": "i_Kr.g_Kr",
+      "config_baseline": 0.00424,
+      "model_value": 0.00424,
+      "baseline_matches": true,
+      "cl_at_1p5x": 598.2125,
+      "abs_cl_shift_ms": 215.2075000000001,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "G_Ks",
+      "variable": "i_Ks.g_Ks_",
+      "config_baseline": 0.00065,
+      "model_value": 0.00065,
+      "baseline_matches": true,
+      "cl_at_1p5x": 599.0857142857143,
+      "abs_cl_shift_ms": 214.33428571428578,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "G_to",
+      "variable": "i_to.g_to",
+      "config_baseline": 0.0035,
+      "model_value": 0.0035,
+      "baseline_matches": true,
+      "cl_at_1p5x": 631.6428571428572,
+      "abs_cl_shift_ms": 181.77714285714285,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "G_Na",
+      "variable": "i_Na.g_Na",
+      "config_baseline": 0.0223,
+      "model_value": 0.0223,
+      "baseline_matches": true,
+      "cl_at_1p5x": 606.4857142857143,
+      "abs_cl_shift_ms": 206.9342857142858,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "G_NaK",
+      "variable": "i_NaK.i_NaK_max",
+      "config_baseline": 0.08105,
+      "model_value": 0.08105,
+      "baseline_matches": true,
+      "cl_at_1p5x": 747.8333333333334,
+      "abs_cl_shift_ms": 65.5866666666667,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "G_NaCa",
+      "variable": "i_NaCa.K_NaCa",
+      "config_baseline": 3.343,
+      "model_value": 3.343,
+      "baseline_matches": true,
+      "cl_at_1p5x": 749.1500000000001,
+      "abs_cl_shift_ms": 64.26999999999998,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "G_Kur",
+      "variable": "i_Kur.g_Kur",
+      "config_baseline": 0.0001539,
+      "model_value": 0.0001539,
+      "baseline_matches": true,
+      "cl_at_1p5x": 736.0,
+      "abs_cl_shift_ms": 77.42000000000007,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "P_Jrel",
+      "variable": "Ca_SR_release.ks",
+      "config_baseline": 148041085.1,
+      "model_value": 148041085.1,
+      "baseline_matches": true,
+      "cl_at_1p5x": 734.9833333333332,
+      "abs_cl_shift_ms": 78.43666666666684,
+      "responds": true
+    },
+    {
+      "zhou_symbol": "P_Jup",
+      "variable": "Ca_intracellular_fluxes.P_up_basal",
+      "config_baseline": 5.0,
+      "model_value": 5.0,
+      "baseline_matches": true,
+      "cl_at_1p5x": 735.8666666666668,
+      "abs_cl_shift_ms": 77.55333333333328,
+      "responds": true
+    }
+  ],
+  "reference_CL_ms_50s_prepace": 813.4200000000001,
+  "sample_file": "outputs\\step2_lhs_sample.npz",
+  "sample_sha256": "681f8fc6b8963467ace9f047a37e5a599ec1b92fc8c87c9ccfac5f8b214b9d35"
+}

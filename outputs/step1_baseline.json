@@ -1,0 +1,59 @@
+{
+  "step": "1 - baseline validation",
+  "generated_utc": "2026-08-16T18:23:11.796679+00:00",
+  "model_source": "HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml (PMR e/568)",
+  "reference": "Fabbri et al. 2017, J Physiol 595:2365-2396, Table 5, 'Present model' column",
+  "settings": {
+    "prepace_s": 500.0,
+    "log_s": 10.0,
+    "log_dt_s": 0.0001,
+    "tol_abs": 1e-08,
+    "tol_rel": 1e-08,
+    "clamp_mode": 0,
+    "ACh_mM": 0,
+    "Iso": 0
+  },
+  "comparison": {
+    "CL_ms": {
+      "published": 814.0,
+      "simulated": 813.4181818181817,
+      "diff": -0.5818181818183348,
+      "pct": -0.07147643511281754
+    },
+    "MDP_mV": {
+      "published": -58.9,
+      "simulated": -58.88529750130194,
+      "diff": 0.014702498698056843,
+      "pct": 0.02496179745001162
+    },
+    "OS_mV": {
+      "published": 26.4,
+      "simulated": 26.408652888794652,
+      "diff": 0.008652888794653535,
+      "pct": 0.03277609391914218
+    },
+    "APA_mV": {
+      "published": 85.3,
+      "simulated": 85.2939503900966,
+      "diff": -0.006049609903399755,
+      "pct": -0.007092156979366653
+    },
+    "DDR100_mV_s": {
+      "published": 48.1,
+      "simulated": 48.01604708844236,
+      "diff": -0.08395291155763829,
+      "pct": -0.17453827766660768
+    },
+    "dVdtmax_V_s": {
+      "published": 7.4,
+      "simulated": 7.473367872456451,
+      "diff": 0.07336787245645038,
+      "pct": 0.991457735897978
+    }
+  },
+  "n_beats": 11,
+  "CL_sd_ms": 0.03856946079212407,
+  "steady_state": true,
+  "tolerance_check_CL_diff_ms": 0.05818181818165158,
+  "verdict": "PASS"
+}

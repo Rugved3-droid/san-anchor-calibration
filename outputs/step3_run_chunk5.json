@@ -1,0 +1,1438 @@
+{
+  "tag": "chunk5",
+  "generated_utc": "2026-08-16T19:18:54.629976+00:00",
+  "host": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "cpu_count": 8
+  },
+  "n_models": 140,
+  "start_index": 660,
+  "workers": 8,
+  "wall_clock_s": 400.094265460968,
+  "per_model_s": {
+    "mean": 20.923952988215856,
+    "median": 12.334867119789124,
+    "min": 0.3420069217681885,
+    "max": 82.55554103851318
+  },
+  "throughput_models_per_s": 0.3499175371551482,
+  "counts": {
+    "ok": 70,
+    "no_pacing": 70,
+    "solver_failure": 0,
+    "retained": 23
+  },
+  "retention_fraction": 0.16428571428571428,
+  "projected_5000_seconds": 14289.080909320288,
+  "criteria": {
+    "bcl_min_ms": 600.0,
+    "bcl_max_ms": 1000.0,
+    "overshoot_must_be_positive": true,
+    "reference_retained": 1046,
+    "reference_total": 5000,
+    "note": "The retention count is the validation. It must be reported as it comes out. Sampling and criteria must NOT be tuned to reach 1046; a mismatch is a finding about the implementation, not a parameter to adjust."
+  },
+  "results": [
+    {
+      "index": 660,
+      "status": "ok",
+      "CL_ms": 898.7600000000002,
+      "OS_mV": 32.386973839841325,
+      "MDP_mV": -64.68748672209958,
+      "APA_mV": 97.0744605619409,
+      "n_beats": 10,
+      "seconds": 30.486167430877686
+    },
+    {
+      "index": 661,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.46813488006591797
+    },
+    {
+      "index": 662,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 8.046740055084229
+    },
+    {
+      "index": 663,
+      "status": "ok",
+      "CL_ms": 661.7857142857143,
+      "OS_mV": 35.692498553045326,
+      "MDP_mV": -57.86016739583318,
+      "APA_mV": 93.55266594887851,
+      "n_beats": 14,
+      "seconds": 44.1160306930542
+    },
+    {
+      "index": 664,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5188736915588379
+    },
+    {
+      "index": 665,
+      "status": "ok",
+      "CL_ms": 559.3294117647059,
+      "OS_mV": 24.192233273571297,
+      "MDP_mV": -51.23581840661726,
+      "APA_mV": 75.42805168018856,
+      "n_beats": 17,
+      "seconds": 49.49369215965271
+    },
+    {
+      "index": 666,
+      "status": "ok",
+      "CL_ms": 1406.7166666666665,
+      "OS_mV": 26.363782498774253,
+      "MDP_mV": -56.17106296421358,
+      "APA_mV": 82.53484546298783,
+      "n_beats": 6,
+      "seconds": 17.86503267288208
+    },
+    {
+      "index": 667,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5138640403747559
+    },
+    {
+      "index": 668,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5023517608642578
+    },
+    {
+      "index": 669,
+      "status": "ok",
+      "CL_ms": 476.6,
+      "OS_mV": 27.80686759546262,
+      "MDP_mV": -44.478424909098905,
+      "APA_mV": 72.28529250456153,
+      "n_beats": 20,
+      "seconds": 47.425734996795654
+    },
+    {
+      "index": 670,
+      "status": "ok",
+      "CL_ms": 1254.1285714285714,
+      "OS_mV": 13.326212365080085,
+      "MDP_mV": -62.53952502533422,
+      "APA_mV": 75.86573739041431,
+      "n_beats": 7,
+      "seconds": 24.01933264732361
+    },
+    {
+      "index": 671,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.49579620361328125
+    },
+    {
+      "index": 672,
+      "status": "ok",
+      "CL_ms": 869.8909090909092,
+      "OS_mV": 31.424922199266977,
+      "MDP_mV": -64.84470079154465,
+      "APA_mV": 96.26962299081163,
+      "n_beats": 11,
+      "seconds": 42.80686688423157
+    },
+    {
+      "index": 673,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3871438503265381
+    },
+    {
+      "index": 674,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3816561698913574
+    },
+    {
+      "index": 675,
+      "status": "ok",
+      "CL_ms": 496.145,
+      "OS_mV": 32.6740245324743,
+      "MDP_mV": -49.81203752634305,
+      "APA_mV": 82.48606205881734,
+      "n_beats": 20,
+      "seconds": 46.6798198223114
+    },
+    {
+      "index": 676,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 1.0907948017120361
+    },
+    {
+      "index": 677,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3901219367980957
+    },
+    {
+      "index": 678,
+      "status": "ok",
+      "CL_ms": 424.0217391304348,
+      "OS_mV": 37.45602730755581,
+      "MDP_mV": -51.00102997397883,
+      "APA_mV": 88.45705728153465,
+      "n_beats": 23,
+      "seconds": 63.85905337333679
+    },
+    {
+      "index": 679,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.518345832824707
+    },
+    {
+      "index": 680,
+      "status": "ok",
+      "CL_ms": 442.53181818181815,
+      "OS_mV": 14.856660263225367,
+      "MDP_mV": -39.34554348928205,
+      "APA_mV": 54.202203752507415,
+      "n_beats": 22,
+      "seconds": 48.61946082115173
+    },
+    {
+      "index": 681,
+      "status": "ok",
+      "CL_ms": 526.0055555555556,
+      "OS_mV": 31.682854144829687,
+      "MDP_mV": -51.23399993647524,
+      "APA_mV": 82.91685408130493,
+      "n_beats": 18,
+      "seconds": 49.727280378341675
+    },
+    {
+      "index": 682,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5474948883056641
+    },
+    {
+      "index": 683,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.6567854881286621
+    },
+    {
+      "index": 684,
+      "status": "ok",
+      "CL_ms": 718.3583333333335,
+      "OS_mV": 21.8754504963588,
+      "MDP_mV": -61.77844319762958,
+      "APA_mV": 83.65389369398838,
+      "n_beats": 12,
+      "seconds": 35.83264994621277
+    },
+    {
+      "index": 685,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.47028350830078125
+    },
+    {
+      "index": 686,
+      "status": "ok",
+      "CL_ms": 452.3190476190476,
+      "OS_mV": 23.098100982076133,
+      "MDP_mV": -44.93278533643266,
+      "APA_mV": 68.03088631850879,
+      "n_beats": 21,
+      "seconds": 54.24715971946716
+    },
+    {
+      "index": 687,
+      "status": "ok",
+      "CL_ms": 478.09000000000003,
+      "OS_mV": 28.187767489279445,
+      "MDP_mV": -50.42085291506939,
+      "APA_mV": 78.60862040434884,
+      "n_beats": 20,
+      "seconds": 43.567126989364624
+    },
+    {
+      "index": 688,
+      "status": "ok",
+      "CL_ms": 1161.8625000000002,
+      "OS_mV": 24.06029081807469,
+      "MDP_mV": -66.08770433051133,
+      "APA_mV": 90.14799514858602,
+      "n_beats": 8,
+      "seconds": 25.091599464416504
+    },
+    {
+      "index": 689,
+      "status": "ok",
+      "CL_ms": 591.5375,
+      "OS_mV": 9.333376666121762,
+      "MDP_mV": -62.6242969776858,
+      "APA_mV": 71.95767364380757,
+      "n_beats": 16,
+      "seconds": 34.81465935707092
+    },
+    {
+      "index": 690,
+      "status": "ok",
+      "CL_ms": 515.8499999999999,
+      "OS_mV": 42.61929970775501,
+      "MDP_mV": -50.13063137383848,
+      "APA_mV": 92.7499310815935,
+      "n_beats": 18,
+      "seconds": 62.38549256324768
+    },
+    {
+      "index": 691,
+      "status": "ok",
+      "CL_ms": 677.9214285714287,
+      "OS_mV": 17.286173886056964,
+      "MDP_mV": -60.7586789497558,
+      "APA_mV": 78.04485283581276,
+      "n_beats": 14,
+      "seconds": 31.447070837020874
+    },
+    {
+      "index": 692,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3926222324371338
+    },
+    {
+      "index": 693,
+      "status": "ok",
+      "CL_ms": 426.21739130434776,
+      "OS_mV": 34.83215191616373,
+      "MDP_mV": -45.40169604354398,
+      "APA_mV": 80.2338479597077,
+      "n_beats": 23,
+      "seconds": 50.136913537979126
+    },
+    {
+      "index": 694,
+      "status": "ok",
+      "CL_ms": 1281.0428571428572,
+      "OS_mV": 31.645707919343135,
+      "MDP_mV": -69.4779742265673,
+      "APA_mV": 101.12368214591044,
+      "n_beats": 7,
+      "seconds": 23.296884298324585
+    },
+    {
+      "index": 695,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5109450817108154
+    },
+    {
+      "index": 696,
+      "status": "ok",
+      "CL_ms": 406.3086956521739,
+      "OS_mV": 36.862465091482086,
+      "MDP_mV": -61.977585914055354,
+      "APA_mV": 98.84005100553745,
+      "n_beats": 23,
+      "seconds": 82.55554103851318
+    },
+    {
+      "index": 697,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5518419742584229
+    },
+    {
+      "index": 698,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.47713398933410645
+    },
+    {
+      "index": 699,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.49771547317504883
+    },
+    {
+      "index": 700,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.49324798583984375
+    },
+    {
+      "index": 701,
+      "status": "ok",
+      "CL_ms": 2501.2333333333336,
+      "OS_mV": 25.050324893907284,
+      "MDP_mV": -66.65638638019807,
+      "APA_mV": 91.70671127410536,
+      "n_beats": 3,
+      "seconds": 15.420501470565796
+    },
+    {
+      "index": 702,
+      "status": "ok",
+      "CL_ms": 938.9444444444442,
+      "OS_mV": 31.5739154582163,
+      "MDP_mV": -66.77432233229018,
+      "APA_mV": 98.34823779050649,
+      "n_beats": 9,
+      "seconds": 30.399908542633057
+    },
+    {
+      "index": 703,
+      "status": "ok",
+      "CL_ms": 799.0500000000001,
+      "OS_mV": -1.3318034446087472,
+      "MDP_mV": -50.496780222294916,
+      "APA_mV": 49.16497677768617,
+      "n_beats": 12,
+      "seconds": 21.18762445449829
+    },
+    {
+      "index": 704,
+      "status": "ok",
+      "CL_ms": 957.0666666666667,
+      "OS_mV": 30.450745622369872,
+      "MDP_mV": -61.84091385240226,
+      "APA_mV": 92.29165947477213,
+      "n_beats": 9,
+      "seconds": 27.450746059417725
+    },
+    {
+      "index": 705,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.39409327507019043
+    },
+    {
+      "index": 706,
+      "status": "ok",
+      "CL_ms": 498.31578947368433,
+      "OS_mV": 36.62436382548418,
+      "MDP_mV": -51.20777178365264,
+      "APA_mV": 87.83213560913683,
+      "n_beats": 19,
+      "seconds": 47.852792739868164
+    },
+    {
+      "index": 707,
+      "status": "ok",
+      "CL_ms": 552.594117647059,
+      "OS_mV": 33.757516579905335,
+      "MDP_mV": -61.34228089278753,
+      "APA_mV": 95.09979747269287,
+      "n_beats": 17,
+      "seconds": 58.47338080406189
+    },
+    {
+      "index": 708,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5062661170959473
+    },
+    {
+      "index": 709,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.489241361618042
+    },
+    {
+      "index": 710,
+      "status": "ok",
+      "CL_ms": 1066.822222222222,
+      "OS_mV": 26.695956906929965,
+      "MDP_mV": -65.15511446811135,
+      "APA_mV": 91.85107137504131,
+      "n_beats": 9,
+      "seconds": 32.9590802192688
+    },
+    {
+      "index": 711,
+      "status": "ok",
+      "CL_ms": 412.6541666666667,
+      "OS_mV": 22.091739233586114,
+      "MDP_mV": -40.15490259669941,
+      "APA_mV": 62.246641830285526,
+      "n_beats": 24,
+      "seconds": 43.601147174835205
+    },
+    {
+      "index": 712,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3420069217681885
+    },
+    {
+      "index": 713,
+      "status": "ok",
+      "CL_ms": 489.85,
+      "OS_mV": 20.834745808938045,
+      "MDP_mV": -48.6073628576027,
+      "APA_mV": 69.44210866654075,
+      "n_beats": 20,
+      "seconds": 43.95315599441528
+    },
+    {
+      "index": 714,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.377047061920166
+    },
+    {
+      "index": 715,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.40358614921569824
+    },
+    {
+      "index": 716,
+      "status": "ok",
+      "CL_ms": 624.7,
+      "OS_mV": 31.41561868782513,
+      "MDP_mV": -59.6931624678095,
+      "APA_mV": 91.10878115563463,
+      "n_beats": 15,
+      "seconds": 47.285688638687134
+    },
+    {
+      "index": 717,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5047469139099121
+    },
+    {
+      "index": 718,
+      "status": "ok",
+      "CL_ms": 744.0500000000002,
+      "OS_mV": 19.25131691646377,
+      "MDP_mV": -47.732488598577355,
+      "APA_mV": 66.98380551504113,
+      "n_beats": 12,
+      "seconds": 35.57238793373108
+    },
+    {
+      "index": 719,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.34458303451538086
+    },
+    {
+      "index": 720,
+      "status": "ok",
+      "CL_ms": 421.8130434782608,
+      "OS_mV": 29.85064523722221,
+      "MDP_mV": -47.549247179273884,
+      "APA_mV": 77.3998924164961,
+      "n_beats": 23,
+      "seconds": 50.887879610061646
+    },
+    {
+      "index": 721,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5139555931091309
+    },
+    {
+      "index": 722,
+      "status": "ok",
+      "CL_ms": 500.33684210526314,
+      "OS_mV": 6.600132938271523,
+      "MDP_mV": -48.29554917144118,
+      "APA_mV": 54.8956821097127,
+      "n_beats": 19,
+      "seconds": 32.08682441711426
+    },
+    {
+      "index": 723,
+      "status": "ok",
+      "CL_ms": 462.1904761904761,
+      "OS_mV": 26.86053144813776,
+      "MDP_mV": -56.80201238670219,
+      "APA_mV": 83.66254383483995,
+      "n_beats": 21,
+      "seconds": 59.404685258865356
+    },
+    {
+      "index": 724,
+      "status": "ok",
+      "CL_ms": 629.7866666666667,
+      "OS_mV": 35.686612680599396,
+      "MDP_mV": -66.79854496068475,
+      "APA_mV": 102.48515764128415,
+      "n_beats": 15,
+      "seconds": 42.6501145362854
+    },
+    {
+      "index": 725,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5293745994567871
+    },
+    {
+      "index": 726,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5649080276489258
+    },
+    {
+      "index": 727,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5253758430480957
+    },
+    {
+      "index": 728,
+      "status": "ok",
+      "CL_ms": 500.7842105263157,
+      "OS_mV": 16.979613764388958,
+      "MDP_mV": -45.308836357914984,
+      "APA_mV": 62.28845012230394,
+      "n_beats": 19,
+      "seconds": 44.195773124694824
+    },
+    {
+      "index": 729,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.44075775146484375
+    },
+    {
+      "index": 730,
+      "status": "ok",
+      "CL_ms": 607.19375,
+      "OS_mV": 18.047430253403437,
+      "MDP_mV": -39.76030779116829,
+      "APA_mV": 57.80773804457172,
+      "n_beats": 16,
+      "seconds": 37.39557147026062
+    },
+    {
+      "index": 731,
+      "status": "ok",
+      "CL_ms": 430.19545454545454,
+      "OS_mV": 26.101859931127454,
+      "MDP_mV": -40.507125153205216,
+      "APA_mV": 66.60898508433267,
+      "n_beats": 22,
+      "seconds": 55.35485482215881
+    },
+    {
+      "index": 732,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 9.249232769012451
+    },
+    {
+      "index": 733,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.40211963653564453
+    },
+    {
+      "index": 734,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.4537224769592285
+    },
+    {
+      "index": 735,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.41730475425720215
+    },
+    {
+      "index": 736,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 1.2795109748840332
+    },
+    {
+      "index": 737,
+      "status": "ok",
+      "CL_ms": 438.07272727272726,
+      "OS_mV": 37.533509228752585,
+      "MDP_mV": -53.01651395223037,
+      "APA_mV": 90.55002318098295,
+      "n_beats": 22,
+      "seconds": 72.85901141166687
+    },
+    {
+      "index": 738,
+      "status": "ok",
+      "CL_ms": 1187.0875,
+      "OS_mV": 29.079395767589162,
+      "MDP_mV": -48.53684586867735,
+      "APA_mV": 77.61624163626651,
+      "n_beats": 8,
+      "seconds": 20.31442427635193
+    },
+    {
+      "index": 739,
+      "status": "ok",
+      "CL_ms": 699.7285714285715,
+      "OS_mV": 21.138802737052277,
+      "MDP_mV": -42.299145482225285,
+      "APA_mV": 63.43794821927756,
+      "n_beats": 14,
+      "seconds": 26.270785808563232
+    },
+    {
+      "index": 740,
+      "status": "ok",
+      "CL_ms": 572.5470588235296,
+      "OS_mV": 32.02274305897818,
+      "MDP_mV": -52.53638437568533,
+      "APA_mV": 84.55912743466351,
+      "n_beats": 17,
+      "seconds": 39.87487030029297
+    },
+    {
+      "index": 741,
+      "status": "ok",
+      "CL_ms": 683.323076923077,
+      "OS_mV": 17.30596017348735,
+      "MDP_mV": -61.04828063821786,
+      "APA_mV": 78.35424081170521,
+      "n_beats": 13,
+      "seconds": 32.60711622238159
+    },
+    {
+      "index": 742,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5258188247680664
+    },
+    {
+      "index": 743,
+      "status": "ok",
+      "CL_ms": 482.965,
+      "OS_mV": 30.19827931655785,
+      "MDP_mV": -58.50871780735696,
+      "APA_mV": 88.70699712391482,
+      "n_beats": 20,
+      "seconds": 62.698994636535645
+    },
+    {
+      "index": 744,
+      "status": "ok",
+      "CL_ms": 474.9,
+      "OS_mV": 21.349578099841704,
+      "MDP_mV": -40.33831767981969,
+      "APA_mV": 61.68789577966139,
+      "n_beats": 20,
+      "seconds": 47.37426400184631
+    },
+    {
+      "index": 745,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5157976150512695
+    },
+    {
+      "index": 746,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.47121691703796387
+    },
+    {
+      "index": 747,
+      "status": "ok",
+      "CL_ms": 1835.9499999999998,
+      "OS_mV": 28.274327070625816,
+      "MDP_mV": -61.98431471249687,
+      "APA_mV": 90.25864178312268,
+      "n_beats": 4,
+      "seconds": 20.61732292175293
+    },
+    {
+      "index": 748,
+      "status": "ok",
+      "CL_ms": 457.1714285714287,
+      "OS_mV": 34.353723115316164,
+      "MDP_mV": -64.44111653005663,
+      "APA_mV": 98.7948396453728,
+      "n_beats": 21,
+      "seconds": 72.87150311470032
+    },
+    {
+      "index": 749,
+      "status": "ok",
+      "CL_ms": 667.1142857142858,
+      "OS_mV": 28.46449142966963,
+      "MDP_mV": -59.369737868984735,
+      "APA_mV": 87.83422929865436,
+      "n_beats": 14,
+      "seconds": 35.76728296279907
+    },
+    {
+      "index": 750,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.39916110038757324
+    },
+    {
+      "index": 751,
+      "status": "ok",
+      "CL_ms": 522.3666666666667,
+      "OS_mV": 28.35004705775968,
+      "MDP_mV": -54.535629150549056,
+      "APA_mV": 82.88567620830874,
+      "n_beats": 18,
+      "seconds": 41.710708141326904
+    },
+    {
+      "index": 752,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5057754516601562
+    },
+    {
+      "index": 753,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.46831345558166504
+    },
+    {
+      "index": 754,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.49579477310180664
+    },
+    {
+      "index": 755,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.4827616214752197
+    },
+    {
+      "index": 756,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3976106643676758
+    },
+    {
+      "index": 757,
+      "status": "ok",
+      "CL_ms": 374.573076923077,
+      "OS_mV": 21.823676492982127,
+      "MDP_mV": -52.70779971451975,
+      "APA_mV": 74.53147620750188,
+      "n_beats": 26,
+      "seconds": 65.98658871650696
+    },
+    {
+      "index": 758,
+      "status": "ok",
+      "CL_ms": 529.4666666666667,
+      "OS_mV": 25.74817536231278,
+      "MDP_mV": -65.4184083304736,
+      "APA_mV": 91.16658369278638,
+      "n_beats": 18,
+      "seconds": 45.88272285461426
+    },
+    {
+      "index": 759,
+      "status": "ok",
+      "CL_ms": 1153.6142857142859,
+      "OS_mV": 30.395154336920715,
+      "MDP_mV": -66.46014485362484,
+      "APA_mV": 96.85529919054555,
+      "n_beats": 7,
+      "seconds": 32.211217641830444
+    },
+    {
+      "index": 760,
+      "status": "ok",
+      "CL_ms": 555.9705882352941,
+      "OS_mV": 5.199813966797067,
+      "MDP_mV": -39.385271150004655,
+      "APA_mV": 44.58508511680172,
+      "n_beats": 17,
+      "seconds": 35.556041955947876
+    },
+    {
+      "index": 761,
+      "status": "ok",
+      "CL_ms": 676.0928571428574,
+      "OS_mV": 36.111587624396,
+      "MDP_mV": -68.83970969592144,
+      "APA_mV": 104.95129732031745,
+      "n_beats": 14,
+      "seconds": 43.50273871421814
+    },
+    {
+      "index": 762,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.4927835464477539
+    },
+    {
+      "index": 763,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.4847712516784668
+    },
+    {
+      "index": 764,
+      "status": "ok",
+      "CL_ms": 528.3235294117648,
+      "OS_mV": 6.254178221409184,
+      "MDP_mV": -36.51213447193617,
+      "APA_mV": 42.766312693345355,
+      "n_beats": 17,
+      "seconds": 35.9406578540802
+    },
+    {
+      "index": 765,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3961796760559082
+    },
+    {
+      "index": 766,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3480370044708252
+    },
+    {
+      "index": 767,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3590373992919922
+    },
+    {
+      "index": 768,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.38909029960632324
+    },
+    {
+      "index": 769,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.416811466217041
+    },
+    {
+      "index": 770,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3620727062225342
+    },
+    {
+      "index": 771,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.37408447265625
+    },
+    {
+      "index": 772,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3861527442932129
+    },
+    {
+      "index": 773,
+      "status": "ok",
+      "CL_ms": 614.2533333333333,
+      "OS_mV": 32.65700420930239,
+      "MDP_mV": -60.81214088387777,
+      "APA_mV": 93.46914509318016,
+      "n_beats": 15,
+      "seconds": 40.091808557510376
+    },
+    {
+      "index": 774,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.4747166633605957
+    },
+    {
+      "index": 775,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5333220958709717
+    },
+    {
+      "index": 776,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5224080085754395
+    },
+    {
+      "index": 777,
+      "status": "ok",
+      "CL_ms": 1334.9285714285718,
+      "OS_mV": 38.626405052026655,
+      "MDP_mV": -73.18979264005982,
+      "APA_mV": 111.81619769208648,
+      "n_beats": 7,
+      "seconds": 33.23122215270996
+    },
+    {
+      "index": 778,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.38257884979248047
+    },
+    {
+      "index": 779,
+      "status": "ok",
+      "CL_ms": 471.6,
+      "OS_mV": 33.86417794708329,
+      "MDP_mV": -46.827098470897575,
+      "APA_mV": 80.69127641798087,
+      "n_beats": 20,
+      "seconds": 46.04952883720398
+    },
+    {
+      "index": 780,
+      "status": "ok",
+      "CL_ms": 619.82,
+      "OS_mV": 21.493540446256915,
+      "MDP_mV": -40.43253591266686,
+      "APA_mV": 61.92607635892377,
+      "n_beats": 15,
+      "seconds": 40.343886375427246
+    },
+    {
+      "index": 781,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.5348470211029053
+    },
+    {
+      "index": 782,
+      "status": "ok",
+      "CL_ms": 493.21500000000015,
+      "OS_mV": 32.727698892721556,
+      "MDP_mV": -54.16227024477094,
+      "APA_mV": 86.8899691374925,
+      "n_beats": 20,
+      "seconds": 60.14884328842163
+    },
+    {
+      "index": 783,
+      "status": "ok",
+      "CL_ms": 907.1200000000001,
+      "OS_mV": 29.162475815057725,
+      "MDP_mV": -59.31960412012305,
+      "APA_mV": 88.48207993518078,
+      "n_beats": 10,
+      "seconds": 36.410306453704834
+    },
+    {
+      "index": 784,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.34556031227111816
+    },
+    {
+      "index": 785,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3900892734527588
+    },
+    {
+      "index": 786,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3886897563934326
+    },
+    {
+      "index": 787,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.38462233543395996
+    },
+    {
+      "index": 788,
+      "status": "ok",
+      "CL_ms": 1362.45,
+      "OS_mV": 33.30469386013652,
+      "MDP_mV": -63.53841586406511,
+      "APA_mV": 96.84310972420162,
+      "n_beats": 6,
+      "seconds": 20.70785427093506
+    },
+    {
+      "index": 789,
+      "status": "ok",
+      "CL_ms": 666.8000000000001,
+      "OS_mV": 34.834839943896384,
+      "MDP_mV": -63.221662525809606,
+      "APA_mV": 98.05650246970599,
+      "n_beats": 14,
+      "seconds": 50.499855756759644
+    },
+    {
+      "index": 790,
+      "status": "ok",
+      "CL_ms": 412.3043478260868,
+      "OS_mV": 7.083514094585803,
+      "MDP_mV": -32.67027736560536,
+      "APA_mV": 39.75379146019116,
+      "n_beats": 23,
+      "seconds": 33.0398485660553
+    },
+    {
+      "index": 791,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.38708996772766113
+    },
+    {
+      "index": 792,
+      "status": "ok",
+      "CL_ms": 889.68,
+      "OS_mV": 23.17980112687667,
+      "MDP_mV": -56.71285394496372,
+      "APA_mV": 79.89265507184038,
+      "n_beats": 10,
+      "seconds": 29.504014492034912
+    },
+    {
+      "index": 793,
+      "status": "ok",
+      "CL_ms": 789.3000000000001,
+      "OS_mV": 17.786015680385216,
+      "MDP_mV": -62.79152450822236,
+      "APA_mV": 80.57754018860757,
+      "n_beats": 12,
+      "seconds": 29.02139401435852
+    },
+    {
+      "index": 794,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.4689033031463623
+    },
+    {
+      "index": 795,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.48079347610473633
+    },
+    {
+      "index": 796,
+      "status": "ok",
+      "CL_ms": 975.0777777777779,
+      "OS_mV": 23.515433375155585,
+      "MDP_mV": -67.25974534638773,
+      "APA_mV": 90.77517872154331,
+      "n_beats": 9,
+      "seconds": 27.54165005683899
+    },
+    {
+      "index": 797,
+      "status": "no_pacing",
+      "CL_ms": null,
+      "OS_mV": null,
+      "MDP_mV": null,
+      "APA_mV": null,
+      "n_beats": 0,
+      "seconds": 0.3935565948486328
+    },
+    {
+      "index": 798,
+      "status": "ok",
+      "CL_ms": 555.4588235294119,
+      "OS_mV": 37.50041023394003,
+      "MDP_mV": -51.28046879611706,
+      "APA_mV": 88.7808790300571,
+      "n_beats": 17,
+      "seconds": 37.608280181884766
+    },
+    {
+      "index": 799,
+      "status": "ok",
+      "CL_ms": 913.3399999999999,
+      "OS_mV": 28.38462523220192,
+      "MDP_mV": -69.0309479589891,
+      "APA_mV": 97.41557319119102,
+      "n_beats": 10,
+      "seconds": 28.894811153411865
+    }
+  ]
+}

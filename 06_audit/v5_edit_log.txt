@@ -1,0 +1,16 @@
+[APPLIED] C1 Methods 2.2 - Methods stated 5000 sampled while Results reported 940 simulated, with no statement that only a prefix of the pool was run. Verified: pool = 5000x12, simulated = contiguous indices 0-939.
+
+[APPLIED] C2 Methods 2.2 - the quoted SHA256 does not match the file on disk. The digest is taken over the .npz, and savez_compressed embeds timestamps, so it is not content-stable. The arrays were verified to regenerate bit-identically from the recorded seed, which is the reproducibility guarantee that actually holds.
+
+[APPLIED] C3 Results 3.1 - 940 models were simulated, not sampled; 5000 were sampled. Wording aligned with the corrected Methods.
+
+[APPLIED] C4 Methods 2.6 - v4 asserted 198.7 nM arises 'after Hill-consistent re-solution at the panel's stated conditions'. No such computation exists anywhere in the analysis record; 198.7 appears only as a hardcoded literal, and an earlier project script used 202. The unsupported justification is removed; the numerical difference is stated instead. The value itself is NOT changed, because doing so would invalidate every downstream result without materially altering any conclusion.
+
+[APPLIED] C5 Results 3.7 - the quoted span 0.83-2.34 is the control-state range. Across both autonomic states and all three anchors the full span is 0.83-2.43 (upper bound is the superseded anchor at Cmax in the Iso state).
+
+[APPLIED] C6 Figure 4 legend - the figure has been regenerated at the primary 58.4% anchor (no new simulation required; all conditions already present in the simulation store). The legend now states the anchor.
+
+[APPLIED] C7 Revision note 2 - resolved by audit: no derivation of 198.7 exists; the unsupported sentence has been removed and the discrepancy quantified.
+
+[APPLIED] C8 Revision note 3 - Figure 4 regenerated at the primary anchor.
+

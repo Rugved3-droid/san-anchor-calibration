@@ -1,0 +1,1943 @@
+{
+  "n_entries": 151,
+  "entries": [
+    {
+      "key": "model.cellml_sha256",
+      "value": "9062dd65533092914e04e425e09a81209aae9b44b37adae223f5f8e68b2aa1ec",
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "SHA256 of the Fabbri 2017 CellML actually used"
+    },
+    {
+      "key": "model.source",
+      "value": "HumanSAN_Fabbri_Fantini_Wilders_Severi_2017.cellml (PMR e/568)",
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "CellML provenance string (PMR exposure)"
+    },
+    {
+      "key": "model.reference",
+      "value": "Fabbri et al. 2017, J Physiol 595:2365-2396, Table 5, 'Present model' column",
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "Fabbri Table 5 column used"
+    },
+    {
+      "key": "baseline.setting.prepace_s",
+      "value": 500.0,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "baseline run setting prepace_s"
+    },
+    {
+      "key": "baseline.setting.log_dt_s",
+      "value": 0.0001,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "baseline run setting log_dt_s"
+    },
+    {
+      "key": "baseline.setting.tol_abs",
+      "value": 1e-08,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "baseline run setting tol_abs"
+    },
+    {
+      "key": "baseline.setting.tol_rel",
+      "value": 1e-08,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "baseline run setting tol_rel"
+    },
+    {
+      "key": "baseline.setting.clamp_mode",
+      "value": 0,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "baseline run setting clamp_mode"
+    },
+    {
+      "key": "baseline.setting.ACh_mM",
+      "value": 0,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "baseline run setting ACh_mM"
+    },
+    {
+      "key": "baseline.setting.Iso",
+      "value": 0,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "baseline run setting Iso"
+    },
+    {
+      "key": "baseline.CL_ms.published",
+      "value": 814.0,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "Fabbri Table 5 CL_ms"
+    },
+    {
+      "key": "baseline.CL_ms.simulated",
+      "value": 813.4181818181817,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "reproduced CL_ms"
+    },
+    {
+      "key": "baseline.CL_ms.pct_diff",
+      "value": -0.07147643511281754,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "% difference CL_ms"
+    },
+    {
+      "key": "baseline.MDP_mV.published",
+      "value": -58.9,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "Fabbri Table 5 MDP_mV"
+    },
+    {
+      "key": "baseline.MDP_mV.simulated",
+      "value": -58.88529750130194,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "reproduced MDP_mV"
+    },
+    {
+      "key": "baseline.MDP_mV.pct_diff",
+      "value": 0.02496179745001162,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "% difference MDP_mV"
+    },
+    {
+      "key": "baseline.OS_mV.published",
+      "value": 26.4,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "Fabbri Table 5 OS_mV"
+    },
+    {
+      "key": "baseline.OS_mV.simulated",
+      "value": 26.408652888794652,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "reproduced OS_mV"
+    },
+    {
+      "key": "baseline.OS_mV.pct_diff",
+      "value": 0.03277609391914218,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "% difference OS_mV"
+    },
+    {
+      "key": "baseline.APA_mV.published",
+      "value": 85.3,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "Fabbri Table 5 APA_mV"
+    },
+    {
+      "key": "baseline.APA_mV.simulated",
+      "value": 85.2939503900966,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "reproduced APA_mV"
+    },
+    {
+      "key": "baseline.APA_mV.pct_diff",
+      "value": -0.007092156979366653,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "% difference APA_mV"
+    },
+    {
+      "key": "baseline.DDR100_mV_s.published",
+      "value": 48.1,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "Fabbri Table 5 DDR100_mV_s"
+    },
+    {
+      "key": "baseline.DDR100_mV_s.simulated",
+      "value": 48.01604708844236,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "reproduced DDR100_mV_s"
+    },
+    {
+      "key": "baseline.DDR100_mV_s.pct_diff",
+      "value": -0.17453827766660768,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "% difference DDR100_mV_s"
+    },
+    {
+      "key": "baseline.dVdtmax_V_s.published",
+      "value": 7.4,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "Fabbri Table 5 dVdtmax_V_s"
+    },
+    {
+      "key": "baseline.dVdtmax_V_s.simulated",
+      "value": 7.473367872456451,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "reproduced dVdtmax_V_s"
+    },
+    {
+      "key": "baseline.dVdtmax_V_s.pct_diff",
+      "value": 0.991457735897978,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "% difference dVdtmax_V_s"
+    },
+    {
+      "key": "baseline.worst_abs_pct_diff",
+      "value": 0.991457735897978,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "largest absolute % deviation across all Table 5 features"
+    },
+    {
+      "key": "baseline.n_beats",
+      "value": 11,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "beats used for steady-state check"
+    },
+    {
+      "key": "baseline.CL_sd_ms",
+      "value": 0.03856946079212407,
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "SD of cycle length across consecutive beats"
+    },
+    {
+      "key": "baseline.verdict",
+      "value": "PASS",
+      "source": "step1_baseline.json",
+      "script": "01_baseline/run_baseline.py",
+      "note": "baseline gate outcome"
+    },
+    {
+      "key": "lhs.n_models",
+      "value": 5000,
+      "source": "step2_sampling.json",
+      "script": "02_sampling/generate_lhs.py",
+      "note": "LHS sample size"
+    },
+    {
+      "key": "lhs.n_parameters",
+      "value": 12,
+      "source": "step2_sampling.json",
+      "script": "02_sampling/generate_lhs.py",
+      "note": "number of varied mechanisms"
+    },
+    {
+      "key": "lhs.scale_min",
+      "value": 0.0,
+      "source": "step2_sampling.json",
+      "script": "02_sampling/generate_lhs.py",
+      "note": "multiplicative scaling lower bound"
+    },
+    {
+      "key": "lhs.scale_max",
+      "value": 2.0,
+      "source": "step2_sampling.json",
+      "script": "02_sampling/generate_lhs.py",
+      "note": "multiplicative scaling upper bound"
+    },
+    {
+      "key": "lhs.seed",
+      "value": 20260816,
+      "source": "step2_sampling.json",
+      "script": "02_sampling/generate_lhs.py",
+      "note": "RNG seed"
+    },
+    {
+      "key": "lhs.sample_sha256",
+      "value": "681f8fc6b8963467ace9f047a37e5a599ec1b92fc8c87c9ccfac5f8b214b9d35",
+      "source": "step2_sampling.json",
+      "script": "02_sampling/generate_lhs.py",
+      "note": "SHA256 of the frozen LHS sample"
+    },
+    {
+      "key": "lhs.applied_as",
+      "value": "parameter_value = baseline_value * scale_factor",
+      "source": "step2_sampling.json",
+      "script": "02_sampling/generate_lhs.py",
+      "note": "how the scale factor is applied"
+    },
+    {
+      "key": "lhs.parameters",
+      "value": [
+        {
+          "zhou": "G_f",
+          "variable": "i_f.g_f",
+          "baseline": 0.00427
+        },
+        {
+          "zhou": "G_CaL",
+          "variable": "i_CaL.P_CaL",
+          "baseline": 0.4578
+        },
+        {
+          "zhou": "G_CaT",
+          "variable": "i_CaT.P_CaT",
+          "baseline": 0.04132
+        },
+        {
+          "zhou": "G_Kr",
+          "variable": "i_Kr.g_Kr",
+          "baseline": 0.00424
+        },
+        {
+          "zhou": "G_Ks",
+          "variable": "i_Ks.g_Ks_",
+          "baseline": 0.00065
+        },
+        {
+          "zhou": "G_to",
+          "variable": "i_to.g_to",
+          "baseline": 0.0035
+        },
+        {
+          "zhou": "G_Na",
+          "variable": "i_Na.g_Na",
+          "baseline": 0.0223
+        },
+        {
+          "zhou": "G_NaK",
+          "variable": "i_NaK.i_NaK_max",
+          "baseline": 0.08105
+        },
+        {
+          "zhou": "G_NaCa",
+          "variable": "i_NaCa.K_NaCa",
+          "baseline": 3.343
+        },
+        {
+          "zhou": "G_Kur",
+          "variable": "i_Kur.g_Kur",
+          "baseline": 0.0001539
+        },
+        {
+          "zhou": "P_Jrel",
+          "variable": "Ca_SR_release.ks",
+          "baseline": 148041085.1
+        },
+        {
+          "zhou": "P_Jup",
+          "variable": "Ca_intracellular_fluxes.P_up_basal",
+          "baseline": 5.0
+        }
+      ],
+      "source": "step2_sampling.json",
+      "script": "02_sampling/generate_lhs.py",
+      "note": "the 12 mechanisms and their CellML variable mappings"
+    },
+    {
+      "key": "population.n_simulated",
+      "value": 940,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "models actually integrated"
+    },
+    {
+      "key": "population.n_integrated_ok",
+      "value": 539,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "models that produced a stable rhythm"
+    },
+    {
+      "key": "population.n_no_pacing",
+      "value": 401,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "models that did not pace"
+    },
+    {
+      "key": "population.n_solver_failures",
+      "value": 0,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "solver failures"
+    },
+    {
+      "key": "population.n_retained",
+      "value": 188,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "models meeting the retention criteria"
+    },
+    {
+      "key": "population.retention_fraction",
+      "value": 0.2,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "retained / simulated"
+    },
+    {
+      "key": "population.retention_wilson95",
+      "value": [
+        0.175672688665853,
+        0.2267694160262903
+      ],
+      "source": "computed from step3fix_run_statefix.json",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "Wilson 95% CI on the retention proportion"
+    },
+    {
+      "key": "population.criteria.bcl_min_ms",
+      "value": 600.0,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "retention criterion bcl_min_ms"
+    },
+    {
+      "key": "population.criteria.bcl_max_ms",
+      "value": 1000.0,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "retention criterion bcl_max_ms"
+    },
+    {
+      "key": "population.criteria.overshoot_must_be_positive",
+      "value": true,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "retention criterion overshoot_must_be_positive"
+    },
+    {
+      "key": "population.criteria.reference_retained",
+      "value": 1046,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "retention criterion reference_retained"
+    },
+    {
+      "key": "population.criteria.reference_total",
+      "value": 5000,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "retention criterion reference_total"
+    },
+    {
+      "key": "population.zhou_reference_fraction",
+      "value": 0.2092,
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "Zhou et al. retention for comparison"
+    },
+    {
+      "key": "population.host",
+      "value": {
+        "platform": "Windows-11-10.0.26200-SP0",
+        "cpu_count": 8
+      },
+      "source": "step3fix_run_statefix.json",
+      "script": "03_population/run_population.py",
+      "note": "compute host"
+    },
+    {
+      "key": "population.retained_recount",
+      "value": 188,
+      "source": "step3fix_run_statefix.json",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "retention criteria re-applied to the raw per-model records (integrity check)"
+    },
+    {
+      "key": "population.retained.CL_ms",
+      "value": {
+        "min": 602.15625,
+        "max": 983.5555555555555,
+        "mean": 759.7918708020703
+      },
+      "source": "step3fix_run_statefix.json",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "retained-population CL_ms range (ms)"
+    },
+    {
+      "key": "population.retained.OS_mV",
+      "value": {
+        "min": 2.693054596350604,
+        "max": 41.667874465921194,
+        "mean": 26.346639467014047
+      },
+      "source": "step3fix_run_statefix.json",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "retained-population OS_mV range (mV)"
+    },
+    {
+      "key": "population.retained.MDP_mV",
+      "value": {
+        "min": -70.5917242430783,
+        "max": -38.92220524025835,
+        "mean": -58.60741252060292
+      },
+      "source": "step3fix_run_statefix.json",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "retained-population MDP_mV range (mV)"
+    },
+    {
+      "key": "population.retained.bpm",
+      "value": {
+        "min": 61.00316312697696,
+        "max": 99.64191187918418,
+        "median": 82.20477715868
+      },
+      "source": "step3fix_run_statefix.json",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "retained-population intrinsic rate"
+    },
+    {
+      "key": "stateisolation.n_compared",
+      "value": 940,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: n_compared"
+    },
+    {
+      "key": "stateisolation.retained_before",
+      "value": 187,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: retained_before"
+    },
+    {
+      "key": "stateisolation.retained_after",
+      "value": 188,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: retained_after"
+    },
+    {
+      "key": "stateisolation.retention_before",
+      "value": 0.19893617021276597,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: retention_before"
+    },
+    {
+      "key": "stateisolation.retention_after",
+      "value": 0.2,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: retention_after"
+    },
+    {
+      "key": "stateisolation.identical_retained",
+      "value": 187,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: identical_retained"
+    },
+    {
+      "key": "stateisolation.retained_to_rejected",
+      "value": 0,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: retained_to_rejected"
+    },
+    {
+      "key": "stateisolation.rejected_to_retained",
+      "value": 1,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: rejected_to_retained"
+    },
+    {
+      "key": "stateisolation.no_pacing_reclassifications",
+      "value": 2,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: no_pacing_reclassifications"
+    },
+    {
+      "key": "stateisolation.max_abs_dCL_ms",
+      "value": 241.44999999999982,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: max_abs_dCL_ms"
+    },
+    {
+      "key": "stateisolation.mean_abs_dCL_ms",
+      "value": 0.9092065067043169,
+      "source": "statefix_comparison.json",
+      "script": "03_population/aggregate_and_freeze.py",
+      "note": "state-isolation before/after comparison: mean_abs_dCL_ms"
+    },
+    {
+      "key": "threshold.G_CaL.n",
+      "value": 188,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_CaL quiescence-threshold summary: n"
+    },
+    {
+      "key": "threshold.G_CaL.n_never_quiescent",
+      "value": 0,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_CaL quiescence-threshold summary: n_never_quiescent"
+    },
+    {
+      "key": "threshold.G_CaL.threshold_median",
+      "value": 0.4,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_CaL quiescence-threshold summary: threshold_median"
+    },
+    {
+      "key": "threshold.G_CaL.threshold_iqr",
+      "value": [
+        0.3,
+        0.5125
+      ],
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_CaL quiescence-threshold summary: threshold_iqr"
+    },
+    {
+      "key": "threshold.G_CaL.threshold_range",
+      "value": [
+        0.1,
+        0.8
+      ],
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_CaL quiescence-threshold summary: threshold_range"
+    },
+    {
+      "key": "threshold.G_CaL.max_drop_median",
+      "value": -36.493254727735525,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_CaL quiescence-threshold summary: max_drop_median"
+    },
+    {
+      "key": "threshold.G_CaL.max_drop_iqr",
+      "value": [
+        -47.000490539923334,
+        -27.647470396046096
+      ],
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_CaL quiescence-threshold summary: max_drop_iqr"
+    },
+    {
+      "key": "threshold.G_CaL.frac_reaching_-10bpm",
+      "value": 0.9946808510638298,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_CaL quiescence-threshold summary: frac_reaching_-10bpm"
+    },
+    {
+      "key": "threshold.G_CaL.fraction_pacing",
+      "value": {
+        "0.3": 0.7180851063829787,
+        "0.4": 0.46808510638297873,
+        "0.5": 0.25,
+        "0.6": 0.11702127659574468,
+        "0.7": 0.015957446808510637,
+        "0.8": 0.0
+      },
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_CaL fraction of population still pacing per block level"
+    },
+    {
+      "key": "threshold.G_f.n",
+      "value": 188,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_f quiescence-threshold summary: n"
+    },
+    {
+      "key": "threshold.G_f.n_never_quiescent",
+      "value": 176,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_f quiescence-threshold summary: n_never_quiescent"
+    },
+    {
+      "key": "threshold.G_f.threshold_median",
+      "value": 0.675,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_f quiescence-threshold summary: threshold_median"
+    },
+    {
+      "key": "threshold.G_f.threshold_iqr",
+      "value": [
+        0.4375,
+        0.7625
+      ],
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_f quiescence-threshold summary: threshold_iqr"
+    },
+    {
+      "key": "threshold.G_f.threshold_range",
+      "value": [
+        0.25,
+        0.9
+      ],
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_f quiescence-threshold summary: threshold_range"
+    },
+    {
+      "key": "threshold.G_f.max_drop_median",
+      "value": -15.908864202473275,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_f quiescence-threshold summary: max_drop_median"
+    },
+    {
+      "key": "threshold.G_f.max_drop_iqr",
+      "value": [
+        -23.190129532926015,
+        -7.4722221115085965
+      ],
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_f quiescence-threshold summary: max_drop_iqr"
+    },
+    {
+      "key": "threshold.G_f.frac_reaching_-10bpm",
+      "value": 0.6648936170212766,
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_f quiescence-threshold summary: frac_reaching_-10bpm"
+    },
+    {
+      "key": "threshold.G_f.fraction_pacing",
+      "value": {
+        "0.3": 0.9946808510638298,
+        "0.4": 0.9840425531914894,
+        "0.5": 0.9787234042553191,
+        "0.6": 0.973404255319149,
+        "0.7": 0.9574468085106383,
+        "0.8": 0.9468085106382979
+      },
+      "source": "taskA_summary.json",
+      "script": "04_pharmacology/taskA_analyse.py",
+      "note": "G_f fraction of population still pacing per block level"
+    },
+    {
+      "key": "ladder.G_CaL.n_models",
+      "value": 188,
+      "source": "taskA_G_CaL_population_sweep.json",
+      "script": "04_pharmacology/population_block_sweep.py",
+      "note": "G_CaL block-ladder metadata: n_models"
+    },
+    {
+      "key": "ladder.G_CaL.prepace_s",
+      "value": 300.0,
+      "source": "taskA_G_CaL_population_sweep.json",
+      "script": "04_pharmacology/population_block_sweep.py",
+      "note": "G_CaL block-ladder metadata: prepace_s"
+    },
+    {
+      "key": "ladder.G_CaL.n_non_monotone",
+      "value": 0,
+      "source": "taskA_G_CaL_population_sweep.json",
+      "script": "04_pharmacology/population_block_sweep.py",
+      "note": "G_CaL block-ladder metadata: n_non_monotone"
+    },
+    {
+      "key": "ladder.G_CaL.blocks",
+      "value": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9
+      ],
+      "source": "taskA_G_CaL_population_sweep.json",
+      "script": "04_pharmacology/population_block_sweep.py",
+      "note": "G_CaL block levels simulated"
+    },
+    {
+      "key": "ladder.G_f.n_models",
+      "value": 188,
+      "source": "taskA_G_f_population_sweep.json",
+      "script": "04_pharmacology/population_block_sweep.py",
+      "note": "G_f block-ladder metadata: n_models"
+    },
+    {
+      "key": "ladder.G_f.prepace_s",
+      "value": 300.0,
+      "source": "taskA_G_f_population_sweep.json",
+      "script": "04_pharmacology/population_block_sweep.py",
+      "note": "G_f block-ladder metadata: prepace_s"
+    },
+    {
+      "key": "ladder.G_f.n_non_monotone",
+      "value": 0,
+      "source": "taskA_G_f_population_sweep.json",
+      "script": "04_pharmacology/population_block_sweep.py",
+      "note": "G_f block-ladder metadata: n_non_monotone"
+    },
+    {
+      "key": "ladder.G_f.blocks",
+      "value": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9
+      ],
+      "source": "taskA_G_f_population_sweep.json",
+      "script": "04_pharmacology/population_block_sweep.py",
+      "note": "G_f block levels simulated"
+    },
+    {
+      "key": "simulation.duration_s",
+      "value": 1000.0,
+      "source": "00_config/config.yaml",
+      "script": "00_config/config.yaml (authored)",
+      "note": "per-model integration time used for population retention"
+    },
+    {
+      "key": "config.nonobvious_mappings",
+      "value": {
+        "G_f": {
+          "variable": "i_f.g_f",
+          "note": "Root of the funny-current chain. g_f -> G_f -> G_f_K/G_f_Na -> g_f_K/g_f_Na -> i_fK/i_fNa. g_f_K and g_f_Na are computed variables, not independent constants, so scaling g_f scales the whole current."
+        },
+        "G_Ks": {
+          "variable": "i_Ks.g_Ks_",
+          "note": "g_Ks_ is the base constant; g_Ks = 1.2 * g_Ks_ only when Iso > 0. With Iso = 0 they are equal, but g_Ks_ is the correct scaling target."
+        },
+        "P_Jup": {
+          "variable": "Ca_intracellular_fluxes.P_up_basal",
+          "note": "P_up = P_up_basal * (1 - b_up), and b_up = 0 at baseline, so P_up_basal is the correct scaling target."
+        }
+      },
+      "source": "00_config/config.yaml",
+      "script": "00_config/config.yaml (authored)",
+      "note": "the three parameter mappings that are not inferable from the name"
+    },
+    {
+      "key": "config.no_pair_feedback.rule",
+      "value": "No quantity derived from a drug COMBINATION may be used, directly or indirectly, to set or adjust any model parameter. This covers the 12 sampled conductances/fluxes, every drug block fraction, every IC50 or Hill coefficient, every free-concentration assumption, and the retention criteria. Combination outcomes are outputs of this study, never inputs.",
+      "source": "00_config/config.yaml",
+      "script": "00_config/config.yaml (authored)",
+      "note": "the no-pair-feedback integrity rule, verbatim"
+    },
+    {
+      "key": "config.no_pair_feedback.voids_study",
+      "value": true,
+      "source": "00_config/config.yaml",
+      "script": "00_config/config.yaml (authored)",
+      "note": "whether violation voids the study"
+    },
+    {
+      "key": "config.comparison_point.rule",
+      "value": "For any chronic, steady-state oral regimen, the model is evaluated at the TIME-AVERAGE free concentration over the dosing interval:\n    C_avg,free = [ AUC(0-tau) / tau ] * f_unbound\nThis single value is the primary comparator. Cmax-derived and trough-derived values are computed and reported alongside it as an interval, labelled SENSITIVITY, and are never promoted to primary.",
+      "source": "00_config/config.yaml",
+      "script": "00_config/config.yaml (authored)",
+      "note": "pre-specified exposure comparator for chronic steady-state dosing"
+    },
+    {
+      "key": "config.anchor.selection_rule",
+      "value": "DESIGN QUALITY ONLY. The anchor is chosen on four design criteria and explicitly NOT on the size of the resulting in-vitro discrepancy:\n  (1) within-patient crossover, each subject their own control;\n  (2) a DRUG-FREE baseline measured in the same patients, not a\n      between-cohort contrast;\n  (3) prospective rather than retrospective/observational;\n  (4) earliest post-transplant (8-week treatment periods), therefore the\n      least sympathetically reinnervated and the purest open-loop\n      measurement. This is the same criterion the project already used\n      when preferring the 36-month cohort over the 10-year one; applied\n      consistently it selects Doesch over both.",
+      "source": "00_config/config.yaml",
+      "script": "00_config/config.yaml (authored)",
+      "note": "the four design criteria used to select the ivabradine anchor"
+    },
+    {
+      "key": "config.anchor.gap_exclusion",
+      "value": "The switch INCREASES the unexplained discrepancy against the in vitro IC50 from 61x to 250x. Had gap magnitude been used as a selection criterion the previous 36-month anchor would have been retained. It was not used, and must not be used in future anchor selection: choosing the anchor that flatters the model is the same error as fitting to a pair.",
+      "source": "00_config/config.yaml",
+      "script": "00_config/config.yaml (authored)",
+      "note": "explicit exclusion of gap magnitude as a selection criterion"
+    },
+    {
+      "key": "config.anchor.primary_block",
+      "value": 0.584,
+      "source": "00_config/config.yaml",
+      "script": "00_config/config.yaml (authored)",
+      "note": "adopted primary ivabradine I_f block"
+    },
+    {
+      "key": "config.anchor.sensitivity_band",
+      "value": [
+        {
+          "anchor": "Doesch 2007 8-week crossover (PRIMARY)",
+          "drop_pct": 21.0,
+          "block": 0.584,
+          "implied_ic50_nM": 8.0,
+          "fold_gap": 250
+        },
+        {
+          "anchor": "10-year cohort",
+          "drop_pct": 18.1,
+          "block": 0.509,
+          "implied_ic50_nM": 11.7,
+          "fold_gap": 172
+        },
+        {
+          "anchor": "36-month cohort (superseded)",
+          "drop_pct": 10.8,
+          "block": 0.312,
+          "implied_ic50_nM": 32.8,
+          "fold_gap": 61
+        }
+      ],
+      "source": "00_config/config.yaml",
+      "script": "00_config/config.yaml (authored)",
+      "note": "all three anchors with implied IC50 and fold gap"
+    },
+    {
+      "key": "anchors.ivabradine",
+      "value": [
+        {
+          "label": "Doesch 2007  (PRIMARY)",
+          "block_1x": 0.584,
+          "arms": [
+            0.584,
+            0.7097,
+            0.7717
+          ],
+          "fold_gap": 250
+        },
+        {
+          "label": "10-year cohort",
+          "block_1x": 0.509,
+          "arms": [
+            0.509,
+            0.6435,
+            0.714
+          ],
+          "fold_gap": 172
+        },
+        {
+          "label": "36-month (superseded)",
+          "block_1x": 0.312,
+          "arms": [
+            0.312,
+            0.4412,
+            0.522
+          ],
+          "fold_gap": 61
+        }
+      ],
+      "source": "taskL_three_anchor_EAR.json",
+      "script": "04_pharmacology/taskL_analyse.py",
+      "note": "three open-loop ivabradine anchors: I_f block at 1x and the 1x/2x/3x arms"
+    },
+    {
+      "key": "anchor.verapamil.binding.measured_dog_bound_pct",
+      "value": 90.7,
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "verapamil protein binding: measured_dog_bound_pct"
+    },
+    {
+      "key": "anchor.verapamil.binding.measured_dog_f_unbound",
+      "value": 0.093,
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "verapamil protein binding: measured_dog_f_unbound"
+    },
+    {
+      "key": "anchor.verapamil.binding.human_f_unbound_same_assay",
+      "value": 0.104,
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "verapamil protein binding: human_f_unbound_same_assay"
+    },
+    {
+      "key": "anchor.verapamil.binding.crosscheck_belpaire_f_unbound",
+      "value": 0.15,
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "verapamil protein binding: crosscheck_belpaire_f_unbound"
+    },
+    {
+      "key": "anchor.verapamil.binding.f_unbound_needed_for_taskF_pass",
+      "value": 0.2,
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "verapamil protein binding: f_unbound_needed_for_taskF_pass"
+    },
+    {
+      "key": "anchor.verapamil.binding.rescue_available",
+      "value": false,
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "verapamil protein binding: rescue_available"
+    },
+    {
+      "key": "anchor.verapamil.binding.source",
+      "value": "Keefe DL, Yee YG, Kates RE. Clin Pharmacol Ther 1981;29(1):21-6. PMID 6970111",
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "verapamil protein binding: source"
+    },
+    {
+      "key": "anchor.verapamil.binding.crosscheck_source",
+      "value": "Belpaire FM et al. J Pharm Pharmacol 1990;42(1):45-9. PMID 1969949",
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "verapamil protein binding: crosscheck_source"
+    },
+    {
+      "key": "anchor.verapamil.schulman.anchor",
+      "value": "Schulman DS et al. J Cardiovasc Pharmacol 1993;21(4):567-72. PMID 7681901",
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "Schulman open-loop anchor: anchor"
+    },
+    {
+      "key": "anchor.verapamil.schulman.n",
+      "value": 13,
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "Schulman open-loop anchor: n"
+    },
+    {
+      "key": "anchor.verapamil.schulman.dose_mg_iv_median",
+      "value": 4,
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "Schulman open-loop anchor: dose_mg_iv_median"
+    },
+    {
+      "key": "anchor.verapamil.schulman.magnitude_recoverable",
+      "value": false,
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "Schulman open-loop anchor: magnitude_recoverable"
+    },
+    {
+      "key": "anchor.verapamil.schulman.pk_frame",
+      "value": "Reiter MJ et al. Am J Cardiol 1982;50(4):716-21. PMID 7124631",
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "Schulman open-loop anchor: pk_frame"
+    },
+    {
+      "key": "anchor.verapamil.schulman.assumed_total_ng_per_mL",
+      "value": [
+        25,
+        80
+      ],
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "Schulman open-loop anchor: assumed_total_ng_per_mL"
+    },
+    {
+      "key": "anchor.verapamil.schulman.implied_block_range",
+      "value": [
+        0.02048704762841377,
+        0.06917522854591299
+      ],
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "Schulman open-loop anchor: implied_block_range"
+    },
+    {
+      "key": "anchor.verapamil.schulman.observed_bound_0_of_13_ci",
+      "value": [
+        0.0,
+        0.22810184305529166
+      ],
+      "source": "taskG_singles.json",
+      "script": "04_pharmacology/taskG_singles.py",
+      "note": "Schulman open-loop anchor: observed_bound_0_of_13_ci"
+    },
+    {
+      "key": "mapping.verapamil.ic50_nM",
+      "value": {
+        "Ba2+-derived (198.7 nM)": 198.7,
+        "Ca2+-corrected (47.3 nM)": 47.3095238095238
+      },
+      "source": "taskH_exposure.json",
+      "script": "04_pharmacology/taskH_analyse.py",
+      "note": "verapamil I_CaL IC50, Ba2+-derived and Ca2+-corrected"
+    },
+    {
+      "key": "mapping.verapamil.hill",
+      "value": 1.09,
+      "source": "taskH_exposure.json",
+      "script": "04_pharmacology/taskH_analyse.py",
+      "note": "verapamil Hill coefficient"
+    },
+    {
+      "key": "mapping.verapamil.f_unbound",
+      "value": 0.104,
+      "source": "taskH_exposure.json",
+      "script": "04_pharmacology/taskH_analyse.py",
+      "note": "human unbound fraction used"
+    },
+    {
+      "key": "mapping.verapamil.bands_ng_per_mL",
+      "value": {
+        "240 mg/day": [
+          35.0,
+          164.0
+        ],
+        "480 mg/day": [
+          125.0,
+          400.0
+        ]
+      },
+      "source": "taskH_exposure.json",
+      "script": "04_pharmacology/taskH_analyse.py",
+      "note": "chronic oral total-plasma bands from the FDA label"
+    },
+    {
+      "key": "mapping.verapamil.bands_free_nM",
+      "value": {
+        "240 mg/day": [
+          8.007039155301364,
+          37.51869775626924
+        ],
+        "480 mg/day": [
+          28.59656841179058,
+          91.50901891772986
+        ]
+      },
+      "source": "taskH_exposure.json",
+      "script": "04_pharmacology/taskH_analyse.py",
+      "note": "corresponding free concentrations"
+    },
+    {
+      "key": "mapping.verapamil.band_blocks",
+      "value": {
+        "Ba2+-derived (198.7 nM)|240 mg/day": [
+          0.02929778407008014,
+          0.13979630222770817
+        ],
+        "Ba2+-derived (198.7 nM)|480 mg/day": [
+          0.10784207516213229,
+          0.30045315908478093
+        ],
+        "Ca2+-corrected (47.3 nM)|240 mg/day": [
+          0.12605867935842247,
+          0.43714903294245144
+        ],
+        "Ca2+-corrected (47.3 nM)|480 mg/day": [
+          0.3661583800669478,
+          0.6724090738477463
+        ]
+      },
+      "source": "taskH_exposure.json",
+      "script": "04_pharmacology/taskH_analyse.py",
+      "note": "I_CaL block spanned by each band under each IC50"
+    },
+    {
+      "key": "ear.control.n",
+      "value": 188,
+      "source": "taskL_three_anchor_EAR.json",
+      "script": "04_pharmacology/taskL_analyse.py",
+      "note": "denominator: models pacing drug-free in the control state"
+    },
+    {
+      "key": "ear.control.band_thresholds",
+      "value": {
+        "240 mg/day|Doesch 2007  (PRIMARY)|1x": {
+          "max_EAR": 0.0425531914893617,
+          "ci": [
+            0.021717294715916078,
+            0.08170969922074835
+          ],
+          "at_block": 0.108,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|Doesch 2007  (PRIMARY)|2x": {
+          "max_EAR": 0.05851063829787234,
+          "ci": [
+            0.03298177453654091,
+            0.1017210219372166
+          ],
+          "at_block": 0.108,
+          "crosses_5": true,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|Doesch 2007  (PRIMARY)|3x": {
+          "max_EAR": 0.0425531914893617,
+          "ci": [
+            0.021717294715916078,
+            0.08170969922074835
+          ],
+          "at_block": 0.108,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|10-year cohort|1x": {
+          "max_EAR": 0.031914893617021274,
+          "ci": [
+            0.014707146316818683,
+            0.067869312595117
+          ],
+          "at_block": 0.108,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|10-year cohort|2x": {
+          "max_EAR": 0.05851063829787234,
+          "ci": [
+            0.03298177453654091,
+            0.1017210219372166
+          ],
+          "at_block": 0.108,
+          "crosses_5": true,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|10-year cohort|3x": {
+          "max_EAR": 0.05319148936170213,
+          "ci": [
+            0.0291456057761509,
+            0.09513192318524226
+          ],
+          "at_block": 0.108,
+          "crosses_5": true,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|36-month (superseded)|1x": {
+          "max_EAR": 0.03723404255319149,
+          "ci": [
+            0.01815093746565364,
+            0.07485078895864641
+          ],
+          "at_block": 0.1,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|36-month (superseded)|2x": {
+          "max_EAR": 0.0425531914893617,
+          "ci": [
+            0.021717294715916078,
+            0.08170969922074835
+          ],
+          "at_block": 0.108,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|36-month (superseded)|3x": {
+          "max_EAR": 0.03723404255319149,
+          "ci": [
+            0.01815093746565364,
+            0.07485078895864641
+          ],
+          "at_block": 0.108,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|Doesch 2007  (PRIMARY)|1x": {
+          "max_EAR": 0.1595744680851064,
+          "ci": [
+            0.11412277399436369,
+            0.2186601052143168
+          ],
+          "at_block": 0.275,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": true
+        },
+        "480 mg/day|Doesch 2007  (PRIMARY)|2x": {
+          "max_EAR": 0.18617021276595744,
+          "ci": [
+            0.13701566406233257,
+            0.24789355270816976
+          ],
+          "at_block": 0.275,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": true
+        },
+        "480 mg/day|Doesch 2007  (PRIMARY)|3x": {
+          "max_EAR": 0.18085106382978725,
+          "ci": [
+            0.13240216411214387,
+            0.24208178514599413
+          ],
+          "at_block": 0.275,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": true
+        },
+        "480 mg/day|10-year cohort|1x": {
+          "max_EAR": 0.1276595744680851,
+          "ci": [
+            0.08730755398545642,
+            0.18292372014903785
+          ],
+          "at_block": 0.275,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|10-year cohort|2x": {
+          "max_EAR": 0.16489361702127658,
+          "ci": [
+            0.11866517526340506,
+            0.22454297145763977
+          ],
+          "at_block": 0.275,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": true
+        },
+        "480 mg/day|10-year cohort|3x": {
+          "max_EAR": 0.18085106382978725,
+          "ci": [
+            0.13240216411214387,
+            0.24208178514599413
+          ],
+          "at_block": 0.275,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": true
+        },
+        "480 mg/day|36-month (superseded)|1x": {
+          "max_EAR": 0.06914893617021277,
+          "ci": [
+            0.040852626024894284,
+            0.11470070547359196
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|36-month (superseded)|2x": {
+          "max_EAR": 0.10638297872340426,
+          "ci": [
+            0.06992772023832766,
+            0.15860248384670916
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|36-month (superseded)|3x": {
+          "max_EAR": 0.13297872340425532,
+          "ci": [
+            0.09171974245115858,
+            0.18893679919570008
+          ],
+          "at_block": 0.275,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": false
+        }
+      },
+      "source": "taskL_three_anchor_EAR.json",
+      "script": "04_pharmacology/taskL_analyse.py",
+      "note": "max EAR inside each clinical band, per anchor and PK arm (control)"
+    },
+    {
+      "key": "ear.iso.n",
+      "value": 168,
+      "source": "taskL_three_anchor_EAR.json",
+      "script": "04_pharmacology/taskL_analyse.py",
+      "note": "denominator: models pacing drug-free in the iso state"
+    },
+    {
+      "key": "ear.iso.band_thresholds",
+      "value": {
+        "240 mg/day|Doesch 2007  (PRIMARY)|1x": {
+          "max_EAR": 0.02976190476190476,
+          "ci": [
+            0.012777935316137218,
+            0.06777066292782699
+          ],
+          "at_block": 0.14,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|Doesch 2007  (PRIMARY)|2x": {
+          "max_EAR": 0.041666666666666664,
+          "ci": [
+            0.020327291690358303,
+            0.08349855723097391
+          ],
+          "at_block": 0.14,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|Doesch 2007  (PRIMARY)|3x": {
+          "max_EAR": 0.05357142857142857,
+          "ci": [
+            0.02843660362403755,
+            0.09866649597466265
+          ],
+          "at_block": 0.14,
+          "crosses_5": true,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|10-year cohort|1x": {
+          "max_EAR": 0.005952380952380952,
+          "ci": [
+            0.0010514882493867714,
+            0.03294260863984144
+          ],
+          "at_block": 0.14,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|10-year cohort|2x": {
+          "max_EAR": 0.047619047619047616,
+          "ci": [
+            0.02432370248475172,
+            0.09114077177526447
+          ],
+          "at_block": 0.14,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|10-year cohort|3x": {
+          "max_EAR": 0.041666666666666664,
+          "ci": [
+            0.020327291690358303,
+            0.08349855723097391
+          ],
+          "at_block": 0.14,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|36-month (superseded)|1x": {
+          "max_EAR": 0.011904761904761904,
+          "ci": [
+            0.003270740864736929,
+            0.04236198136317528
+          ],
+          "at_block": 0.05,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|36-month (superseded)|2x": {
+          "max_EAR": 0.005952380952380952,
+          "ci": [
+            0.0010514882493867714,
+            0.03294260863984144
+          ],
+          "at_block": 0.1,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "240 mg/day|36-month (superseded)|3x": {
+          "max_EAR": 0.005952380952380952,
+          "ci": [
+            0.0010514882493867714,
+            0.03294260863984144
+          ],
+          "at_block": 0.14,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|Doesch 2007  (PRIMARY)|1x": {
+          "max_EAR": 0.125,
+          "ci": [
+            0.08322944404924518,
+            0.183537159613663
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|Doesch 2007  (PRIMARY)|2x": {
+          "max_EAR": 0.14285714285714285,
+          "ci": [
+            0.09791534368002103,
+            0.20376713599893914
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|Doesch 2007  (PRIMARY)|3x": {
+          "max_EAR": 0.19047619047619047,
+          "ci": [
+            0.13827736527488882,
+            0.2565141171135433
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": true
+        },
+        "480 mg/day|10-year cohort|1x": {
+          "max_EAR": 0.10714285714285714,
+          "ci": [
+            0.06885382433747694,
+            0.16299690330937924
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|10-year cohort|2x": {
+          "max_EAR": 0.1488095238095238,
+          "ci": [
+            0.10287114805235309,
+            0.21044995696529106
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": true
+        },
+        "480 mg/day|10-year cohort|3x": {
+          "max_EAR": 0.1488095238095238,
+          "ci": [
+            0.10287114805235309,
+            0.21044995696529106
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": true
+        },
+        "480 mg/day|36-month (superseded)|1x": {
+          "max_EAR": 0.023809523809523808,
+          "ci": [
+            0.009296969097757676,
+            0.05961300380752253
+          ],
+          "at_block": 0.3,
+          "crosses_5": false,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|36-month (superseded)|2x": {
+          "max_EAR": 0.06547619047619048,
+          "ci": [
+            0.036950512943835216,
+            0.113429837332233
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": false,
+          "crosses_10": false,
+          "crosses_10_ci": false
+        },
+        "480 mg/day|36-month (superseded)|3x": {
+          "max_EAR": 0.10119047619047619,
+          "ci": [
+            0.06414150874537254,
+            0.15607059356279968
+          ],
+          "at_block": 0.3,
+          "crosses_5": true,
+          "crosses_5_ci": true,
+          "crosses_10": true,
+          "crosses_10_ci": false
+        }
+      },
+      "source": "taskL_three_anchor_EAR.json",
+      "script": "04_pharmacology/taskL_analyse.py",
+      "note": "max EAR inside each clinical band, per anchor and PK arm (iso)"
+    },
+    {
+      "key": "ear.bands_block",
+      "value": {
+        "240 mg/day": [
+          0.029,
+          0.14
+        ],
+        "480 mg/day": [
+          0.108,
+          0.3
+        ]
+      },
+      "source": "taskL_three_anchor_EAR.json",
+      "script": "04_pharmacology/taskL_analyse.py",
+      "note": "clinical bands expressed as I_CaL block"
+    },
+    {
+      "key": "bliss.n_models",
+      "value": 188,
+      "source": "taskE_interaction_invariance.json",
+      "script": "04_pharmacology/taskE_interaction_invariance.py",
+      "note": "population size"
+    },
+    {
+      "key": "bliss.multipliers",
+      "value": [
+        0.0625,
+        0.077,
+        0.125,
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        4.0
+      ],
+      "source": "taskE_interaction_invariance.json",
+      "script": "04_pharmacology/taskE_interaction_invariance.py",
+      "note": "exposure multipliers swept"
+    },
+    {
+      "key": "bliss.pairs",
+      "value": [
+        {
+          "pair": [
+            "diltiazem",
+            "verapamil"
+          ],
+          "same_target": true,
+          "classes_informative": [
+            "SUPER-ADDITIVE",
+            "additive"
+          ],
+          "invariant": false,
+          "n_informative": 6
+        },
+        {
+          "pair": [
+            "verapamil",
+            "mexiletine"
+          ],
+          "same_target": true,
+          "classes_informative": [
+            "SUPER-ADDITIVE"
+          ],
+          "invariant": true,
+          "n_informative": 5
+        },
+        {
+          "pair": [
+            "diltiazem",
+            "ivabradine"
+          ],
+          "same_target": false,
+          "classes_informative": [
+            "SUB-ADDITIVE",
+            "additive"
+          ],
+          "invariant": false,
+          "n_informative": 7
+        },
+        {
+          "pair": [
+            "verapamil",
+            "ivabradine"
+          ],
+          "same_target": false,
+          "classes_informative": [
+            "additive"
+          ],
+          "invariant": true,
+          "n_informative": 4
+        }
+      ],
+      "source": "taskE_interaction_invariance.json",
+      "script": "04_pharmacology/taskE_interaction_invariance.py",
+      "note": "Bliss classification invariance across exposure, per pair"
+    },
+    {
+      "key": "bliss.crosstarget_classes_control",
+      "value": [
+        {
+          "b_verapamil": 0.0,
+          "class": "additive",
+          "EAR": 0.0,
+          "rescue": 0.0
+        },
+        {
+          "b_verapamil": 0.05,
+          "class": "SUPER-ADDITIVE",
+          "EAR": 0.015957446808510637,
+          "rescue": 0.0
+        },
+        {
+          "b_verapamil": 0.1,
+          "class": "SUPER-ADDITIVE",
+          "EAR": 0.03723404255319149,
+          "rescue": 0.0
+        },
+        {
+          "b_verapamil": 0.15,
+          "class": "additive",
+          "EAR": 0.026595744680851064,
+          "rescue": 0.0
+        },
+        {
+          "b_verapamil": 0.2,
+          "class": "additive",
+          "EAR": 0.03723404255319149,
+          "rescue": 0.0
+        },
+        {
+          "b_verapamil": 0.25,
+          "class": "additive",
+          "EAR": 0.015957446808510637,
+          "rescue": 0.0
+        },
+        {
+          "b_verapamil": 0.3,
+          "class": "SUPER-ADDITIVE",
+          "EAR": 0.06914893617021277,
+          "rescue": 0.0
+        },
+        {
+          "b_verapamil": 0.4,
+          "class": "additive",
+          "EAR": 0.047872340425531915,
+          "rescue": 0.0
+        }
+      ],
+      "source": "taskG_pair_prediction.json",
+      "script": "04_pharmacology/taskG_analyse.py",
+      "note": "Bliss class alternating along one drug's exposure ladder for a cross-target pair, with the paired EAR and rescue fraction alongside"
+    },
+    {
+      "key": "sims.pair_checkpoint_lines",
+      "value": 65424,
+      "source": "taskG_pair_checkpoint.jsonl",
+      "script": "04_pharmacology/taskG_pair_prediction.py + taskH/taskI/taskL runners",
+      "note": "total records written across all pair runs"
+    },
+    {
+      "key": "sims.pair_unique",
+      "value": 59784,
+      "source": "taskG_pair_checkpoint.jsonl",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "unique (state, I_CaL block, I_f block, model) simulations"
+    },
+    {
+      "key": "sims.pair_duplicate_reruns",
+      "value": 5640,
+      "source": "taskG_pair_checkpoint.jsonl",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "records repeated by concurrent workers (independent re-executions)"
+    },
+    {
+      "key": "sims.pair_determinism_disagreements",
+      "value": 0,
+      "source": "taskG_pair_checkpoint.jsonl",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "repeat runs of the same (state, block, block, model) returning a different value; 0 = every re-execution was bit-identical"
+    },
+    {
+      "key": "sims.pair_checkpoint_sha256",
+      "value": "661763c00f80fb3cec2f9da5f635ff39b703c3dc6e0d23aa9eb960fbc878c1fc",
+      "source": "taskG_pair_checkpoint.jsonl",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "checksum of the pair simulation store"
+    },
+    {
+      "key": "derived.anchor_ratio_2_3fold",
+      "value": 2.307692307692308,
+      "source": "taskL_three_anchor_EAR.json",
+      "script": "05_manuscript/taskM_manifest.py",
+      "note": "the 2.3-fold anchor-driven movement quoted in the abstract and discussion (primary / superseded, 480 mg/day, 1x, control)"
+    },
+    {
+      "key": "state_transfer.iso_baseline_bpm",
+      "value": 93.93976671624598,
+      "source": "taskD_state_transfer.json",
+      "script": "04_pharmacology/taskD_state_transfer.py",
+      "note": "elevated-rate baseline for the state-transfer test of static block"
+    },
+    {
+      "key": "state_transfer.control_baseline_bpm",
+      "value": 68.74742197167606,
+      "source": "taskD_state_transfer.json",
+      "script": "04_pharmacology/taskD_state_transfer.py",
+      "note": "control baseline for the state-transfer test of static block"
+    },
+    {
+      "key": "state_transfer.population_n",
+      "value": 188,
+      "source": "taskD_state_transfer.json",
+      "script": "04_pharmacology/taskD_state_transfer.py",
+      "note": "population used for the state-transfer test"
+    },
+    {
+      "key": "state_transfer.strata_at_10bpm_calibration",
+      "value": {
+        "<=74 bpm  (Boden: NO effect)": {
+          "n": 57,
+          "median_drop_bpm": -9.785220063772265
+        },
+        "74-84 bpm (Boden: effect)": {
+          "n": 57,
+          "median_drop_bpm": -10.231678683176447
+        },
+        ">=85 bpm  (Boden: effect)": {
+          "n": 74,
+          "median_drop_bpm": -11.088404376549818
+        }
+      },
+      "source": "taskD_strata.json",
+      "script": "04_pharmacology/taskD_strata.py",
+      "note": "median rate change by baseline-rate stratum at the -10 bpm calibration; supports the claim that a fixed block fraction does not transfer across rates"
+    },
+    {
+      "key": "ca_corrected.monotherapy_block_480",
+      "value": [
+        0.3661583800669478,
+        0.6724090738477463
+      ],
+      "source": "taskH_exposure.json",
+      "script": "04_pharmacology/taskH_analyse.py",
+      "note": "I_CaL block spanned by 480 mg/day under the Ca2+-corrected IC50; underpins the self-falsifying characterisation"
+    },
+    {
+      "key": "ca_corrected.monotherapy_block_240",
+      "value": [
+        0.12605867935842247,
+        0.43714903294245144
+      ],
+      "source": "taskH_exposure.json",
+      "script": "04_pharmacology/taskH_analyse.py",
+      "note": "as above for 240 mg/day"
+    },
+    {
+      "key": "verapamil.ic50_sensitivity_202nM",
+      "value": {
+        "ic50_old_nM": 198.7,
+        "ic50_new_nM": 202.0,
+        "n_headline_changes": 11,
+        "bands": {
+          "240 mg/day": {
+            "free_nM": [
+              8.007039155301364,
+              37.51869775626924
+            ],
+            "block_old": [
+              0.02929778407008014,
+              0.13979630222770817
+            ],
+            "block_new": [
+              0.02879147542398897,
+              0.13765120625045354
+            ],
+            "delta_pp": [
+              -0.05063086460911706,
+              -0.2145095977254624
+            ]
+          },
+          "480 mg/day": {
+            "free_nM": [
+              28.59656841179058,
+              91.50901891772986
+            ],
+            "block_old": [
+              0.10784207516213229,
+              0.30045315908478093
+            ],
+            "block_new": [
+              0.1061268061807561,
+              0.29669314293170335
+            ],
+            "delta_pp": [
+              -0.17152689813761945,
+              -0.37600161530775833
+            ]
+          }
+        }
+      },
+      "source": "07_v6_cleanup/verapamil_202nm_recompute.json",
+      "script": "07_v6_cleanup/taskV6_verapamil_202nm_recompute.py",
+      "note": "sensitivity of the exposure->block mapping to substituting the CiPA tabulated 202 nM for the fitted 198.7 nM; NOT adopted, see audit"
+    },
+    {
+      "key": "endpoint.name",
+      "value": "excess model-quiescence fraction (EMQF)",
+      "source": "manuscript v6",
+      "script": "07_v6_cleanup/taskV6_make_v6.py",
+      "note": "endpoint renamed from 'excess absolute risk' to avoid a patient-level reading; the underlying quantity and all values are unchanged"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+[GLOBAL][APPLIED] 'excess absolute risk (EAR)' -> replaced 1x
+[GLOBAL][APPLIED] 'Excess absolute risk' -> replaced 3x
+[GLOBAL][APPLIED] 'excess absolute risk' -> replaced 8x
+[GLOBAL][APPLIED] 'combination-risk estimate' -> replaced 1x
+[GLOBAL][APPLIED] 'headline risk estimate' -> replaced 1x
+[GLOBAL][APPLIED] 'single-agent risk' -> replaced 2x
+[GLOBAL][APPLIED] 'EAR' -> replaced 5x
+[TARGETED][APPLIED] T1a endpoint definition names the retained population and rules out a patient-level reading
+[TARGETED][APPLIED] T2a Wilson intervals qualified as parameter-space sampling only, and arms declared paired
+[TARGETED][APPLIED] T2b Zhou comparison stated as a two-proportion test rather than by interval overlap
+[TARGETED][NOT FOUND] T3a Methods 2.6 - upper-bound claim softened to match what was demonstrated
+[TARGETED][APPLIED] T4 Methods 2.6 - verapamil IC50 provenance corrected. The forensic audit reported that 198.7 nM had no documented derivation; that finding was WRONG. outputs/_sim0/Crumb_Fits.csv records it as an independent nonlinear Hill refit to the Crumb supplemental mean data that reproduces the author's ~202 nM value, with the paired Hill coefficient 1.09.
+[TARGETED][APPLIED] T5/T6 Methods 2.6 - ivabradine free Cmax and Hill provenance stated, and the HCN4 value phrased as the specific cited experiment rather than a universal constant
+[TARGETED][NOT FOUND] T6b Methods 2.6 - discrepancy phrased against the cited experiment
+[TARGETED][NOT FOUND] T3b Limitations - upper-bound claim softened; the demonstrated / inferred / undemonstrated distinction made explicit
+[TARGETED][APPLIED] T3c Limitations - closing sentence softened
+[TARGETED][APPLIED] T9 Results 3.5 - one sentence recording that the two anchors give different Bliss classifications at 6 of 12 identical rungs
+[TARGETED][APPLIED] R1 Abstract conclusions - 'risk estimate' -> quiescence-fraction
+[TARGETED][APPLIED] R2 Introduction - 'risk estimate' -> quiescence-fraction
+[TARGETED][APPLIED] R3 Results 3.3 - 'risk estimate' -> quiescence-fraction
+[TARGETED][APPLIED] R4 Results 3.6 - 'risk endpoint' -> quiescence endpoint
+[TARGETED][APPLIED] R5 Methods 2.7 - 'monotherapy risk' -> single-agent quiescence
+[TARGETED][APPLIED] R6 Methods 2.7 - 'monotherapy risk' -> single-agent quiescence
+[TARGETED][APPLIED] R7 Limitations - 'monotherapy risk' -> single-agent quiescence
+[TARGETED][APPLIED] R8 Section heading
+[TARGETED][APPLIED] T7a Reference 3 completed from the primary source
+[TARGETED][APPLIED] T7b Reference 4 completed from the primary source
+[TARGETED][APPLIED] T7c Reference 15 annotated with the specific quantitative support it provides, verified against the primary abstract
+[TARGETED][APPLIED] T7d Reference 16 title completed
+[REF17][APPLIED] appended ivabradine PK reference
+[DELETE][APPLIED] removed 12 internal-note paragraphs (AUTHOR NOTE + Revision notes)

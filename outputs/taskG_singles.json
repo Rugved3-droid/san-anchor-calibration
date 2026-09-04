@@ -1,0 +1,163 @@
+{
+  "G1_dog_binding": {
+    "measured_dog_f_unbound": 0.093,
+    "measured_dog_bound_pct": 90.7,
+    "source": "Keefe DL, Yee YG, Kates RE. Clin Pharmacol Ther 1981;29(1):21-6. PMID 6970111",
+    "human_f_unbound_same_assay": 0.104,
+    "crosscheck_belpaire_f_unbound": 0.15,
+    "crosscheck_source": "Belpaire FM et al. J Pharm Pharmacol 1990;42(1):45-9. PMID 1969949",
+    "f_unbound_needed_for_taskF_pass": 0.2,
+    "rescue_available": false,
+    "rows": [
+      {
+        "source": "Keefe 1981 dog (MEASURED)",
+        "f_unbound": 0.093,
+        "free_nM": [
+          20.048394192696875,
+          41.73339199296084
+        ],
+        "block": [
+          0.07585289947495484,
+          0.15434265489685778
+        ],
+        "failure_fraction": [
+          0.005500616909564859,
+          0.05734935043316171
+        ],
+        "in_window": false
+      },
+      {
+        "source": "Keefe 1981 human",
+        "f_unbound": 0.104,
+        "free_nM": [
+          22.419709634843816,
+          46.66959964804223
+        ],
+        "block": [
+          0.0848484702931873,
+          0.17092490145226946
+        ],
+        "failure_fraction": [
+          0.007414568147486659,
+          0.07322596947557714
+        ],
+        "in_window": false
+      },
+      {
+        "source": "Belpaire 1990 dog",
+        "f_unbound": 0.15,
+        "free_nM": [
+          32.33611966564012,
+          67.31192256929168
+        ],
+        "block": [
+          0.12142373950572038,
+          0.2350737619836037
+        ],
+        "failure_fraction": [
+          0.02887126766444288,
+          0.1644951014597088
+        ],
+        "in_window": false
+      },
+      {
+        "source": "what Task F needed",
+        "f_unbound": 0.2,
+        "free_nM": [
+          43.1148262208535,
+          89.74923009238891
+        ],
+        "block": [
+          0.15903271207761985,
+          0.29602340168366115
+        ],
+        "failure_fraction": [
+          0.06183983071261475,
+          0.2747231732576851
+        ],
+        "in_window": true
+      }
+    ]
+  },
+  "G2_verapamil_schulman": {
+    "anchor": "Schulman DS et al. J Cardiovasc Pharmacol 1993;21(4):567-72. PMID 7681901",
+    "n": 13,
+    "dose_mg_iv_median": 4,
+    "magnitude_recoverable": false,
+    "pk_frame": "Reiter MJ et al. Am J Cardiol 1982;50(4):716-21. PMID 7124631",
+    "assumed_total_ng_per_mL": [
+      25,
+      80
+    ],
+    "implied_block_range": [
+      0.02048704762841377,
+      0.06917522854591299
+    ],
+    "implied_failure_range": [
+      0.0,
+      0.00407983586083255
+    ],
+    "observed_bound_0_of_13_ci": [
+      0.0,
+      0.22810184305529166
+    ],
+    "ladder": [
+      {
+        "total_ng_per_mL": 10,
+        "free_nM": 2.287725472943247,
+        "block": 0.007645072616962606,
+        "failure_fraction": 0.0
+      },
+      {
+        "total_ng_per_mL": 25,
+        "free_nM": 5.719313682358116,
+        "block": 0.02048704762841377,
+        "failure_fraction": 0.0
+      },
+      {
+        "total_ng_per_mL": 40,
+        "free_nM": 9.150901891772987,
+        "block": 0.0337331618482689,
+        "failure_fraction": 0.0
+      },
+      {
+        "total_ng_per_mL": 60,
+        "free_nM": 13.726352837659478,
+        "block": 0.051514573630550016,
+        "failure_fraction": 0.0003222497086276624
+      },
+      {
+        "total_ng_per_mL": 80,
+        "free_nM": 18.301803783545974,
+        "block": 0.06917522854591299,
+        "failure_fraction": 0.00407983586083255
+      },
+      {
+        "total_ng_per_mL": 120,
+        "free_nM": 27.452705675318956,
+        "block": 0.10363512436007394,
+        "failure_fraction": 0.013732020731977816
+      },
+      {
+        "total_ng_per_mL": 160,
+        "free_nM": 36.60360756709195,
+        "block": 0.1365909599035712,
+        "failure_fraction": 0.04177954034346485
+      },
+      {
+        "total_ng_per_mL": 200,
+        "free_nM": 45.75450945886493,
+        "block": 0.16788780998741673,
+        "failure_fraction": 0.070318115945399
+      }
+    ]
+  },
+  "G2_ivabradine": {
+    "block": 0.312,
+    "anchor": "36-month transplant 91.0 -> 81.2 bpm",
+    "implied_ic50_nM": 32.8,
+    "invitro_ic50_nM": 2000.0,
+    "fold_gap": 61,
+    "status": "stated limitation, not a blocker"
+  }
+}

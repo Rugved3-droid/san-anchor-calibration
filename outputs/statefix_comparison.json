@@ -1,0 +1,31 @@
+{
+  "n_compared": 940,
+  "retained_before": 187,
+  "retained_after": 188,
+  "retention_before": 0.19893617021276597,
+  "retention_after": 0.2,
+  "identical_retained": 187,
+  "retained_to_rejected": 0,
+  "rejected_to_retained": 1,
+  "switch_indices": {
+    "lost": [],
+    "gained": [
+      200
+    ]
+  },
+  "status_changes": [
+    {
+      "index": 200,
+      "before": "no_pacing",
+      "after": "ok"
+    },
+    {
+      "index": 736,
+      "before": "no_pacing",
+      "after": "ok"
+    }
+  ],
+  "no_pacing_reclassifications": 2,
+  "max_abs_dCL_ms": 241.44999999999982,
+  "mean_abs_dCL_ms": 0.9092065067043169
+}

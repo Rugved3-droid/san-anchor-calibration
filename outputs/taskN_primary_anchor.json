@@ -1,0 +1,677 @@
+{
+  "hill_slope": 0.8,
+  "cmax_free_nM": 12.2,
+  "smpc_observed_bpm": -5.0,
+  "anchors": {
+    "Doesch 2007 (PRIMARY)": {
+      "block_1x": 0.584,
+      "ic50_resolved_nM": 7.983814450174546,
+      "consistency_recovered_block": 0.584,
+      "abs_error": 0.0,
+      "fold_gap_vs_invitro": 250.5068238348494,
+      "arms": {
+        "1x": 0.584,
+        "2x": 0.7097,
+        "3x": 0.7717
+      }
+    },
+    "10-year cohort": {
+      "block_1x": 0.509,
+      "ic50_resolved_nM": 11.66311258447719,
+      "consistency_recovered_block": 0.509,
+      "abs_error": 0.0,
+      "fold_gap_vs_invitro": 171.4808105909793,
+      "arms": {
+        "1x": 0.509,
+        "2x": 0.6435,
+        "3x": 0.714
+      }
+    },
+    "36-month (superseded)": {
+      "block_1x": 0.312,
+      "ic50_resolved_nM": 32.78325984062678,
+      "consistency_recovered_block": 0.31200000000000006,
+      "abs_error": 5.551115123125783e-17,
+      "fold_gap_vs_invitro": 61.00674581243114,
+      "arms": {
+        "1x": 0.312,
+        "2x": 0.4412,
+        "3x": 0.522
+      }
+    }
+  },
+  "N4_hill": {
+    "sensitivity_primary_anchor": {
+      "0.6": {
+        "ic50_nM": 6.931501206991286,
+        "1x": 0.584,
+        "2x": 0.6802898233845353,
+        "3x": 0.7307405572196676
+      },
+      "0.8": {
+        "ic50_nM": 7.983814450174546,
+        "1x": 0.584,
+        "2x": 0.7096600278051887,
+        "3x": 0.7717299902123032
+      },
+      "1.0": {
+        "ic50_nM": 8.69041095890411,
+        "1x": 0.584,
+        "2x": 0.7373737373737373,
+        "3x": 0.8081180811808117
+      },
+      "1.2": {
+        "ic50_nM": 9.19588574990434,
+        "1x": 0.584,
+        "2x": 0.7633243388677631,
+        "3x": 0.8399089085511144
+      }
+    }
+  },
+  "N2_decomposition": {
+    "control": {
+      "Doesch 2007 (PRIMARY)": [
+        {
+          "block": 0.0,
+          "total_ng_per_mL": 0.0,
+          "n_cohort": 178,
+          "dHR_ref_ivab_1x": -9.17123099916843,
+          "PK_only": -2.64053406277716,
+          "PD_only": 0.0,
+          "PK_plus_PD_2x": -2.64053406277716,
+          "PK_plus_PD_3x": -4.151160981849227
+        },
+        {
+          "block": 0.029,
+          "total_ng_per_mL": 34.66373833733909,
+          "n_cohort": 175,
+          "dHR_ref_ivab_1x": -9.097254355510529,
+          "PK_only": -2.597124816401333,
+          "PD_only": -2.2644736078776617,
+          "PK_plus_PD_2x": -4.435219071646003,
+          "PK_plus_PD_3x": -5.661399920882971
+        },
+        {
+          "block": 0.05,
+          "total_ng_per_mL": 58.29422299559489,
+          "n_cohort": 175,
+          "dHR_ref_ivab_1x": -9.097254355510529,
+          "PK_only": -2.597124816401333,
+          "PD_only": -3.5032971652189246,
+          "PK_plus_PD_2x": -6.1101406390964215,
+          "PK_plus_PD_3x": -7.532139534164145
+        },
+        {
+          "block": 0.1,
+          "total_ng_per_mL": 115.70233289494917,
+          "n_cohort": 170,
+          "dHR_ref_ivab_1x": -9.306969557157096,
+          "PK_only": -2.700707036274064,
+          "PD_only": -5.804439217904044,
+          "PK_plus_PD_2x": -8.524201058015912,
+          "PK_plus_PD_3x": -10.01648971917157
+        },
+        {
+          "block": 0.14,
+          "total_ng_per_mL": 164.2549054573931,
+          "n_cohort": 164,
+          "dHR_ref_ivab_1x": -9.045719594590494,
+          "PK_only": -2.5615841355634927,
+          "PD_only": -9.071806658573024,
+          "PK_plus_PD_2x": -11.241656458432342,
+          "PK_plus_PD_3x": -12.74453271372871
+        },
+        {
+          "block": 0.2,
+          "total_ng_per_mL": 243.46993696244763,
+          "n_cohort": 142,
+          "dHR_ref_ivab_1x": -8.844363750260833,
+          "PK_only": -2.1411003497501113,
+          "PD_only": -13.412840531632064,
+          "PK_plus_PD_2x": -15.83257145329597,
+          "PK_plus_PD_3x": -16.643678012084663
+        },
+        {
+          "block": 0.3,
+          "total_ng_per_mL": 399.2092339236578,
+          "n_cohort": 103,
+          "dHR_ref_ivab_1x": -9.097254355510529,
+          "PK_only": -2.597124816401333,
+          "PD_only": -18.291084550448147,
+          "PK_plus_PD_2x": -21.548584842251508,
+          "PK_plus_PD_3x": -23.013238589080125
+        }
+      ],
+      "Doesch 2007 (PRIMARY)__ranks": {
+        "low_dose_larger": "PK",
+        "high_dose_larger": "PD",
+        "rank_swap": true,
+        "low": {
+          "PK": -2.597124816401333,
+          "PD": -2.2644736078776617
+        },
+        "high": {
+          "PK": -2.597124816401333,
+          "PD": -18.291084550448147
+        }
+      },
+      "10-year cohort": [
+        {
+          "block": 0.0,
+          "total_ng_per_mL": 0.0,
+          "n_cohort": 180,
+          "dHR_ref_ivab_1x": -7.869476752416023,
+          "PK_only": -2.7283988191818125,
+          "PD_only": 0.0,
+          "PK_plus_PD_2x": -2.7283988191818125,
+          "PK_plus_PD_3x": -4.231909548705104
+        },
+        {
+          "block": 0.029,
+          "total_ng_per_mL": 34.66373833733909,
+          "n_cohort": 178,
+          "dHR_ref_ivab_1x": -7.840474531252326,
+          "PK_only": -2.456830704895353,
+          "PD_only": -2.2866890606083103,
+          "PK_plus_PD_2x": -4.560800668067042,
+          "PK_plus_PD_3x": -5.880073604101348
+        },
+        {
+          "block": 0.05,
+          "total_ng_per_mL": 58.29422299559489,
+          "n_cohort": 177,
+          "dHR_ref_ivab_1x": -7.842727684722185,
+          "PK_only": -2.6107671475932435,
+          "PD_only": -3.1355888831203274,
+          "PK_plus_PD_2x": -5.944465630453884,
+          "PK_plus_PD_3x": -7.477210835428615
+        },
+        {
+          "block": 0.1,
+          "total_ng_per_mL": 115.70233289494917,
+          "n_cohort": 170,
+          "dHR_ref_ivab_1x": -7.869476752416023,
+          "PK_only": -2.7283988191818125,
+          "PD_only": -5.677400129281963,
+          "PK_plus_PD_2x": -8.531108117241743,
+          "PK_plus_PD_3x": -10.065826375885415
+        },
+        {
+          "block": 0.14,
+          "total_ng_per_mL": 164.2549054573931,
+          "n_cohort": 166,
+          "dHR_ref_ivab_1x": -7.840474531252326,
+          "PK_only": -2.456830704895353,
+          "PD_only": -9.396165356421953,
+          "PK_plus_PD_2x": -11.370432886959385,
+          "PK_plus_PD_3x": -12.767208374605175
+        },
+        {
+          "block": 0.2,
+          "total_ng_per_mL": 243.46993696244763,
+          "n_cohort": 147,
+          "dHR_ref_ivab_1x": -7.838221377782467,
+          "PK_only": -2.302894262197462,
+          "PD_only": -13.597545632401946,
+          "PK_plus_PD_2x": -15.903905317634646,
+          "PK_plus_PD_3x": -17.676282640739743
+        },
+        {
+          "block": 0.3,
+          "total_ng_per_mL": 399.2092339236578,
+          "n_cohort": 104,
+          "dHR_ref_ivab_1x": -7.965921450701664,
+          "PK_only": -2.491886230339631,
+          "PD_only": -18.93399909867225,
+          "PK_plus_PD_2x": -21.201515532717206,
+          "PK_plus_PD_3x": -23.023434945376827
+        }
+      ],
+      "10-year cohort__ranks": {
+        "low_dose_larger": "PK",
+        "high_dose_larger": "PD",
+        "rank_swap": true,
+        "low": {
+          "PK": -2.456830704895353,
+          "PD": -2.2866890606083103
+        },
+        "high": {
+          "PK": -2.491886230339631,
+          "PD": -18.93399909867225
+        }
+      },
+      "36-month (superseded)": [
+        {
+          "block": 0.0,
+          "total_ng_per_mL": 0.0,
+          "n_cohort": 184,
+          "dHR_ref_ivab_1x": -4.845787269084305,
+          "PK_only": -2.1673489412741844,
+          "PD_only": 0.0,
+          "PK_plus_PD_2x": -2.1673489412741844,
+          "PK_plus_PD_3x": -3.453558819238914
+        },
+        {
+          "block": 0.029,
+          "total_ng_per_mL": 34.66373833733909,
+          "n_cohort": 183,
+          "dHR_ref_ivab_1x": -4.7430374515355425,
+          "PK_only": -2.17796580285885,
+          "PD_only": -1.7200754266479095,
+          "PK_plus_PD_2x": -4.156720698593702,
+          "PK_plus_PD_3x": -5.755250960069681
+        },
+        {
+          "block": 0.05,
+          "total_ng_per_mL": 58.29422299559489,
+          "n_cohort": 183,
+          "dHR_ref_ivab_1x": -4.7430374515355425,
+          "PK_only": -2.17796580285885,
+          "PD_only": -3.3665356020335793,
+          "PK_plus_PD_2x": -5.155207771527188,
+          "PK_plus_PD_3x": -6.894733183055294
+        },
+        {
+          "block": 0.1,
+          "total_ng_per_mL": 115.70233289494917,
+          "n_cohort": 178,
+          "dHR_ref_ivab_1x": -4.735183146387264,
+          "PK_only": -2.079894116404496,
+          "PD_only": -6.611696637432125,
+          "PK_plus_PD_2x": -8.926336580665392,
+          "PK_plus_PD_3x": -9.855317035576142
+        },
+        {
+          "block": 0.14,
+          "total_ng_per_mL": 164.2549054573931,
+          "n_cohort": 172,
+          "dHR_ref_ivab_1x": -4.845787269084305,
+          "PK_only": -2.1673489412741844,
+          "PD_only": -9.860338866327027,
+          "PK_plus_PD_2x": -11.708935453241082,
+          "PK_plus_PD_3x": -12.934098730207971
+        },
+        {
+          "block": 0.2,
+          "total_ng_per_mL": 243.46993696244763,
+          "n_cohort": 153,
+          "dHR_ref_ivab_1x": -4.635387701061575,
+          "PK_only": -2.048564489830923,
+          "PD_only": -14.126613351715825,
+          "PK_plus_PD_2x": -15.889180152091953,
+          "PK_plus_PD_3x": -17.99343236719654
+        },
+        {
+          "block": 0.3,
+          "total_ng_per_mL": 399.2092339236578,
+          "n_cohort": 112,
+          "dHR_ref_ivab_1x": -4.928173100859034,
+          "PK_only": -2.084963109499455,
+          "PD_only": -20.696170664688317,
+          "PK_plus_PD_2x": -22.265245025744814,
+          "PK_plus_PD_3x": -23.971200247425642
+        }
+      ],
+      "36-month (superseded)__ranks": {
+        "low_dose_larger": "PK",
+        "high_dose_larger": "PD",
+        "rank_swap": true,
+        "low": {
+          "PK": -2.17796580285885,
+          "PD": -1.7200754266479095
+        },
+        "high": {
+          "PK": -2.084963109499455,
+          "PD": -20.696170664688317
+        }
+      }
+    },
+    "iso": {
+      "Doesch 2007 (PRIMARY)": [
+        {
+          "block": 0.0,
+          "total_ng_per_mL": 0.0,
+          "n_cohort": 158,
+          "dHR_ref_ivab_1x": -17.392653425481583,
+          "PK_only": -4.578229935967123,
+          "PD_only": 0.0,
+          "PK_plus_PD_2x": -4.578229935967123,
+          "PK_plus_PD_3x": -7.5578261905702036
+        },
+        {
+          "block": 0.029,
+          "total_ng_per_mL": 34.66373833733909,
+          "n_cohort": 156,
+          "dHR_ref_ivab_1x": -17.37931644441666,
+          "PK_only": -4.426434725014495,
+          "PD_only": -1.1748418982985775,
+          "PK_plus_PD_2x": -6.190276556878402,
+          "PK_plus_PD_3x": -9.10455825448718
+        },
+        {
+          "block": 0.05,
+          "total_ng_per_mL": 58.29422299559489,
+          "n_cohort": 154,
+          "dHR_ref_ivab_1x": -17.350785327344994,
+          "PK_only": -4.325232985118127,
+          "PD_only": -2.0158065225096244,
+          "PK_plus_PD_2x": -6.971034786251138,
+          "PK_plus_PD_3x": -9.602386170530487
+        },
+        {
+          "block": 0.1,
+          "total_ng_per_mL": 115.70233289494917,
+          "n_cohort": 151,
+          "dHR_ref_ivab_1x": -16.71884744122103,
+          "PK_only": -4.710589447530367,
+          "PD_only": -4.950260222067243,
+          "PK_plus_PD_2x": -10.008316051752878,
+          "PK_plus_PD_3x": -12.357750625399646
+        },
+        {
+          "block": 0.14,
+          "total_ng_per_mL": 164.2549054573931,
+          "n_cohort": 149,
+          "dHR_ref_ivab_1x": -16.71884744122103,
+          "PK_only": -4.710589447530367,
+          "PD_only": -6.2609912950840965,
+          "PK_plus_PD_2x": -11.423184936142505,
+          "PK_plus_PD_3x": -14.090065400984557
+        },
+        {
+          "block": 0.2,
+          "total_ng_per_mL": 243.46993696244763,
+          "n_cohort": 143,
+          "dHR_ref_ivab_1x": -16.569579717296875,
+          "PK_only": -4.678280662455492,
+          "PD_only": -9.136648478627343,
+          "PK_plus_PD_2x": -13.24892498123124,
+          "PK_plus_PD_3x": -16.114668262538792
+        },
+        {
+          "block": 0.3,
+          "total_ng_per_mL": 399.2092339236578,
+          "n_cohort": 125,
+          "dHR_ref_ivab_1x": -15.97745338914487,
+          "PK_only": -4.699927076489175,
+          "PD_only": -14.881417505748153,
+          "PK_plus_PD_2x": -17.531523529677237,
+          "PK_plus_PD_3x": -20.048262857194686
+        }
+      ],
+      "Doesch 2007 (PRIMARY)__ranks": {
+        "low_dose_larger": "PK",
+        "high_dose_larger": "PD",
+        "rank_swap": true,
+        "low": {
+          "PK": -4.426434725014495,
+          "PD": -1.1748418982985775
+        },
+        "high": {
+          "PK": -4.699927076489175,
+          "PD": -14.881417505748153
+        }
+      },
+      "10-year cohort": [
+        {
+          "block": 0.0,
+          "total_ng_per_mL": 0.0,
+          "n_cohort": 159,
+          "dHR_ref_ivab_1x": -14.804184777697785,
+          "PK_only": -4.722837915330331,
+          "PD_only": 0.0,
+          "PK_plus_PD_2x": -4.722837915330331,
+          "PK_plus_PD_3x": -7.412021595382967
+        },
+        {
+          "block": 0.029,
+          "total_ng_per_mL": 34.66373833733909,
+          "n_cohort": 159,
+          "dHR_ref_ivab_1x": -14.804184777697785,
+          "PK_only": -4.722837915330331,
+          "PD_only": -1.063871853682258,
+          "PK_plus_PD_2x": -6.268204032916373,
+          "PK_plus_PD_3x": -8.99342917442101
+        },
+        {
+          "block": 0.05,
+          "total_ng_per_mL": 58.29422299559489,
+          "n_cohort": 158,
+          "dHR_ref_ivab_1x": -14.772020485068587,
+          "PK_only": -4.7497919439958665,
+          "PD_only": -2.264853484293795,
+          "PK_plus_PD_2x": -7.244630344429524,
+          "PK_plus_PD_3x": -10.331005152805368
+        },
+        {
+          "block": 0.1,
+          "total_ng_per_mL": 115.70233289494917,
+          "n_cohort": 155,
+          "dHR_ref_ivab_1x": -14.691147396240225,
+          "PK_only": -4.779998710857839,
+          "PD_only": -4.624656666942641,
+          "PK_plus_PD_2x": -9.44881802606401,
+          "PK_plus_PD_3x": -12.430546764954492
+        },
+        {
+          "block": 0.14,
+          "total_ng_per_mL": 164.2549054573931,
+          "n_cohort": 152,
+          "dHR_ref_ivab_1x": -14.615619885773675,
+          "PK_only": -4.7400608608858334,
+          "PD_only": -6.679168507479787,
+          "PK_plus_PD_2x": -11.00586639555786,
+          "PK_plus_PD_3x": -14.146387142052113
+        },
+        {
+          "block": 0.2,
+          "total_ng_per_mL": 243.46993696244763,
+          "n_cohort": 148,
+          "dHR_ref_ivab_1x": -14.421526050472757,
+          "PK_only": -4.592031306297308,
+          "PD_only": -10.098435034956022,
+          "PK_plus_PD_2x": -14.83382414945563,
+          "PK_plus_PD_3x": -17.518239124401546
+        },
+        {
+          "block": 0.3,
+          "total_ng_per_mL": 399.2092339236578,
+          "n_cohort": 133,
+          "dHR_ref_ivab_1x": -13.700671052306546,
+          "PK_only": -4.567123720633518,
+          "PD_only": -16.165926131564404,
+          "PK_plus_PD_2x": -20.424712474963272,
+          "PK_plus_PD_3x": -22.844800021591467
+        }
+      ],
+      "10-year cohort__ranks": {
+        "low_dose_larger": "PK",
+        "high_dose_larger": "PD",
+        "rank_swap": true,
+        "low": {
+          "PK": -4.722837915330331,
+          "PD": -1.063871853682258
+        },
+        "high": {
+          "PK": -4.567123720633518,
+          "PD": -16.165926131564404
+        }
+      },
+      "36-month (superseded)": [
+        {
+          "block": 0.0,
+          "total_ng_per_mL": 0.0,
+          "n_cohort": 165,
+          "dHR_ref_ivab_1x": -8.723163553618761,
+          "PK_only": -4.063614859103211,
+          "PD_only": 0.0,
+          "PK_plus_PD_2x": -4.063614859103211,
+          "PK_plus_PD_3x": -6.8674791591567015
+        },
+        {
+          "block": 0.029,
+          "total_ng_per_mL": 34.66373833733909,
+          "n_cohort": 165,
+          "dHR_ref_ivab_1x": -8.723163553618761,
+          "PK_only": -4.063614859103211,
+          "PD_only": -1.3196783256585007,
+          "PK_plus_PD_2x": -5.466018881673818,
+          "PK_plus_PD_3x": -8.274564611996766
+        },
+        {
+          "block": 0.05,
+          "total_ng_per_mL": 58.29422299559489,
+          "n_cohort": 165,
+          "dHR_ref_ivab_1x": -8.723163553618761,
+          "PK_only": -4.063614859103211,
+          "PD_only": -2.330399239941343,
+          "PK_plus_PD_2x": -6.505787151837126,
+          "PK_plus_PD_3x": -9.436675278428481
+        },
+        {
+          "block": 0.1,
+          "total_ng_per_mL": 115.70233289494917,
+          "n_cohort": 165,
+          "dHR_ref_ivab_1x": -8.723163553618761,
+          "PK_only": -4.063614859103211,
+          "PD_only": -5.112997424860197,
+          "PK_plus_PD_2x": -9.650295254300843,
+          "PK_plus_PD_3x": -12.090247033094414
+        },
+        {
+          "block": 0.14,
+          "total_ng_per_mL": 164.2549054573931,
+          "n_cohort": 164,
+          "dHR_ref_ivab_1x": -8.716824386904122,
+          "PK_only": -4.04287823754208,
+          "PD_only": -8.063063983329663,
+          "PK_plus_PD_2x": -12.155755443654655,
+          "PK_plus_PD_3x": -15.28024229851652
+        },
+        {
+          "block": 0.2,
+          "total_ng_per_mL": 243.46993696244763,
+          "n_cohort": 160,
+          "dHR_ref_ivab_1x": -8.648044704246416,
+          "PK_only": -4.082438007567379,
+          "PD_only": -11.470184969297293,
+          "PK_plus_PD_2x": -15.497037280299057,
+          "PK_plus_PD_3x": -18.16720026427565
+        },
+        {
+          "block": 0.3,
+          "total_ng_per_mL": 399.2092339236578,
+          "n_cohort": 147,
+          "dHR_ref_ivab_1x": -8.4628041727115,
+          "PK_only": -3.8382721318689477,
+          "PD_only": -16.434009683316674,
+          "PK_plus_PD_2x": -20.877330999808848,
+          "PK_plus_PD_3x": -23.730298745090977
+        }
+      ],
+      "36-month (superseded)__ranks": {
+        "low_dose_larger": "PK",
+        "high_dose_larger": "PD",
+        "rank_swap": true,
+        "low": {
+          "PK": -4.063614859103211,
+          "PD": -1.3196783256585007
+        },
+        "high": {
+          "PK": -3.8382721318689477,
+          "PD": -16.434009683316674
+        }
+      }
+    }
+  },
+  "N3_external": {
+    "control": {
+      "Doesch 2007 (PRIMARY)": {
+        "time-average (PRIMARY)": {
+          "block": 0.029,
+          "predicted_bpm": -4.435219071646003,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 0.8870438143292005
+        },
+        "Cmax (sensitivity)": {
+          "block": 0.14,
+          "predicted_bpm": -11.241656458432342,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 2.248331291686468
+        }
+      },
+      "10-year cohort": {
+        "time-average (PRIMARY)": {
+          "block": 0.029,
+          "predicted_bpm": -4.560800668067042,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 0.9121601336134084
+        },
+        "Cmax (sensitivity)": {
+          "block": 0.14,
+          "predicted_bpm": -11.370432886959385,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 2.274086577391877
+        }
+      },
+      "36-month (superseded)": {
+        "time-average (PRIMARY)": {
+          "block": 0.029,
+          "predicted_bpm": -4.156720698593702,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 0.8313441397187404
+        },
+        "Cmax (sensitivity)": {
+          "block": 0.14,
+          "predicted_bpm": -11.708935453241082,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 2.3417870906482166
+        }
+      }
+    },
+    "iso": {
+      "Doesch 2007 (PRIMARY)": {
+        "time-average (PRIMARY)": {
+          "block": 0.029,
+          "predicted_bpm": -6.190276556878402,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 1.2380553113756805
+        },
+        "Cmax (sensitivity)": {
+          "block": 0.14,
+          "predicted_bpm": -11.423184936142505,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 2.284636987228501
+        }
+      },
+      "10-year cohort": {
+        "time-average (PRIMARY)": {
+          "block": 0.029,
+          "predicted_bpm": -6.268204032916373,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 1.2536408065832745
+        },
+        "Cmax (sensitivity)": {
+          "block": 0.14,
+          "predicted_bpm": -11.00586639555786,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 2.201173279111572
+        }
+      },
+      "36-month (superseded)": {
+        "time-average (PRIMARY)": {
+          "block": 0.029,
+          "predicted_bpm": -5.466018881673818,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 1.0932037763347637
+        },
+        "Cmax (sensitivity)": {
+          "block": 0.14,
+          "predicted_bpm": -12.155755443654655,
+          "observed_bpm": -5.0,
+          "ratio_pred_over_obs": 2.431151088730931
+        }
+      }
+    }
+  }
+}

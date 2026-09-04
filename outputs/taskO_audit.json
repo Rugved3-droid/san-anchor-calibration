@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "loc": "Abstract; \u00a73.2; Fig 2 legend",
+      "issue": "IQR upper bound is 51.25%, presented as 51.3% in text but the generated Figure 2 prints '51%' (0-dp). Same quantity, three renderings.",
+      "sev": "LOW",
+      "fix": "Use 51.25% (or 51.2%) consistently in text and figure"
+    },
+    {
+      "loc": "Abstract, \u00a73.3, \u00a74.1 vs \u00a72.6",
+      "issue": "Same quantity written as 250-fold (3 places) and 251-fold (1 place). Recomputed value is 250.5.",
+      "sev": "MEDIUM",
+      "fix": "Use one value throughout; 251-fold is the computed one, 250-fold is the config band's rounded entry"
+    },
+    {
+      "loc": "\u00a72.7 Methods",
+      "issue": "The Iso-state denominator (n = 168, conditioned on models pacing drug-free) is defined in Results \u00a73.4 and the Figure 3 legend but never in Methods, where the endpoint denominator is specified.",
+      "sev": "MEDIUM",
+      "fix": "State in \u00a72.7 that the Iso-state denominator is the 168 models pacing drug-free, and why 20 are excluded"
+    },
+    {
+      "loc": "\u00a73.6 final paragraph",
+      "issue": "Claims 'every moderate-inhibition arm sat below every interval-supported threshold'. Under the PRIMARY anchor the 1x arm at 480 mg/day clears 10% WITH interval support (16.0%, CI 11.4%-21.9%), contradicting \u00a73.3 and \u00a73.4. The claim holds only under the superseded 36-month anchor, which is the only anchor for which the 7x arm was ever run.",
+      "sev": "HIGH",
+      "fix": "Restrict the regulatory-gradient claim to the superseded anchor and say so, or drop it"
+    }
+  ]
+}

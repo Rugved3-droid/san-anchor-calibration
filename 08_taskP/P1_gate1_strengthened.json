@@ -1,0 +1,30 @@
+{
+  "strengthened_gate1": {
+    "alone": {
+      "CL_ms": 872.7454545454547,
+      "OS_mV": 28.63906829065293,
+      "MDP_mV": -65.6077074803916,
+      "APA_mV": 94.24677577104453
+    },
+    "after_pacer_1": {
+      "CL_ms": 872.7454545454547,
+      "OS_mV": 28.63906829065293,
+      "MDP_mV": -65.6077074803916,
+      "APA_mV": 94.24677577104453
+    },
+    "after_pacer_2": {
+      "CL_ms": 872.7454545454547,
+      "OS_mV": 28.63906829065293,
+      "MDP_mV": -65.6077074803916,
+      "APA_mV": 94.24677577104453
+    }
+  },
+  "identical_across_predecessors": true,
+  "matches_history": true,
+  "probe": "model 0 (pacing)",
+  "predecessors": [
+    "none",
+    "model 1",
+    "model 2"
+  ]
+}

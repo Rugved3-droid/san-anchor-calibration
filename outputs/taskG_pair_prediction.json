@@ -1,0 +1,571 @@
+{
+  "B_ivabradine": 0.312,
+  "states": {
+    "control": {
+      "n": 188,
+      "n_excluded_drugfree": 0,
+      "median_bpm_drugfree": 82.20384880765695,
+      "rows": [
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.0,
+          "P_A_verapamil_alone": 0.0,
+          "P_B_ivabradine_alone": 0.005319148936170213,
+          "P_AB_pair": 0.005319148936170213,
+          "P_AB_ci": [
+            0.0009395541295989223,
+            0.02951056722051492
+          ],
+          "EAR_paired": 0.0,
+          "EAR_paired_k": 0,
+          "EAR_paired_ci": [
+            1.734723475976807e-18,
+            0.020024853837749476
+          ],
+          "EAR_marginal": 0.0,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.005319148936170213,
+          "bliss_class": "additive",
+          "n_survivors_pair": 187,
+          "median_dHR_pair": -5.129017360479082
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.05,
+          "P_A_verapamil_alone": 0.0,
+          "P_B_ivabradine_alone": 0.005319148936170213,
+          "P_AB_pair": 0.02127659574468085,
+          "P_AB_ci": [
+            0.00830428256845268,
+            0.053421641318754265
+          ],
+          "EAR_paired": 0.015957446808510637,
+          "EAR_paired_k": 3,
+          "EAR_paired_ci": [
+            0.005441459875889183,
+            0.04585919649895339
+          ],
+          "EAR_marginal": 0.015957446808510637,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.005319148936170213,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 184,
+          "median_dHR_pair": -8.15443609538298
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.1,
+          "P_A_verapamil_alone": 0.010638297872340425,
+          "P_B_ivabradine_alone": 0.005319148936170213,
+          "P_AB_pair": 0.047872340425531915,
+          "P_AB_ci": [
+            0.02538701913178959,
+            0.08846524231723919
+          ],
+          "EAR_paired": 0.03723404255319149,
+          "EAR_paired_k": 7,
+          "EAR_paired_ci": [
+            0.01815093746565364,
+            0.07485078895864641
+          ],
+          "EAR_marginal": 0.03723404255319149,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.015900860117700314,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 179,
+          "median_dHR_pair": -11.365185916887981
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.15,
+          "P_A_verapamil_alone": 0.05319148936170213,
+          "P_B_ivabradine_alone": 0.005319148936170213,
+          "P_AB_pair": 0.0797872340425532,
+          "P_AB_ci": [
+            0.04894563964076566,
+            0.12745822688244934
+          ],
+          "EAR_paired": 0.026595744680851064,
+          "EAR_paired_k": 5,
+          "EAR_paired_ci": [
+            0.011412278351477498,
+            0.06073891304809381
+          ],
+          "EAR_marginal": 0.026595744680851068,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.058227704843820734,
+          "bliss_class": "additive",
+          "n_survivors_pair": 173,
+          "median_dHR_pair": -15.581565287070717
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.2,
+          "P_A_verapamil_alone": 0.10106382978723404,
+          "P_B_ivabradine_alone": 0.005319148936170213,
+          "P_AB_pair": 0.13829787234042554,
+          "P_AB_ci": [
+            0.09615614170851133,
+            0.19492566745071171
+          ],
+          "EAR_paired": 0.03723404255319149,
+          "EAR_paired_k": 7,
+          "EAR_paired_ci": [
+            0.01815093746565364,
+            0.07485078895864641
+          ],
+          "EAR_marginal": 0.0372340425531915,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.10584540516070619,
+          "bliss_class": "additive",
+          "n_survivors_pair": 162,
+          "median_dHR_pair": -19.277095682129705
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.25,
+          "P_A_verapamil_alone": 0.19148936170212766,
+          "P_B_ivabradine_alone": 0.005319148936170213,
+          "P_AB_pair": 0.2074468085106383,
+          "P_AB_ci": [
+            0.1556279470875656,
+            0.27098233973239416
+          ],
+          "EAR_paired": 0.015957446808510637,
+          "EAR_paired_k": 3,
+          "EAR_paired_ci": [
+            0.005441459875889183,
+            0.04585919649895339
+          ],
+          "EAR_marginal": 0.015957446808510634,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.1957899502037121,
+          "bliss_class": "additive",
+          "n_survivors_pair": 149,
+          "median_dHR_pair": -23.969399471085353
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.3,
+          "P_A_verapamil_alone": 0.28191489361702127,
+          "P_B_ivabradine_alone": 0.005319148936170213,
+          "P_AB_pair": 0.35106382978723405,
+          "P_AB_ci": [
+            0.2864376950493067,
+            0.42165481460449106
+          ],
+          "EAR_paired": 0.06914893617021277,
+          "EAR_paired_k": 13,
+          "EAR_paired_ci": [
+            0.040852626024894284,
+            0.11470070547359196
+          ],
+          "EAR_marginal": 0.06914893617021278,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.28573449524671796,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 122,
+          "median_dHR_pair": -26.528036198586832
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.4,
+          "P_A_verapamil_alone": 0.5319148936170213,
+          "P_B_ivabradine_alone": 0.005319148936170213,
+          "P_AB_pair": 0.5797872340425532,
+          "P_AB_ci": [
+            0.5083232919088714,
+            0.648055720776594
+          ],
+          "EAR_paired": 0.047872340425531915,
+          "EAR_paired_k": 9,
+          "EAR_paired_ci": [
+            0.02538701913178959,
+            0.08846524231723919
+          ],
+          "EAR_marginal": 0.0478723404255319,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.5344047080126755,
+          "bliss_class": "additive",
+          "n_survivors_pair": 79,
+          "median_dHR_pair": -35.10612867705363
+        },
+        {
+          "b_ivabradine": 0.509,
+          "b_verapamil": 0.0,
+          "P_A_verapamil_alone": 0.0,
+          "P_B_ivabradine_alone": 0.026595744680851064,
+          "P_AB_pair": 0.026595744680851064,
+          "P_AB_ci": [
+            0.011412278351477498,
+            0.06073891304809381
+          ],
+          "EAR_paired": 0.0,
+          "EAR_paired_k": 0,
+          "EAR_paired_ci": [
+            1.734723475976807e-18,
+            0.020024853837749476
+          ],
+          "EAR_marginal": 0.0,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.026595744680851064,
+          "bliss_class": "additive",
+          "n_survivors_pair": 183,
+          "median_dHR_pair": -8.035617081293466
+        },
+        {
+          "b_ivabradine": 0.509,
+          "b_verapamil": 0.1,
+          "P_A_verapamil_alone": 0.010638297872340425,
+          "P_B_ivabradine_alone": 0.026595744680851064,
+          "P_AB_pair": 0.05319148936170213,
+          "P_AB_ci": [
+            0.0291456057761509,
+            0.09513192318524226
+          ],
+          "EAR_paired": 0.02127659574468085,
+          "EAR_paired_k": 4,
+          "EAR_paired_ci": [
+            0.00830428256845268,
+            0.053421641318754265
+          ],
+          "EAR_marginal": 0.026595744680851064,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.03695110909913988,
+          "bliss_class": "additive",
+          "n_survivors_pair": 178,
+          "median_dHR_pair": -14.41269632733124
+        },
+        {
+          "b_ivabradine": 0.509,
+          "b_verapamil": 0.2,
+          "P_A_verapamil_alone": 0.10106382978723404,
+          "P_B_ivabradine_alone": 0.026595744680851064,
+          "P_AB_pair": 0.17553191489361702,
+          "P_AB_ci": [
+            0.1278055210316092,
+            0.2362531607141644
+          ],
+          "EAR_paired": 0.06914893617021277,
+          "EAR_paired_k": 13,
+          "EAR_paired_ci": [
+            0.040852626024894284,
+            0.11470070547359196
+          ],
+          "EAR_marginal": 0.07446808510638299,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.12497170665459482,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 155,
+          "median_dHR_pair": -22.346437561756296
+        },
+        {
+          "b_ivabradine": 0.509,
+          "b_verapamil": 0.3,
+          "P_A_verapamil_alone": 0.28191489361702127,
+          "P_B_ivabradine_alone": 0.026595744680851064,
+          "P_AB_pair": 0.40425531914893614,
+          "P_AB_ci": [
+            0.3367008666172537,
+            0.47564431816018765
+          ],
+          "EAR_paired": 0.12234042553191489,
+          "EAR_paired_k": 23,
+          "EAR_paired_ci": [
+            0.08292081374791826,
+            0.17688519287421167
+          ],
+          "EAR_marginal": 0.12234042553191488,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.30101290176550477,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 112,
+          "median_dHR_pair": -28.54596654602641
+        }
+      ]
+    },
+    "iso": {
+      "n": 168,
+      "n_excluded_drugfree": 20,
+      "median_bpm_drugfree": 97.21590857709081,
+      "rows": [
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.0,
+          "P_A_verapamil_alone": 0.0,
+          "P_B_ivabradine_alone": 0.0,
+          "P_AB_pair": 0.0,
+          "P_AB_ci": [
+            0.0,
+            0.02235547155054422
+          ],
+          "EAR_paired": 0.0,
+          "EAR_paired_k": 0,
+          "EAR_paired_ci": [
+            0.0,
+            0.02235547155054422
+          ],
+          "EAR_marginal": 0.0,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.0,
+          "bliss_class": "no events",
+          "n_survivors_pair": 168,
+          "median_dHR_pair": -8.948960752542362
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.05,
+          "P_A_verapamil_alone": 0.0,
+          "P_B_ivabradine_alone": 0.0,
+          "P_AB_pair": 0.011904761904761904,
+          "P_AB_ci": [
+            0.003270740864736929,
+            0.04236198136317528
+          ],
+          "EAR_paired": 0.011904761904761904,
+          "EAR_paired_k": 2,
+          "EAR_paired_ci": [
+            0.003270740864736929,
+            0.04236198136317528
+          ],
+          "EAR_marginal": 0.011904761904761904,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.0,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 166,
+          "median_dHR_pair": -11.095318051868198
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.1,
+          "P_A_verapamil_alone": 0.0,
+          "P_B_ivabradine_alone": 0.0,
+          "P_AB_pair": 0.011904761904761904,
+          "P_AB_ci": [
+            0.003270740864736929,
+            0.04236198136317528
+          ],
+          "EAR_paired": 0.011904761904761904,
+          "EAR_paired_k": 2,
+          "EAR_paired_ci": [
+            0.003270740864736929,
+            0.04236198136317528
+          ],
+          "EAR_marginal": 0.011904761904761904,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.0,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 166,
+          "median_dHR_pair": -14.010866094225591
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.15,
+          "P_A_verapamil_alone": 0.005952380952380952,
+          "P_B_ivabradine_alone": 0.0,
+          "P_AB_pair": 0.011904761904761904,
+          "P_AB_ci": [
+            0.003270740864736929,
+            0.04236198136317528
+          ],
+          "EAR_paired": 0.005952380952380952,
+          "EAR_paired_k": 1,
+          "EAR_paired_ci": [
+            0.0010514882493867714,
+            0.03294260863984144
+          ],
+          "EAR_marginal": 0.005952380952380952,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.005952380952380952,
+          "bliss_class": "additive",
+          "n_survivors_pair": 166,
+          "median_dHR_pair": -17.580192713716762
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.2,
+          "P_A_verapamil_alone": 0.005952380952380952,
+          "P_B_ivabradine_alone": 0.0,
+          "P_AB_pair": 0.011904761904761904,
+          "P_AB_ci": [
+            0.003270740864736929,
+            0.04236198136317528
+          ],
+          "EAR_paired": 0.005952380952380952,
+          "EAR_paired_k": 1,
+          "EAR_paired_ci": [
+            0.0010514882493867714,
+            0.03294260863984144
+          ],
+          "EAR_marginal": 0.005952380952380952,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.005952380952380952,
+          "bliss_class": "additive",
+          "n_survivors_pair": 166,
+          "median_dHR_pair": -20.544417128372828
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.25,
+          "P_A_verapamil_alone": 0.005952380952380952,
+          "P_B_ivabradine_alone": 0.0,
+          "P_AB_pair": 0.023809523809523808,
+          "P_AB_ci": [
+            0.009296969097757676,
+            0.05961300380752253
+          ],
+          "EAR_paired": 0.017857142857142856,
+          "EAR_paired_k": 3,
+          "EAR_paired_ci": [
+            0.006091208386598133,
+            0.05118013917999807
+          ],
+          "EAR_marginal": 0.017857142857142856,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.005952380952380952,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 164,
+          "median_dHR_pair": -23.05286490840318
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.3,
+          "P_A_verapamil_alone": 0.017857142857142856,
+          "P_B_ivabradine_alone": 0.0,
+          "P_AB_pair": 0.041666666666666664,
+          "P_AB_ci": [
+            0.020327291690358303,
+            0.08349855723097391
+          ],
+          "EAR_paired": 0.023809523809523808,
+          "EAR_paired_k": 4,
+          "EAR_paired_ci": [
+            0.009296969097757676,
+            0.05961300380752253
+          ],
+          "EAR_marginal": 0.023809523809523808,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.017857142857142856,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 161,
+          "median_dHR_pair": -26.135284756382077
+        },
+        {
+          "b_ivabradine": 0.312,
+          "b_verapamil": 0.4,
+          "P_A_verapamil_alone": 0.05952380952380952,
+          "P_B_ivabradine_alone": 0.0,
+          "P_AB_pair": 0.15476190476190477,
+          "P_AB_ci": [
+            0.10785477160945138,
+            0.2171049587468768
+          ],
+          "EAR_paired": 0.09523809523809523,
+          "EAR_paired_k": 16,
+          "EAR_paired_ci": [
+            0.05947379664629028,
+            0.14909968032319793
+          ],
+          "EAR_marginal": 0.09523809523809525,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.05952380952380952,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 142,
+          "median_dHR_pair": -32.46502017362433
+        },
+        {
+          "b_ivabradine": 0.509,
+          "b_verapamil": 0.0,
+          "P_A_verapamil_alone": 0.0,
+          "P_B_ivabradine_alone": 0.017857142857142856,
+          "P_AB_pair": 0.017857142857142856,
+          "P_AB_ci": [
+            0.006091208386598133,
+            0.05118013917999807
+          ],
+          "EAR_paired": 0.0,
+          "EAR_paired_k": 0,
+          "EAR_paired_ci": [
+            0.0,
+            0.02235547155054422
+          ],
+          "EAR_marginal": 0.0,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.017857142857142856,
+          "bliss_class": "additive",
+          "n_survivors_pair": 165,
+          "median_dHR_pair": -15.149790911471108
+        },
+        {
+          "b_ivabradine": 0.509,
+          "b_verapamil": 0.1,
+          "P_A_verapamil_alone": 0.0,
+          "P_B_ivabradine_alone": 0.017857142857142856,
+          "P_AB_pair": 0.017857142857142856,
+          "P_AB_ci": [
+            0.006091208386598133,
+            0.05118013917999807
+          ],
+          "EAR_paired": 0.0,
+          "EAR_paired_k": 0,
+          "EAR_paired_ci": [
+            0.0,
+            0.02235547155054422
+          ],
+          "EAR_marginal": 0.0,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.017857142857142856,
+          "bliss_class": "additive",
+          "n_survivors_pair": 165,
+          "median_dHR_pair": -20.416985335683165
+        },
+        {
+          "b_ivabradine": 0.509,
+          "b_verapamil": 0.2,
+          "P_A_verapamil_alone": 0.005952380952380952,
+          "P_B_ivabradine_alone": 0.017857142857142856,
+          "P_AB_pair": 0.041666666666666664,
+          "P_AB_ci": [
+            0.020327291690358303,
+            0.08349855723097391
+          ],
+          "EAR_paired": 0.023809523809523808,
+          "EAR_paired_k": 4,
+          "EAR_paired_ci": [
+            0.009296969097757676,
+            0.05961300380752253
+          ],
+          "EAR_marginal": 0.023809523809523808,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.023703231292517005,
+          "bliss_class": "additive",
+          "n_survivors_pair": 161,
+          "median_dHR_pair": -26.226095065072876
+        },
+        {
+          "b_ivabradine": 0.509,
+          "b_verapamil": 0.3,
+          "P_A_verapamil_alone": 0.017857142857142856,
+          "P_B_ivabradine_alone": 0.017857142857142856,
+          "P_AB_pair": 0.13095238095238096,
+          "P_AB_ci": [
+            0.08809287772188032,
+            0.19031235127971188
+          ],
+          "EAR_paired": 0.10714285714285714,
+          "EAR_paired_k": 18,
+          "EAR_paired_ci": [
+            0.06885382433747694,
+            0.16299690330937924
+          ],
+          "EAR_marginal": 0.11309523809523811,
+          "rescue_fraction": 0.0,
+          "bliss_expected": 0.03539540816326531,
+          "bliss_class": "SUPER-ADDITIVE",
+          "n_survivors_pair": 146,
+          "median_dHR_pair": -31.5769605077694
+        }
+      ]
+    }
+  }
+}

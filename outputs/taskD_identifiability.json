@@ -1,0 +1,61 @@
+{
+  "control": {
+    "bpm": 73.76293412560189,
+    "CL_ms": 813.4166666666666,
+    "i_CaL_dL_gate.dL": {
+      "time_mean": 0.1474297907565513,
+      "min": 5.6399403101473906e-05,
+      "max": 0.9999489147205785
+    },
+    "i_CaL_fL_gate.fL": {
+      "time_mean": 0.7250564086152635,
+      "min": 0.04211269986188668,
+      "max": 0.9340950836801494
+    },
+    "i_CaL_fCa_gate.fCa": {
+      "time_mean": 0.7494109006234081,
+      "min": 0.478112998879081,
+      "max": 0.848017486665545
+    },
+    "i_f_y_gate.y": {
+      "time_mean": 0.007708029672657908,
+      "min": 0.0005555874947040445,
+      "max": 0.010845640266820169
+    },
+    "ICaL_inactivated_fraction_1_minus_fL": 0.27494359138473645,
+    "ICaL_inactivated_fraction_1_minus_fLfCa": 0.4248596079076679,
+    "ICaL_open_fraction_dL_fL_fCa": 0.01850528650686129
+  },
+  "iso_1uM": {
+    "bpm": 93.9389788050179,
+    "CL_ms": 638.7125000000001,
+    "i_CaL_dL_gate.dL": {
+      "time_mean": 0.19966385526884436,
+      "min": 3.004841025459067e-05,
+      "max": 0.9999999432482469
+    },
+    "i_CaL_fL_gate.fL": {
+      "time_mean": 0.6924990411650991,
+      "min": 0.05155813554086063,
+      "max": 0.9133882117185673
+    },
+    "i_CaL_fCa_gate.fCa": {
+      "time_mean": 0.701690265529204,
+      "min": 0.44784091775460994,
+      "max": 0.833559047286978
+    },
+    "i_f_y_gate.y": {
+      "time_mean": 0.011417121562606483,
+      "min": 0.0017496821684925483,
+      "max": 0.016530682380634397
+    },
+    "ICaL_inactivated_fraction_1_minus_fL": 0.3075009588349009,
+    "ICaL_inactivated_fraction_1_minus_fLfCa": 0.47584796056951156,
+    "ICaL_open_fraction_dL_fL_fCa": 0.025330419731830672
+  },
+  "identifiability": {
+    "ICaL_open_ratio": 1.3688207271170214,
+    "ICaL_inact_ratio": 1.1184147165831044,
+    "If_y_ratio": 1.4811984446694006
+  }
+}

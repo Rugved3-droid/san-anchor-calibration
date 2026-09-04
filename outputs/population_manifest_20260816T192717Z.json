@@ -1,0 +1,140 @@
+{
+  "step": "4 - retention and frozen population",
+  "frozen_utc": "2026-08-16T19:27:18.093989+00:00",
+  "status": "PARTIAL - subset of the 5,000-model sample completed in this environment",
+  "reference_study": "Zhou et al. 2019, Front Physiol 10:259, doi:10.3389/fphys.2019.00259",
+  "baseline_model": "Fabbri et al. 2017, PMR e/568 CellML, imported via Myokit",
+  "criteria": {
+    "bcl_min_ms": 600.0,
+    "bcl_max_ms": 1000.0,
+    "overshoot_positive": true,
+    "simulated_s_per_model": 1000.0
+  },
+  "sample_file": "step2_lhs_sample.npz",
+  "n_sampled_total": 5000,
+  "n_simulated": 940,
+  "counts": {
+    "ok": 537,
+    "no_pacing": 403,
+    "solver_failure": 0,
+    "retained": 187
+  },
+  "retention_fraction": 0.19893617021276597,
+  "retention_ci95_wilson": [
+    0.174663966574134,
+    0.22565913848925803
+  ],
+  "reference_retention_fraction": 0.2092,
+  "reference_within_ci": true,
+  "implied_retained_at_5000": 994.6808510638299,
+  "parameters": [
+    {
+      "zhou_symbol": "G_f",
+      "variable": "i_f.g_f",
+      "baseline": 0.00427
+    },
+    {
+      "zhou_symbol": "G_CaL",
+      "variable": "i_CaL.P_CaL",
+      "baseline": 0.4578
+    },
+    {
+      "zhou_symbol": "G_CaT",
+      "variable": "i_CaT.P_CaT",
+      "baseline": 0.04132
+    },
+    {
+      "zhou_symbol": "G_Kr",
+      "variable": "i_Kr.g_Kr",
+      "baseline": 0.00424
+    },
+    {
+      "zhou_symbol": "G_Ks",
+      "variable": "i_Ks.g_Ks_",
+      "baseline": 0.00065
+    },
+    {
+      "zhou_symbol": "G_to",
+      "variable": "i_to.g_to",
+      "baseline": 0.0035
+    },
+    {
+      "zhou_symbol": "G_Na",
+      "variable": "i_Na.g_Na",
+      "baseline": 0.0223
+    },
+    {
+      "zhou_symbol": "G_NaK",
+      "variable": "i_NaK.i_NaK_max",
+      "baseline": 0.08105
+    },
+    {
+      "zhou_symbol": "G_NaCa",
+      "variable": "i_NaCa.K_NaCa",
+      "baseline": 3.343
+    },
+    {
+      "zhou_symbol": "G_Kur",
+      "variable": "i_Kur.g_Kur",
+      "baseline": 0.0001539
+    },
+    {
+      "zhou_symbol": "P_Jrel",
+      "variable": "Ca_SR_release.ks",
+      "baseline": 148041085.1
+    },
+    {
+      "zhou_symbol": "P_Jup",
+      "variable": "Ca_intracellular_fluxes.P_up_basal",
+      "baseline": 5.0
+    }
+  ],
+  "frozen_population_file": "population_retained_20260816T192717Z.npz",
+  "frozen_population_sha256": "75ec0facad0bc2205b292bfee0cea6f3d3a0498824755d4bfeafeff50f936858",
+  "frozen_population_csv": "population_retained_20260816T192717Z.csv",
+  "chunks": [
+    {
+      "tag": "bench100",
+      "n": 100,
+      "wall_s": 356.7584068775177,
+      "workers": 8
+    },
+    {
+      "tag": "chunk1",
+      "n": 140,
+      "wall_s": 476.726193189621,
+      "workers": 8
+    },
+    {
+      "tag": "chunk2",
+      "n": 140,
+      "wall_s": 475.9669466018677,
+      "workers": 8
+    },
+    {
+      "tag": "chunk3",
+      "n": 140,
+      "wall_s": 515.4369504451752,
+      "workers": 8
+    },
+    {
+      "tag": "chunk4",
+      "n": 140,
+      "wall_s": 409.3805162906647,
+      "workers": 8
+    },
+    {
+      "tag": "chunk5",
+      "n": 140,
+      "wall_s": 400.094265460968,
+      "workers": 8
+    },
+    {
+      "tag": "chunk6",
+      "n": 140,
+      "wall_s": 436.5433084964752,
+      "workers": 8
+    }
+  ],
+  "note": "Retention reported exactly as computed. Neither the sampling nor the criteria were adjusted toward the reference value."
+}

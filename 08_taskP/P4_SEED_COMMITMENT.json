@@ -1,0 +1,18 @@
+{
+  "purpose": "Seed for the P4 INDEPENDENT 5000x12 Latin-hypercube population.",
+  "committed_before": "any P1 simulation result existed",
+  "derivation_procedure": [
+    "1. Fixed constant string: TASK_P_P4_INDEPENDENT_LHS_V1",
+    "2. digest = SHA256(constant, UTF-8) hex",
+    "3. take the first 8 hex characters of the digest",
+    "4. seed = int(those 8 hex chars, 16) mod (2**31 - 1)"
+  ],
+  "constant_string": "TASK_P_P4_INDEPENDENT_LHS_V1",
+  "sha256_full": "2efa507b9164d2890a3a4b1c3e4f8f6eb9ec3eb77df801d04caac7b872018f43",
+  "first8_hex": "2efa507b",
+  "P4_SEED": 788156539,
+  "historical_P1_seed_for_contrast": 20260816,
+  "committed_utc": "2026-08-23T03:44:57.316647+00:00",
+  "immutability": "This seed MUST NOT be changed on the basis of P1, P2 or P3 results.",
+  "status": "COMMITTED - P4 population NOT yet generated"
+}

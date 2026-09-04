@@ -1,0 +1,24 @@
+{
+  "purpose": "P3 Option B dense-grid subset: 500 models drawn from the 1028-model P1 retained population.",
+  "committed_before": "any P3 dense-grid output existed",
+  "derivation_procedure": [
+    "1. Fixed constant string: TASK_P3_SUBSET_500_OF_1028_V1",
+    "2. digest = SHA256(constant, UTF-8) hex",
+    "3. take the first 8 hex characters",
+    "4. seed = int(those 8 hex chars, 16) mod (2**31 - 1)",
+    "5. subset = numpy default_rng(seed).choice(sorted retained indices, 500, replace=False), then sorted"
+  ],
+  "constant_string": "TASK_P3_SUBSET_500_OF_1028_V1",
+  "sha256_full": "85b021e854bff12598b6b383b28c295066a96f934db6436535d824011f9cebaf",
+  "first8_hex": "85b021e8",
+  "P3_SUBSET_SEED": 95429097,
+  "subset_size": 500,
+  "source_population": "population_retained_20260823T094616Z.npz",
+  "source_population_sha256": "f52879d3db435b198cc68f2dcff51fb498209bde949a248d5ae98d738ebf59be",
+  "source_n": 1028,
+  "subset_sha256": "ffd4d347cd39ba3b5709c2a4434009d91b2657c19b4b3f38eb956e51c5cb76ba",
+  "selection_independence": "Uniform random draw over the sorted retained-index list. No phenotype, cycle length, threshold, drug response or outcome value is read by the selection procedure.",
+  "prefix_note": "89 of 500 drawn models have index < 940 (the historical contiguous prefix). Expected under uniform sampling: 91.4. The prefix was NOT used as a selection criterion; this count is reported, not imposed.",
+  "committed_utc": "2026-08-27T21:18:49.501290+00:00",
+  "immutability": "This seed and subset MUST NOT be redrawn on the basis of any dense-grid result."
+}

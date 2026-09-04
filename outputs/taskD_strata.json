@@ -1,0 +1,122 @@
+{
+  "3.0": {
+    "<=74 bpm  (Boden: NO effect)": {
+      "n": 57,
+      "median_drop_bpm": -3.103434495620263,
+      "quiescent_pct": 0.0,
+      "n_quiescent": 0
+    },
+    "74-84 bpm (Boden: effect)": {
+      "n": 57,
+      "median_drop_bpm": -2.8994332249011023,
+      "quiescent_pct": 0.0,
+      "n_quiescent": 0
+    },
+    ">=85 bpm  (Boden: effect)": {
+      "n": 74,
+      "median_drop_bpm": -3.266613790416585,
+      "quiescent_pct": 0.0,
+      "n_quiescent": 0
+    }
+  },
+  "5.0": {
+    "<=74 bpm  (Boden: NO effect)": {
+      "n": 57,
+      "median_drop_bpm": -4.931716516030434,
+      "quiescent_pct": 3.508771929824561,
+      "n_quiescent": 2
+    },
+    "74-84 bpm (Boden: effect)": {
+      "n": 57,
+      "median_drop_bpm": -4.975215619810967,
+      "quiescent_pct": 0.0,
+      "n_quiescent": 0
+    },
+    ">=85 bpm  (Boden: effect)": {
+      "n": 74,
+      "median_drop_bpm": -5.576103313734862,
+      "quiescent_pct": 0.0,
+      "n_quiescent": 0
+    }
+  },
+  "8.0": {
+    "<=74 bpm  (Boden: NO effect)": {
+      "n": 57,
+      "median_drop_bpm": -7.99633588097506,
+      "quiescent_pct": 10.526315789473683,
+      "n_quiescent": 6
+    },
+    "74-84 bpm (Boden: effect)": {
+      "n": 57,
+      "median_drop_bpm": -8.20486488099921,
+      "quiescent_pct": 7.017543859649122,
+      "n_quiescent": 4
+    },
+    ">=85 bpm  (Boden: effect)": {
+      "n": 74,
+      "median_drop_bpm": -9.003394203106538,
+      "quiescent_pct": 0.0,
+      "n_quiescent": 0
+    }
+  },
+  "10.0": {
+    "<=74 bpm  (Boden: NO effect)": {
+      "n": 57,
+      "median_drop_bpm": -9.785220063772265,
+      "quiescent_pct": 17.543859649122805,
+      "n_quiescent": 10
+    },
+    "74-84 bpm (Boden: effect)": {
+      "n": 57,
+      "median_drop_bpm": -10.231678683176447,
+      "quiescent_pct": 10.526315789473683,
+      "n_quiescent": 6
+    },
+    ">=85 bpm  (Boden: effect)": {
+      "n": 74,
+      "median_drop_bpm": -11.088404376549818,
+      "quiescent_pct": 4.054054054054054,
+      "n_quiescent": 3
+    }
+  },
+  "12.0": {
+    "<=74 bpm  (Boden: NO effect)": {
+      "n": 57,
+      "median_drop_bpm": -12.158071814407997,
+      "quiescent_pct": 17.543859649122805,
+      "n_quiescent": 10
+    },
+    "74-84 bpm (Boden: effect)": {
+      "n": 57,
+      "median_drop_bpm": -13.081515363234011,
+      "quiescent_pct": 10.526315789473683,
+      "n_quiescent": 6
+    },
+    ">=85 bpm  (Boden: effect)": {
+      "n": 74,
+      "median_drop_bpm": -13.547618486860031,
+      "quiescent_pct": 4.054054054054054,
+      "n_quiescent": 3
+    }
+  },
+  "15.0": {
+    "<=74 bpm  (Boden: NO effect)": {
+      "n": 57,
+      "median_drop_bpm": -12.809606331802868,
+      "quiescent_pct": 35.08771929824561,
+      "n_quiescent": 20
+    },
+    "74-84 bpm (Boden: effect)": {
+      "n": 57,
+      "median_drop_bpm": -16.916721256726824,
+      "quiescent_pct": 15.789473684210526,
+      "n_quiescent": 9
+    },
+    ">=85 bpm  (Boden: effect)": {
+      "n": 74,
+      "median_drop_bpm": -16.752959095421033,
+      "quiescent_pct": 9.45945945945946,
+      "n_quiescent": 7
+    }
+  }
+}

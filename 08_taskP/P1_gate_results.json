@@ -1,0 +1,121 @@
+{
+  "generated_utc": "2026-08-23T04:23:41Z",
+  "runner": "run_full_population.py",
+  "duration_s": 1000.0,
+  "window_s": 10.0,
+  "tol_abs": 1e-08,
+  "tol_rel": 1e-08,
+  "gate1_state_isolation": {
+    "probe_alone": {
+      "3": {
+        "status": "no_pacing",
+        "CL_ms": null,
+        "OS_mV": null,
+        "MDP_mV": null,
+        "APA_mV": null
+      }
+    },
+    "probe_after_pacer": {
+      "1": {
+        "status": "ok",
+        "CL_ms": 458.9095238095238,
+        "OS_mV": 32.216147652088296,
+        "MDP_mV": -52.2705441464188,
+        "APA_mV": 84.4866917985071
+      },
+      "3": {
+        "status": "no_pacing",
+        "CL_ms": null,
+        "OS_mV": null,
+        "MDP_mV": null,
+        "APA_mV": null
+      }
+    },
+    "probe_after_slow": {
+      "0": {
+        "status": "ok",
+        "CL_ms": 872.7454545454547,
+        "OS_mV": 28.63906829065293,
+        "MDP_mV": -65.6077074803916,
+        "APA_mV": 94.24677577104453
+      },
+      "3": {
+        "status": "no_pacing",
+        "CL_ms": null,
+        "OS_mV": null,
+        "MDP_mV": null,
+        "APA_mV": null
+      }
+    }
+  },
+  "gate1_matches_history": {
+    "probe_alone|3": true,
+    "probe_after_pacer|1": true,
+    "probe_after_pacer|3": true,
+    "probe_after_slow|0": true,
+    "probe_after_slow|3": true
+  },
+  "gate1_pass": true,
+  "gate2_resume_determinism": {
+    "set": [
+      3,
+      1,
+      4
+    ],
+    "skipped_on_resume": [
+      3
+    ],
+    "identical": {
+      "3": true,
+      "1": true,
+      "4": true
+    },
+    "uninterrupted": {
+      "3": {
+        "status": "no_pacing",
+        "CL_ms": null,
+        "OS_mV": null,
+        "MDP_mV": null,
+        "APA_mV": null
+      },
+      "1": {
+        "status": "ok",
+        "CL_ms": 458.9095238095238,
+        "OS_mV": 32.216147652088296,
+        "MDP_mV": -52.2705441464188,
+        "APA_mV": 84.4866917985071
+      },
+      "4": {
+        "status": "no_pacing",
+        "CL_ms": null,
+        "OS_mV": null,
+        "MDP_mV": null,
+        "APA_mV": null
+      }
+    },
+    "resumed": {
+      "3": {
+        "status": "no_pacing",
+        "CL_ms": null,
+        "OS_mV": null,
+        "MDP_mV": null,
+        "APA_mV": null
+      },
+      "1": {
+        "status": "ok",
+        "CL_ms": 458.9095238095238,
+        "OS_mV": 32.216147652088296,
+        "MDP_mV": -52.2705441464188,
+        "APA_mV": 84.4866917985071
+      },
+      "4": {
+        "status": "no_pacing",
+        "CL_ms": null,
+        "OS_mV": null,
+        "MDP_mV": null,
+        "APA_mV": null
+      }
+    }
+  },
+  "gate2_pass": true
+}
