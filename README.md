@@ -4,7 +4,7 @@ Code, configuration, seeds, checksums and frozen analysis outputs for:
 
 > Parmar R, Fahim MD, Budzikowski A. Calibration-Anchor Choice Materially Alters
 > Predicted Verapamil–Ivabradine Sinoatrial Susceptibility in a Human Population
-> of Models. Submitted to *Am J Physiol Heart Circ Physiol* (Methods and Resources).
+> of Models. 
 
 ## Verified artifact checksums (SHA256)
 
