@@ -73,5 +73,7 @@ monotherapy observations; combination outcomes are outputs, never inputs.
 
 ## License
 
-Code released under the MIT License. The Fabbri CellML is redistributed under its
-original Physiome Model Repository terms.
+Code released under the MIT License (see `LICENSE`). The frozen result files,
+random seeds, the Latin hypercube sample and the committed subset indices are
+released under CC-BY-4.0. The Fabbri CellML is redistributed under its original
+Physiome Model Repository terms.
